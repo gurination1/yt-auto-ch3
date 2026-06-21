@@ -52,11 +52,11 @@
     "failures": 4
   },
   "13": {
-    "cooldown_until": 0.0,
-    "failures": 0
+    "cooldown_until": 1782162215.9105208,
+    "failures": 4
   },
   "14": {
-    "cooldown_until": 0.0,
-    "failures": 0
+    "cooldown_until": 1782162565.0763984,
+    "failures": 4
   }
 }

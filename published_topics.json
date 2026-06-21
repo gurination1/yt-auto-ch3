@@ -1,5 +1,7 @@
 {
-  "topics": [],
-  "subcluster_idx": 0,
-  "call_count": 0
+  "topics": [
+    "The common misconception that Roman gladiators always fought to the death based on archaeological evidence"
+  ],
+  "subcluster_idx": 1,
+  "call_count": 1
 }

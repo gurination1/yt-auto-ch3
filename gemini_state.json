@@ -1,46 +1,46 @@
 {
   "0": {
-    "cooldown_until": 1782108238.0950263,
+    "cooldown_until": 1782227264.894009,
     "failures": 4
   },
   "1": {
-    "cooldown_until": 1782108243.6127715,
+    "cooldown_until": 1782228829.9964907,
     "failures": 4
   },
   "2": {
-    "cooldown_until": 1782108254.864549,
+    "cooldown_until": 1782228896.171846,
     "failures": 4
   },
   "3": {
-    "cooldown_until": 1782108385.6663928,
+    "cooldown_until": 1782228899.8727841,
     "failures": 4
   },
   "4": {
-    "cooldown_until": 1782108417.802315,
+    "cooldown_until": 1782228909.4908628,
     "failures": 4
   },
   "5": {
-    "cooldown_until": 1782129950.4386811,
+    "cooldown_until": 1782228919.4740634,
     "failures": 4
   },
   "6": {
-    "cooldown_until": 1782137083.9399621,
+    "cooldown_until": 1782228943.8808663,
     "failures": 4
   },
   "7": {
-    "cooldown_until": 1782137131.7227423,
-    "failures": 4
+    "cooldown_until": 1782142610.3265834,
+    "failures": 1
   },
   "8": {
-    "cooldown_until": 1782137176.2260106,
-    "failures": 4
+    "cooldown_until": 0.0,
+    "failures": 0
   },
   "9": {
-    "cooldown_until": 1782137448.2663016,
+    "cooldown_until": 0.0,
     "failures": 4
   },
   "10": {
-    "cooldown_until": 1782137751.583206,
+    "cooldown_until": 0.0,
     "failures": 4
   },
   "11": {

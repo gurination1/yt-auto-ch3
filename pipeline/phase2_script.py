@@ -73,6 +73,7 @@ For any named historical figure: ALWAYS include their name in the query.
 You MUST return your response ONLY as a raw JSON object with no markdown syntax. The JSON structure MUST be exactly like this:
 {{
   "title": "A catchy title under 40 chars, starting with a hook word/number and containing one emoji",
+  "voiceover_plan": "A 2-3 sentence internal plan detailing the emotional arc of the voiceover. How should the narrator sound? Think step-by-step to plan the performance before writing.",
   "vocal_tone": "Select the single best vocal delivery style for this topic from: 'dramatic_whisper', 'suspenseful_mystery', 'energetic_storytelling', 'deep_curiosity'",
   "description": "Line1: restate the hook\nLine2: Fast. Accurate. Mind-blowing.\nLine3: 📲 Follow our socials & links -> {BEACONS_LINK}\n\n#history #didyouknow #facts #historical #ancient",
   "tags": ["8 to 12 relevant tags under 500 characters total"],
@@ -92,9 +93,15 @@ You MUST return your response ONLY as a raw JSON object with no markdown syntax.
       "duration_target": 6
     }},
     {{
+      "id": {segment_count - 1},
+      "narration": "A witty, sarcastic, or compelling Call-to-Action nudging viewers to check the link in the bio/description. MUST match the exact emotional mood of the video.",
+      "broll_query": "typing on smartphone close up",
+      "duration_target": 4
+    }},
+    {{
       "id": {segment_count},
-      "narration": "Final sentence: loop back into Segment 1's opening seamlessly. THEN add a short, witty, topic-relevant Call-to-Action nudging viewers to check the link in bio/description (e.g. if topic is about a lost civilization: 'Wanna visit? Probably not. But the link in bio has more secrets.'). The CTA must feel natural, sarcastic, and connected to the topic mood — funny if topic is light, eerie if dark, awed if grand.",
-      "broll_query": "ancient library slow tracking shot",
+      "narration": "Final sentence that GRAMMATICALLY FLOWS INTO Segment 1's first sentence when read back-to-back — creating an audio loop the viewer doesn't register as a restart. Loop seamlessly.",
+      "broll_query": "abstract visual loop continuous",
       "duration_target": 6
     }}
   ],
@@ -105,10 +112,12 @@ You MUST return your response ONLY as a raw JSON object with no markdown syntax.
 For Segment 1 specifically:
 - `broll_query` MUST describe a high-motion, high-contrast, visually arresting shot (fast motion, dramatic close-up, panning shot) — this is the opening pattern-interrupt.
 
+For Segment {segment_count - 1} specifically:
+- MUST be a 1-sentence Call-to-Action that matches the video's emotional tone and drives viewers to check the link in description/bio. Make it witty, sarcastic, or compelling — NOT generic.
+
 For the final segment (Segment {segment_count}) specifically:
 - Resolve all loops and design the final sentence to end on a transition that flows seamlessly back into Segment 1's hook narration.
 - The final sentence should THEMATICALLY echo or re-contextualize the IDEA from Segment 1's hook.
-- MUST include a 1-sentence Call-to-Action that matches the video's emotional tone and drives viewers to check the link in description/bio. Make it witty, sarcastic, or compelling — NOT generic.
 """
     else:  # long-form
         prompt = f"""Generate a comprehensive 7-10 minute YouTube educational history script on the topic: "{topic['topic']}".
@@ -143,6 +152,7 @@ For any named historical figure: ALWAYS include their name in the query.
 You MUST return your response ONLY as a raw JSON object with no markdown syntax. The JSON structure MUST be exactly like this:
 {{
   "title": "Engaging educational title for a long video, under 70 characters",
+  "voiceover_plan": "A 2-3 sentence internal plan detailing the emotional arc of the voiceover. How should the narrator sound? Think step-by-step to plan the performance before writing.",
   "description": "A detailed, engaging description explaining what the video covers, including timestamps and educational value.\\n\\n#history #education #facts #ancienthistory",
   "tags": ["15 to 20 relevant tags"],
   "category_id": "27",

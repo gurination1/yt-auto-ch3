@@ -93,7 +93,7 @@ You MUST return your response ONLY as a raw JSON object with no markdown syntax.
     }},
     {{
       "id": {segment_count},
-      "narration": "Final sentence that GRAMMATICALLY FLOWS INTO Segment 1's first sentence when read back-to-back — creating an audio loop the viewer doesn't register as a restart. Loop seamlessly.",
+      "narration": "Final sentence: loop back into Segment 1's opening seamlessly. THEN add a short, witty, topic-relevant Call-to-Action nudging viewers to check the link in bio/description (e.g. if topic is about a lost civilization: 'Wanna visit? Probably not. But the link in bio has more secrets.'). The CTA must feel natural, sarcastic, and connected to the topic mood — funny if topic is light, eerie if dark, awed if grand.",
       "broll_query": "ancient library slow tracking shot",
       "duration_target": 6
     }}
@@ -108,6 +108,7 @@ For Segment 1 specifically:
 For the final segment (Segment {segment_count}) specifically:
 - Resolve all loops and design the final sentence to end on a transition that flows seamlessly back into Segment 1's hook narration.
 - The final sentence should THEMATICALLY echo or re-contextualize the IDEA from Segment 1's hook.
+- MUST include a 1-sentence Call-to-Action that matches the video's emotional tone and drives viewers to check the link in description/bio. Make it witty, sarcastic, or compelling — NOT generic.
 """
     else:  # long-form
         prompt = f"""Generate a comprehensive 7-10 minute YouTube educational history script on the topic: "{topic['topic']}".

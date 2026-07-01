@@ -24,17 +24,25 @@ def select_topic(format_type: str) -> dict:
 
     # ── 2. Determine subcluster + format rotation ────────────────────────────
     current_subcluster = HISTORY_SUBCLUSTERS[subcluster_idx % len(HISTORY_SUBCLUSTERS)]
-    is_trending = (call_count % 5 == 0)
+    is_trending = (call_count % 3 != 0)   # 2 out of 3 calls = trending topic
 
-    # Historical topic instructions focusing on specific, verifiable historical events and decisions.
-    topic_instruction = (
-        f"Generate topics about specific, verifiable historical events, decisions, and discoveries "
-        f"related to: {current_subcluster}. Each topic must be a documented fact with a known date, "
-        f"source, or artifact — not a vague era or unresolved claim. "
-        f"Explicitly avoid ancient-astronaut, lost-civilization-mystery, or 'what they don't want you to know' framing. "
-        f"Avoid recent politics or living political figures. "
-        f"Rotate across these six formats: deep-dive, myth-correction, rapid rundown, ranked list, head-to-head, discovery story."
-    )
+    if is_trending:
+        topic_instruction = (
+            f"Generate topics about recently TRENDING historical discoveries, archaeological breakthroughs, "
+            f"anniversaries, newly declassified documents, or historical topics trending in science and culture news this week. "
+            f"Focus area: {current_subcluster}. "
+            f"Each topic must be a documented, verified fact. Frame as a fascinating discovery that is currently trending or in the news."
+        )
+    else:
+        # Historical topic instructions focusing on specific, verifiable historical events and decisions.
+        topic_instruction = (
+            f"Generate topics about specific, verifiable historical events, decisions, and discoveries "
+            f"related to: {current_subcluster}. Each topic must be a documented fact with a known date, "
+            f"source, or artifact — not a vague era or unresolved claim. "
+            f"Explicitly avoid ancient-astronaut, lost-civilization-mystery, or 'what they don't want you to know' framing. "
+            f"Avoid recent politics or living political figures. "
+            f"Rotate across these six formats: deep-dive, myth-correction, rapid rundown, ranked list, head-to-head, discovery story."
+        )
 
     # ── 3. Build Gemini prompt ───────────────────────────────────────────────
     prompt = f"""{topic_instruction}
@@ -43,6 +51,11 @@ Sub-cluster focus for this batch: {current_subcluster}
 
 CRITICAL: Do NOT suggest any topic similar to these recently published topics:
 {json.dumps(recent_topics, indent=2)}
+
+SAFETY & COMPLIANCE CONSTRAINTS (MANDATORY):
+- The topics MUST be 100% advertiser-friendly, family-friendly, and compliant with YouTube/Meta community guidelines.
+- Strictly AVOID: recent politics (e.g., after 2000), living political figures, highly controversial religious conflicts, war atrocities, genocide, or tragic historical events that are graphic/violent.
+- Focus on archaeological decipherments, ancient technology, documented decisions, myth-corrections, and fascinating historical breakthroughs.
 
 AVOID: space, technology, physics, biology, pet animals, and modern politics.
 FOCUS: documented history, historical decisions, archaeology, decipherments, myth-corrections.

@@ -28,10 +28,9 @@ def select_topic(format_type: str) -> dict:
 
     if is_trending:
         topic_instruction = (
-            f"Generate topics about recently TRENDING historical discoveries, archaeological breakthroughs, "
-            f"anniversaries, newly declassified documents, or historical topics trending in science and culture news this week. "
-            f"Focus area: {current_subcluster}. "
-            f"Each topic must be a documented, verified fact. Frame as a fascinating discovery that is currently trending or in the news."
+            f"Use Google Search to find current HIGHLY VIRAL news from the last 24-48 hours about {current_subcluster}. "
+            f"Generate 5 TRENDING topics that are currently exploding on social media or making massive news. "
+            f"Frame each as a timely, highly intriguing analysis."
         )
     else:
         # Historical topic instructions focusing on specific, verifiable historical events and decisions.

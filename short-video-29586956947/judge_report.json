@@ -1,0 +1,10 @@
+{
+  "score": 93,
+  "status": "PASSED",
+  "reason": "The video demonstrates strong cohesiveness between the narration, B-roll, and captions. The hook is engaging, and subtitles are well-synchronized and readable. Audio quality is good, and the call to action at the end provides a suitable retention element, creating a thematic loop with the opening statement.",
+  "cohesiveness_score": 95,
+  "hook_score": 95,
+  "retention_score": 90,
+  "failed_segments": [],
+  "issues": []
+}

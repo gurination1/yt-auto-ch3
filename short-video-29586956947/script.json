@@ -1,0 +1,92 @@
+{
+  "title": "Nubia's Lost Fashion Secrets! \ud83d\udc51",
+  "voiceover_plan": "The narration will start with a dramatic, attention-grabbing reveal, immediately building curiosity about a forgotten historical truth. It will then quickly and simply explain the rediscovered cultural sophistication of Nubia through its royal attire, using an energetic and warm tone. The script concludes with a call to action that subtly reinforces the idea of challenging old assumptions, seamlessly looping back to the initial mystery.",
+  "vocal_tone": "energetic_storytelling",
+  "description": "Nubia's lost fashion secrets? This single fact overturns 100 years of assumptions.\nFast. Accurate. Mind-blowing.\n\ud83d\udcf2 Follow our socials & links -> https://beacons.ai/mysterydemysters\n\n#history #didyouknow #facts #historical #ancient",
+  "tags": [
+    "Nubia",
+    "ancienthistory",
+    "Africanempires",
+    "Louvre",
+    "fashionhistory",
+    "historicalfacts",
+    "culturalsophistication",
+    "archaeology",
+    "forgottenhistory",
+    "museumexhibits",
+    "Sudan",
+    "ancientfashion"
+  ],
+  "category_id": "27",
+  "segments": [
+    {
+      "id": 1,
+      "narration": "This single discovery shatters 100 years of history books!",
+      "broll_query": "ancient scroll unraveling dramatic",
+      "broll_queries": [
+        "ancient scroll unraveling dramatic",
+        "old book pages turning fast",
+        "historical document reveal",
+        "museum artifact unveiling"
+      ],
+      "duration_target": 6,
+      "verified": true
+    },
+    {
+      "id": 2,
+      "narration": "Nubian kings wore dazzling, rich clothing.",
+      "broll_query": "medieval royal clothing display",
+      "broll_queries": [
+        "medieval royal clothing display",
+        "ancient fabric patterns rich",
+        "historic costume exhibit",
+        "gold embroidered textiles"
+      ],
+      "duration_target": 6,
+      "verified": true
+    },
+    {
+      "id": 3,
+      "narration": "Their elaborate outfits showed incredible wealth and power.",
+      "broll_query": "ancient jewelry gold close-up",
+      "broll_queries": [
+        "ancient jewelry gold close-up",
+        "ornate fabric details slow pan",
+        "royal crown gem detail",
+        "historical scepter ornate"
+      ],
+      "duration_target": 6,
+      "verified": true
+    },
+    {
+      "id": 4,
+      "narration": "The Louvre now shows this forgotten African empire's elegance.",
+      "broll_query": "museum exhibit glass case",
+      "broll_queries": [
+        "museum exhibit glass case",
+        "ancient artifacts display hall",
+        "Louvre interior architecture",
+        "cultural exhibition artifacts"
+      ],
+      "duration_target": 6,
+      "verified": true
+    },
+    {
+      "id": 5,
+      "narration": "Ready to challenge what you thought you knew? Find the link in bio.",
+      "broll_query": "typing on smartphone close up",
+      "broll_queries": [
+        "typing on smartphone close up",
+        "person holding phone scrolling",
+        "tapping phone screen",
+        "abstract loop animation"
+      ],
+      "duration_target": 6,
+      "verified": true
+    }
+  ],
+  "thumbnail_text": "NUBIA'S LOST FASHION",
+  "loop_callout": true,
+  "segment_count": 5,
+  "publish_at": null
+}

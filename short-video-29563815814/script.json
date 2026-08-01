@@ -1,0 +1,82 @@
+{
+  "title": "Luxor's Cat Coffins: Hidden Truth! \ud83e\udd2f",
+  "voiceover_plan": "The narrator will start with a punchy, surprising reveal, then build the mystery layer by layer. The tone will be energetic and curious, leading to a dramatic hint about the \"rule-breaking\" discovery before a final, intriguing call to action.",
+  "vocal_tone": "energetic_storytelling",
+  "description": "Luxor: Cats, coffins, priest! Why?\nFast. Accurate. Mind-blowing.\n\ud83d\udcf2 Follow our socials & links -> https://beacons.ai/mysterydemysters\n\n#history #didyouknow #facts #historical #ancient",
+  "tags": [
+    "ancient Egypt",
+    "Luxor",
+    "archaeology",
+    "mummified cats",
+    "ancient coffins",
+    "Egyptian burial",
+    "history facts",
+    "mystery",
+    "historical discovery",
+    "ancient secrets",
+    "egyptian priest"
+  ],
+  "category_id": "27",
+  "segments": [
+    {
+      "id": 1,
+      "narration": "Luxor archaeologists just found 30 mummified cats with coffins!",
+      "broll_query": "archaeologist unearthing ancient coffin",
+      "broll_queries": [
+        "archaeologist unearthing ancient coffin",
+        "ancient Egyptian sarcophagus discovery",
+        "dig site ancient artifacts",
+        "dusty archaeological find",
+        "ancient tomb opening"
+      ],
+      "duration_target": 6,
+      "verified": true
+    },
+    {
+      "id": 2,
+      "narration": "Ten painted coffins and a priest's tomb lay hidden for ages.",
+      "broll_query": "ancient Egyptian painted coffin",
+      "broll_queries": [
+        "ancient Egyptian painted coffin",
+        "ornate Egyptian sarcophagus",
+        "pharaoh tomb artifacts",
+        "hieroglyphic coffin details",
+        "ancient burial chamber"
+      ],
+      "duration_target": 6,
+      "verified": true
+    },
+    {
+      "id": 3,
+      "narration": "This remarkable discovery offers significant new insights into their burial practices.",
+      "broll_query": "ancient Egypt hieroglyphics close up",
+      "broll_queries": [
+        "ancient Egypt hieroglyphics close up",
+        "papyrus scroll ancient writing",
+        "Egyptian museum artifacts",
+        "ancient history book pages",
+        "old map parchment"
+      ],
+      "duration_target": 6,
+      "verified": true
+    },
+    {
+      "id": 4,
+      "narration": "The truth about these cats, coffins, and priests is at the link in bio!",
+      "broll_query": "typing on smartphone close up",
+      "broll_queries": [
+        "typing on smartphone close up",
+        "person holding phone scrolling",
+        "tapping phone screen",
+        "abstract loop animation",
+        "social media feed scrolling"
+      ],
+      "duration_target": 6,
+      "verified": true
+    }
+  ],
+  "thumbnail_text": "Cats. Coffins. Priest. WHY?",
+  "loop_callout": true,
+  "segment_count": 4,
+  "publish_at": null
+}

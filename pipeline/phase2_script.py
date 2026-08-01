@@ -4,21 +4,23 @@ import random
 from pipeline.config import HOOK_PATTERNS, BEACONS_LINK, GEMINI_PRO
 from pipeline.gemini import GeminiClient, _robust_json_loads
 
-def get_next_monday_1pm_est_utc():
-    # EST is UTC-5. 1:00 PM EST = 13:00 EST = 18:00 UTC.
+def get_next_weekday_2pm_ist_utc():
+    # IST is UTC+5:30. 2:00 PM IST = 14:00 IST = 08:30 AM UTC.
     now = datetime.datetime.now(datetime.timezone.utc)
-    est_offset = datetime.timedelta(hours=-5)
-    now_est = now + est_offset
+    ist_offset = datetime.timedelta(hours=5, minutes=30)
+    now_ist = now + ist_offset
     
-    target_date = now_est.date()
-    # Find next Monday (0=Mon)
-    days_ahead = (0 - target_date.weekday() + 7) % 7
-    if days_ahead == 0 and now_est.time() >= datetime.time(13, 0):
-        days_ahead = 7
-    target_date += datetime.timedelta(days=days_ahead)
+    target_date = now_ist.date()
+    # If it's past 2 PM IST today, start looking from tomorrow
+    if now_ist.time() >= datetime.time(14, 0):
+        target_date += datetime.timedelta(days=1)
         
-    target_dt_est = datetime.datetime.combine(target_date, datetime.time(13, 0))
-    target_dt_utc = target_dt_est - est_offset
+    # Find next weekday (0=Mon, 1=Tue, 2=Wed, 3=Thu, 4=Fri)
+    while target_date.weekday() >= 5: # Saturday=5, Sunday=6
+        target_date += datetime.timedelta(days=1)
+        
+    target_dt_ist = datetime.datetime.combine(target_date, datetime.time(14, 0))
+    target_dt_utc = target_dt_ist - ist_offset
     return target_dt_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 def generate_script(topic: dict, format_type: str) -> dict:
@@ -30,23 +32,23 @@ def generate_script(topic: dict, format_type: str) -> dict:
         
         hook_pattern = random.choice(HOOK_PATTERNS)
         hook_formatted = hook_pattern.format(
-            subject=topic.get("topic", "history"),
-            thing=topic.get("topic", "history"),
+            subject=topic.get("topic", "science"),
+            thing=topic.get("topic", "science"),
             seconds="30",
-            topic=topic.get("topic", "history"),
-            event="An event"
+            topic=topic.get("topic", "science"),
+            event="A discovery"
         )
         
-        prompt = f"""Generate an extremely viral, high-retention 25-35 second YouTube Short history script on the topic: "{topic['topic']}".
+        prompt = f"""Generate an extremely viral, high-retention 25-35 second YouTube Short educational script on the topic: "{topic['topic']}".
 Use the following hook concept as your core theme: "{hook_formatted}" (short hook: "{topic.get('short_hook', '')}").
 
-Narration Style Requirements (with CH3 Mystery DeMysters Niche Quality Signals):
+Narration Style Requirements (with CH1 EduFun Niche Quality Signals):
 1. Pacing & Punchiness: 5 to 15 words per segment's narration. CRITICAL: NEVER split a single sentence across multiple segments! Each segment MUST contain 1 or 2 complete, self-contained sentences. If you split a sentence, the voiceover will pause awkwardly mid-sentence.
 2. Conversational & Extreme Simplicity: Use ONLY 5th-grade vocabulary. Extremely simple words, no complex grammar, no SAT words. Must be so simple a 10-year-old understands instantly.
 3. Engaging Tone: The voiceover narration must be conversational, highly engaging, and relatable—like a friend telling an exciting story. Write the voiceover to be energetic, warm, and inviting.
-2. Hook/Pattern Interrupt: Segment 1 must immediately shatter the viewer's attention. Start mid-consequence, not mid-setup. DO NOT use introductory filler like "Did you know..." or "Have you ever wondered...". Go straight to the verifiable outcome in under 8 words.
-4. Emotional/Sensory Triggers: Use strong, dramatic verbs and adjectives (e.g., "shattered", "forged", "betrayed", "banned", "secret", "exposed", "deciphered").
-5. No Fluff: Get straight to the documented historical facts. Every word must justify its existence.
+3. Hook/Pattern Interrupt: Segment 1 must immediately shatter attention. Start with a shocking visual or conceptual paradox in under 12 words.
+4. Emotional/Sensory Triggers: Use strong, dramatic verbs and adjectives (e.g., "panicking", "shatters", "banned", "impossible", "melts", "secret", "trapped").
+5. No Fluff: Get straight to the mind-blowing science. Every word must justify its existence.
 
 COMPANION LAYER - NICHE & FORMAT UPGRADE (SHORT):
 - FORMAT RULE (20-30s Shorts): The entire video IS the hook. Hook, content, and payoff happen simultaneously.
@@ -54,55 +56,61 @@ COMPANION LAYER - NICHE & FORMAT UPGRADE (SHORT):
   * Deliver (3-20s): The actual value/story/reveal. Fast. Dense. No filler.
   * Payoff + CTA (20-30s): The punchline, answer, result, or twist (one line only), then end.
   * Avoid: Words that do not carry weight, silence over 1s, padding, slow pacing.
-- NICHE QUALITY SIGNALS (Mystery):
-  * PACE THE REVEAL STRATEGICALLY: Never reveal the key answer in the first half. Layer information gradually so viewers form their own theories. Introduce twists/contradictions when they think they know.
-  * EVIDENCE VISUALS OVER GENERIC DARK FOOTAGE: Use maps, timelines, documents, symbolic objects, empty locations, silhouettes. Never gore, never graphic, never sensational. Keep it documentary-style.
-  * STRUCTURE THAT NEVER WANDERS: Cold open (most dramatic moment) -> Evidence layer by layer -> The twist or contradiction -> Conclusion or open question.
-  * ATMOSPHERE THROUGH SOUND: Incorporate transition sounds mentally in pacing (paper shuffling, static, recording crackle, clock ticks).
-  * TIMELINE/MAP VISUAL AT KEY MOMENTS: Where sequence of events or location matters, plan timeline overlays or annotated map graphics.
+- NICHE QUALITY SIGNALS (Education):
+  * SHOW THE RESULT FIRST: State or show the answer/outcome before explaining how you get there. Viewers stay to understand something they just saw — not to wait.
+  * B-ROLL THAT PROVES THE POINT: Every concept explained verbally must have a visual that demonstrates it, not just decorates it.
+  * ONE CLEAR GAIN PER VIDEO: Teach exactly one thing. Script must answer: "What is the single thing this viewer will walk away with?"
+  * TEXT OVERLAYS THAT REINFORCE, NOT REPEAT: Use text for key terms, surprising numbers, simple diagrams, or summary sentences. Do not transcribe verbatim.
+  * CONTINUOUS CURIOSITY LOOP: Every 2-3 segments, give a new reason to stay with a new question (e.g., "But here's where it gets interesting...").
 
 For every `broll_query` field, write a SHORT, SPECIFIC, STOCK-FOOTAGE-FRIENDLY
-search term of 3-6 words MAXIMUM. Write exactly what a human would type into
-a stock video search bar (Pexels, Pixabay, etc). Use concrete nouns and visual
-objects — NOT instructions or descriptions of what you want.
+search term of 1-3 CONCRETE PHYSICAL NOUNS MAXIMUM (e.g., "water pipes", "ancient scroll", "mummy coffin", "sea sponges", "gold jewelry").
+Write exactly what a human would type into a stock video search bar. Use concrete nouns and visual objects — NOT instructions, verbs, or descriptions of what you want.
 
-CORRECT examples: "ancient Roman ruins excavation", "Rosetta Stone hieroglyphics closeup",
-"Berlin Wall fall 1989", "Bletchley park codebreaking machine", "Egyptian pyramid giza",
-"ancient scrolls parchment", "medieval knight armor", "celtic ship burial artifact"
+CRITICAL BROLL QUERY RULES:
+- MUST be 1-3 simple, concrete physical nouns (e.g. "water pipes", "ancient scroll", "mummy coffin", "sea sponges", "gold jewelry", "smartphone").
+- NEVER include abstract adjectives, verbs, or meta-words like "animated", "defect", "dramatic", "unraveling", "stuck", "shattered", "cross section", "concept", "visualization", "illustration".
+- Write queries that represent real physical footage found in stock video libraries or YouTube documentaries.
 
-WRONG examples: "visually jarring close-up of the topic", "macro b-roll of historical
+CORRECT examples: "Stephen Hawking wheelchair", "DNA double helix",
+"quantum computer chip", "black hole space", "astronaut spacewalk",
+"brain neurons firing", "atom particle collider", "coral reef fish"
+
+WRONG examples: "visually jarring close-up of the topic", "macro b-roll of scientific
 element", "closing beautiful shot returning to start", "diagram concept visualization",
-"DNA double helix" (not relevant), "chemical" (not relevant)
+"animated gate valve defect", "ancient scroll unraveling dramatic", "cross section stuck"
 
 IMPORTANT B-ROLL RULES:
-- Stock video sites DO NOT HAVE specific historical moments or obscure figures by name.
-- For abstract historical ideas, use terms like "historical library old books", "vintage letter envelope", "old map parchment", "museum artifact glass case".
-- ALWAYS include concrete visual anchors to give the video an authentic documentary feel.
+- Stock video sites DO NOT HAVE specific molecules or rare deep-sea fish by name.
+- For chemicals or proteins, use terms like "abstract science background", "microscope biology animation", "glowing particles", or "fluid dynamics".
+- NEVER use the word "chemical" alone, as stock sites return industrial factories and smokestacks instead of biology. Use "chemistry laboratory" or "liquid mixture".
 
 For each segment, also provide a `broll_queries` array with 3-5 ALTERNATIVE search terms for the same visual concept. These should be synonyms, related concepts, or different angles on the same subject. The first entry should match `broll_query`.
 
-For any named historical figure: ALWAYS include their name in the query.
+For any named person (scientist, historical figure): ALWAYS include their name in the query.
+For abstract science concepts: use the most recognizable visual symbol.
 
 You MUST return your response ONLY as a raw JSON object with no markdown syntax. The JSON structure MUST be exactly like this:
 {{
   "title": "A catchy title under 40 chars, starting with a hook word/number and containing one emoji",
   "voiceover_plan": "A 2-3 sentence internal plan detailing the emotional arc of the voiceover. How should the narrator sound? Think step-by-step to plan the performance before writing.",
   "vocal_tone": "Select the single best vocal delivery style for this topic. Choose EXACTLY ONE from this list: 'dramatic_whisper' (best for secrets, hidden info, suppressed history), 'suspenseful_mystery' (best for crimes, conspiracies, unsolved puzzles), 'energetic_storytelling' (best for science breakthroughs, viral tech, amazing facts), 'deep_curiosity' (best for space, nature, philosophy, the unknown), 'bold_authority' (best for business, finance, economics, power dynamics), 'warm_storyteller' (best for human interest, culture, social stories), 'dark_revelation' (best for scandals, cover-ups, disturbing truths), 'playful_wit' (best for funny/ironic history, absurd facts, counter-intuitive discoveries). Match the tone to the emotional core of the topic.",
-  "description": "Line1: restate the hook\nLine2: Fast. Accurate. Mind-blowing.\nLine3: 📲 Follow our socials & links -> {BEACONS_LINK}\n\n#history #didyouknow #facts #historical #ancient",
+  "description": "Line1: restate the hook\nLine2: Fast. Accurate. Mind-blowing.\nLine3: 📲 Follow our socials & links -> {BEACONS_LINK}\n\n#science #didyouknow #facts",
   "tags": ["8 to 12 relevant tags under 500 characters total"],
   "category_id": "27",
   "segments": [
+    // Provide exactly {segment_count} segments here.
     {{
       "id": 1,
       "narration": "opening shocking hook complete sentence - 12 words or less, massive information gap",
-      "broll_query": "{topic['topic']} ancient artifact museum",
-      "broll_queries": ["{topic['topic']} ancient artifact museum", "old manuscript archives", "archaeological excavation site"],
+      "broll_query": "{topic['topic']} black hole accretion disk space",
+      "broll_queries": ["{topic['topic']} black hole accretion disk space", "event horizon visualization", "gravitational lensing effect", "supermassive black hole animation"],
       "duration_target": 6
     }},
     {{
       "id": 2,
-      "narration": "Mind-bending historical fact that expands on the hook - 8 words or less",
-      "broll_query": "old map magnifying glass",
+      "narration": "Mind-bending scientific fact that expands on the hook - 8 words or less",
+      "broll_query": "Albert Einstein chalkboard equations",
       "duration_target": 6
     }},
     {{
@@ -118,7 +126,12 @@ You MUST return your response ONLY as a raw JSON object with no markdown syntax.
 }}
 
 For Segment 1 specifically:
-- `broll_query` MUST describe a high-motion, high-contrast, visually arresting shot (fast motion, dramatic close-up, panning shot) — this is the opening pattern-interrupt.
+- `broll_query` MUST describe a high-motion, high-contrast, visually arresting shot (fast motion, bright colors, dramatic close-up) — this is the opening pattern-interrupt that determines whether viewers keep watching.
+
+For Segments 2 to (n-1):
+- Frame facts with visual or scientific paradoxes (e.g., 'Something the size of a city that weighs more than the sun' or 'The man who failed entrance exams rewrote the universe').
+- Deliver the single most mind-bending scientific fact in Segment 2.
+- Introduce an open loop (a second mystery or surprise fact) in Segment 3 that builds tension towards the loop twist.
 
 For the final segment (Segment {segment_count}) specifically:
 - MUST be a 1-sentence Call-to-Action that matches the video's emotional tone and drives viewers to check the link in description/bio.
@@ -130,17 +143,17 @@ For the final segment (Segment {segment_count}) specifically:
 - The final sentence should THEMATICALLY echo or re-contextualize the IDEA from Segment 1's hook.
 """
     else:  # long-form
-        prompt = f"""Generate a comprehensive 7-10 minute YouTube educational history script on the topic: "{topic['topic']}".
+        prompt = f"""Generate a comprehensive 7-10 minute YouTube educational script on the topic: "{topic['topic']}".
 The script must have 15 to 18 segments, each targeting 25-35 seconds of narration.
 
-Narration Style Requirements (with CH3 Mystery DeMysters Niche Quality Signals):
+Narration Style Requirements (with CH1 EduFun Niche Quality Signals):
 1. Conversational & Simple Language: Use very simple, easy-to-understand, and highly relatable words that anyone can easily follow. Avoid obscure, complex, or overly difficult English vocabulary. Keep the narration friendly, extremely engaging, and relatable—like a friend explaining an amazing topic.
 2. Engaging Tone: The voiceover narration must be conversational, highly engaging, and relatable—like a friend telling an exciting story. Write the voiceover to be energetic, warm, and inviting.
 Structure the narrative into:
-- Intro hook: start mid-consequence and create an information gap (segments 1-2)
-- Act 1: The core historical mystery, decision, or document (segments 3-7)
-- Act 2: The surprising twist, consequence, or method (segments 8-12)
-- Act 3: Legacy, modern discovery, or historical consensus (segments 13-16)
+- Intro hook (segments 1-2)
+- Act 1: The core mystery/mechanism (segments 3-7)
+- Act 2: The surprising twist/implication (segments 8-12)
+- Act 3: Modern applications or future outlook (segments 13-16)
 - Closing CTA & link (segments 17-18)
 
 COMPANION LAYER - NICHE & FORMAT UPGRADE (LONG):
@@ -152,44 +165,52 @@ COMPANION LAYER - NICHE & FORMAT UPGRADE (LONG):
   * Payoff + CTA (5:00-5:30, segments 17-18): Wrap core idea. One line CTA. End clean.
 - PATTERN INTERRUPT: Include exactly 2-3 pattern interrupts total (visual shift, tonal change, new angle) around 1:30, 3:00, and 4:30.
 - Avoid: intro/context >45s, padding middle, saving best point for end, or >3 main points.
-- NICHE QUALITY SIGNALS (Mystery):
-  * PACE THE REVEAL STRATEGICALLY: Never reveal the key answer in the first half. Layer information gradually so viewers form their own theories. The moment they think they know — introduce something that challenges it.
-  * EVIDENCE VISUALS OVER GENERIC DARK FOOTAGE: Prefer maps, timelines, documents, symbolic objects, empty locations, silhouettes. Never gore, never graphic, never sensational. Maintain documentary-style production.
-  * STRUCTURE THAT NEVER WANDERS: Every mystery video must strictly follow: Cold open (most dramatic moment, 30–60 sec) -> Evidence layer by layer -> The twist or contradiction -> Conclusion or open question.
-  * ATMOSPHERE THROUGH SOUND: Scene transitions must imply sensory detail/sounds (e.g., paper shuffling, static, recording crackle, slow footsteps, clock ticks).
-  * TIMELINE/MAP VISUAL AT KEY MOMENTS: Include crime scene mapping, timelines, and simple annotated map graphics wherever sequence of events or location matters.
+- NICHE QUALITY SIGNALS (Education):
+  * SHOW THE RESULT FIRST: State or show the answer/outcome before explaining how you get there. Viewers stay to understand something they just saw — not to wait.
+  * B-ROLL THAT PROVES THE POINT: Every concept explained verbally must have a visual that demonstrates it, not just decorates it.
+  * ONE CLEAR GAIN PER VIDEO: Teach exactly one thing. Script must answer: "What is the single thing this viewer will walk away with?"
+  * TEXT OVERLAYS THAT REINFORCE, NOT REPEAT: Use text for key terms, surprising numbers, simple diagrams, or summary sentences. Do not transcribe verbatim.
+  * CONTINUOUS CURIOSITY LOOP: Every 60-90 seconds, give a new reason to stay with a new question (e.g., "But here's where it gets interesting...").
 
 For every `broll_query` field, write a SHORT, SPECIFIC, STOCK-FOOTAGE-FRIENDLY
 search term of 3-6 words MAXIMUM. Write exactly what a human would type into
 a stock video search bar (Pexels, Pixabay, etc). Use concrete nouns and visual
 objects — NOT instructions or descriptions of what you want.
 
-CORRECT examples: "ancient Roman ruins excavation", "Rosetta Stone hieroglyphics closeup",
-"Berlin Wall fall 1989", "Bletchley park codebreaking machine", "Egyptian pyramid giza",
-"ancient scrolls parchment", "medieval knight armor"
+CORRECT examples: "Stephen Hawking wheelchair smiling", "DNA double helix blue",
+"quantum computer chip closeup", "black hole space vortex", "astronaut spacewalk ISS",
+"brain neurons firing", "atom particle collider", "coral reef fish colorful"
 
-WRONG examples: "visually jarring close-up of the topic", "macro b-roll of historical
-element", "closing beautiful shot returning to start", "diagram concept visualization"
+WRONG examples: "visually jarring close-up of the topic", "macro b-roll of scientific
+element", "closing beautiful shot returning to start", "diagram concept visualization",
+"TMAO molecular structure" (too specific for stock footage), "chemical" (too ambiguous, returns factories)
+
+IMPORTANT B-ROLL RULES:
+- Stock video sites DO NOT HAVE specific molecules or rare deep-sea fish by name.
+- For chemicals or proteins, use terms like "abstract science background", "microscope biology animation", "glowing particles", or "fluid dynamics".
+- NEVER use the word "chemical" alone, as stock sites return industrial factories and smokestacks instead of biology. Use "chemistry laboratory" or "liquid mixture".
 
 For each segment, also provide a `broll_queries` array with 3-5 ALTERNATIVE search terms for the same visual concept. These should be synonyms, related concepts, or different angles on the same subject. The first entry should match `broll_query`.
 
-For any named historical figure: ALWAYS include their name in the query.
+For any named person (scientist, historical figure): ALWAYS include their name in the query.
+For abstract science concepts: use the most recognizable visual symbol.
 
 You MUST return your response ONLY as a raw JSON object with no markdown syntax. The JSON structure MUST be exactly like this:
 {{
   "title": "Engaging educational title for a long video, under 70 characters",
   "voiceover_plan": "A 2-3 sentence internal plan detailing the emotional arc of the voiceover. How should the narrator sound? Think step-by-step to plan the performance before writing.",
-  "description": "A detailed, engaging description explaining what the video covers, including timestamps and educational value.\\n\\n#history #education #facts #ancienthistory",
+  "description": "A detailed, engaging description explaining what the video covers, including timestamps and educational value.\\n\\n#science #education #technology",
   "tags": ["15 to 20 relevant tags"],
   "category_id": "27",
   "segments": [
     {{
       "id": 1,
-      "narration": "Opening narration hook starting mid-consequence...",
-      "broll_query": "{topic['topic']} ancient library",
-      "broll_queries": ["{topic['topic']} ancient library", "dusty library books archives", "old scroll parchment closeup"],
+      "narration": "Opening narration hook...",
+      "broll_query": "{topic['topic']} space stars universe",
+      "broll_queries": ["{topic['topic']} space stars universe", "galaxy nebula deep space", "cosmos starfield timelapse", "astronomical observatory night sky"],
       "duration_target": 30
     }}
+    // ... total 15-18 segments
   ],
   "thumbnail_text": "3 to 5 bold words max for the thumbnail image",
   "loop_callout": false
@@ -215,17 +236,17 @@ You MUST return your response ONLY as a raw JSON object with no markdown syntax.
 
     # Add scheduling metadata for long form
     if format_type == "long":
-        script["publish_at"] = get_next_monday_1pm_est_utc()
+        script["publish_at"] = get_next_weekday_2pm_ist_utc()
     else:
         # Default publish_at for shorts: let's set it to None so we can upload as private first
         script["publish_at"] = None
 
     # --- FACT VERIFICATION ---
     print("Running fact verification on the generated script...")
-    verification_prompt = f"""You are a fact checker. Verify the historical accuracy of each segment's narration in the following script JSON:
+    verification_prompt = f"""You are a fact checker. Verify the scientific accuracy of each segment's narration in the following script JSON:
 {json.dumps(script, indent=2)}
 
-Check if all claims are backed by credible historical consensus.
+Check if all claims are backed by credible scientific consensus.
 Return ONLY the modified script JSON with an added `"verified": true` or `"verified": false` field inside EACH segment object in the "segments" list.
 If a claim is unverifiable, speculative, or false, mark `"verified": false`.
 """

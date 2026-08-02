@@ -1,6 +1,6 @@
 import os
 import json
-from pipeline.config import TOPIC_LOG_SIZE, HISTORY_SUBCLUSTERS
+from pipeline.config import TOPIC_LOG_SIZE, SCIENCE_SUBCLUSTERS
 from pipeline.gemini import GeminiClient, _robust_json_loads
 
 def select_topic(format_type: str) -> dict:
@@ -22,8 +22,8 @@ def select_topic(format_type: str) -> dict:
     recent_topics = published[-TOPIC_LOG_SIZE:]
     call_count += 1
 
-    # ── 2. Determine subcluster + format rotation ────────────────────────────
-    current_subcluster = HISTORY_SUBCLUSTERS[subcluster_idx % len(HISTORY_SUBCLUSTERS)]
+    # ── 2. Determine subcluster + evergreen vs trending ──────────────────────
+    current_subcluster = SCIENCE_SUBCLUSTERS[subcluster_idx % len(SCIENCE_SUBCLUSTERS)]
     is_trending = (call_count % 3 != 0)   # 2 out of 3 calls = trending topic
 
     if is_trending:
@@ -33,14 +33,12 @@ def select_topic(format_type: str) -> dict:
             f"Frame each as a timely, highly intriguing analysis."
         )
     else:
-        # Historical topic instructions focusing on specific, verifiable historical events and decisions.
         topic_instruction = (
-            f"Generate topics about specific, verifiable historical events, decisions, and discoveries "
-            f"related to: {current_subcluster}. Each topic must be a documented fact with a known date, "
-            f"source, or artifact — not a vague era or unresolved claim. "
-            f"Explicitly avoid ancient-astronaut, lost-civilization-mystery, or 'what they don't want you to know' framing. "
-            f"Avoid recent politics or living political figures. "
-            f"Rotate across these six formats: deep-dive, myth-correction, rapid rundown, ranked list, head-to-head, discovery story."
+            f"Generate 5 EVERGREEN topics about {current_subcluster}. "
+            f"Each must reveal a bizarre, counterintuitive, or little-known science fact "
+            f"that educated adults don't know. Frame as 'What if X happened' or 'How Y actually works'. "
+            f"Every topic MUST name a specific mechanism, theory, machine, or phenomenon — "
+            f"NOT a vague 'scientists are surprised' hook."
         )
 
     # ── 3. Build Gemini prompt ───────────────────────────────────────────────
@@ -53,15 +51,16 @@ CRITICAL: Do NOT suggest any topic similar to these recently published topics:
 
 SAFETY & COMPLIANCE CONSTRAINTS (MANDATORY):
 - The topics MUST be 100% advertiser-friendly, family-friendly, and compliant with YouTube/Meta community guidelines.
-- Strictly AVOID: recent politics (e.g., after 2000), living political figures, highly controversial religious conflicts, war atrocities, genocide, or tragic historical events that are graphic/violent.
-- Focus on archaeological decipherments, ancient technology, documented decisions, myth-corrections, and fascinating historical breakthroughs.
+- Strictly AVOID: medical advice, health/cure claims, Covid-19/vaccine/epidemic speculation, dangerous stunts/activities, illegal substances, or weapons.
+- Avoid political controversies, conspiracy theories, or tragic/graphic events.
+- Focus on educational, curious, and inspiring scientific information.
 
-AVOID: space, technology, physics, biology, pet animals, and modern politics.
-FOCUS: documented history, historical decisions, archaeology, decipherments, myth-corrections.
+AVOID: Oceans, marine biology, forests, animal behavior, weather, geology (those are Channel 2 Nature).
+FOCUS: Science and technology — space, quantum mechanics, future computing, physics, biotech, advanced chemistry, engineering.
 
 Return ONLY a raw JSON array of objects. No markdown, no preamble.
 Each object must have exactly these fields:
-- "topic": specific subject with a named fact, event, or document (e.g. "How the Antikythera mechanism was proven to be an ancient analog computer in 1901")
+- "topic": specific subject with a named fact, theory, or mechanism (e.g. "Quantum entanglement enables faster than light simulation without moving particles")
 - "short_hook": opening question or statement, 8 words or less, creates a strong information gap
 - "hook_type": one of "curiosity_gap", "contrarian", "time_pressure", "self_identification", "narrative_pull"
 - "for_format": "short", "long", or "both"
@@ -70,20 +69,42 @@ Each object must have exactly these fields:
 
     print(f"[Phase1] Requesting topics — subcluster: {current_subcluster} | trending: {is_trending}")
     client = GeminiClient()
-    response_text = client.generate_text(prompt, use_grounding=is_trending, temperature=0.75)
-
     try:
+        response_text = client.generate_text(prompt, use_grounding=is_trending, temperature=0.75)
         topics_list = _robust_json_loads(response_text)
         if not isinstance(topics_list, list):
             raise ValueError("Response is not a JSON list")
         if not topics_list:
             raise ValueError("Response is an empty list")
     except Exception as e:
-        print(f"Error parsing topics: {e}")
+        print(f"[Phase1] Error fetching or parsing topics from Gemini: {e}")
+        import random, time
+        rand_id = int(time.time()) % 1000
         topics_list = [
             {
-                "topic": "How the Rosetta Stone was actually deciphered in 1822",
-                "short_hook": "Deciphering the stone that unlocked Egypt.",
+                "topic": f"How dark energy expands the observable universe cosmos #{rand_id}",
+                "short_hook": "Dark energy is tearing space apart.",
+                "hook_type": "curiosity_gap",
+                "for_format": "both",
+                "subcluster": current_subcluster
+            },
+            {
+                "topic": f"Quantum Teleportation Breakthrough Physics #{int(time.time())}",
+                "short_hook": "Information traveled instantly across space.",
+                "hook_type": "curiosity_gap",
+                "for_format": "both",
+                "subcluster": current_subcluster
+            },
+            {
+                "topic": f"Neutron Star Density Mysteries Astrophysics #{int(time.time()) + 1}",
+                "short_hook": "One teaspoon weighs a billion tons.",
+                "hook_type": "curiosity_gap",
+                "for_format": "both",
+                "subcluster": current_subcluster
+            },
+            {
+                "topic": f"Solar Wind Cosmic Shields Science #{int(time.time()) + 2}",
+                "short_hook": "Sun protects Earth from deep space radiation.",
                 "hook_type": "curiosity_gap",
                 "for_format": "both",
                 "subcluster": current_subcluster
@@ -94,7 +115,7 @@ Each object must have exactly these fields:
     import re
     def get_keywords(text: str) -> set:
         text = text.lower()
-        words = re.findall(r"\b[a-z0-9-]{3,}\b", text)
+        words = re.findall(r'\b[a-z0-9-]{3,}\b', text)
         stopwords = {
             "the", "and", "for", "with", "from", "that", "this", "these", "those",
             "how", "why", "what", "who", "whom", "which", "where", "when", "actually",
@@ -123,6 +144,8 @@ Each object must have exactly these fields:
             if not is_duplicate(item.get("topic", "")):
                 selected_topic = item
                 break
+    if not selected_topic and topics_list:
+        selected_topic = topics_list[0]
 
     # Retry loop if all candidate topics were duplicates
     attempts = 0
@@ -152,12 +175,13 @@ Each object must have exactly these fields:
             selected_topic = topics_list[0]
             selected_topic["for_format"] = format_type
 
+
     print(f"[Phase1] Selected: {selected_topic['topic']}")
 
     # ── 5. Persist state ──────────────────────────────────────────────────────
     published.append(selected_topic["topic"])
     published = published[-TOPIC_LOG_SIZE:]
-    next_subcluster_idx = (subcluster_idx + 1) % len(HISTORY_SUBCLUSTERS)
+    next_subcluster_idx = (subcluster_idx + 1) % len(SCIENCE_SUBCLUSTERS)
 
     with open(topic_log_path, "w") as f:
         json.dump({

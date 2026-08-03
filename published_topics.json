@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Papal Bull 'Inter Caetera' (1493) and the subsequent Treaty of Tordesillas (1494) as foundational decisions for global territorial division between Spain and Portugal.",
     "Correcting the popular narrative that the 1983 Able Archer exercise nearly triggered nuclear war, based on declassified intelligence assessments from both sides.",
     "The debunking of the popular myth that the Great Wall of China is visible from space with the naked eye, a claim disproven by multiple astronauts, including Yang Liwei in 2003.",
     "The archaeological evidence challenging the myth of the 'Sea Peoples' as a singular, unified invading force, revealing diverse groups and motivations.",
@@ -89,8 +88,9 @@
     "Newly revealed details about a World War II U-boat attack on Christmas Eve 1944, which the U.S. Army kept secret for 50 years, causing 763 American casualties.",
     "Three documented innovations of the ancient Roman Cursus Publicus, the imperial postal and transport system, including its network of relay stations, official vehicles, and express couriers (1st century CE onwards).",
     "Hundreds of monumental geoglyphs discovered in the Amazon rainforest reveal an ancient civilization far larger than previously imagined, challenging long-held assumptions about its population density and societal structure.",
-    "The unprecedented survival and successful payload deployment of a Chinese Long March 3B rocket after being directly struck by a massive lightning bolt moments after launch, showcasing extreme engineering resilience."
+    "The unprecedented survival and successful payload deployment of a Chinese Long March 3B rocket after being directly struck by a massive lightning bolt moments after launch, showcasing extreme engineering resilience.",
+    "How magnetorheological fluids could give excavators 'smart blood' for unprecedented control."
   ],
-  "subcluster_idx": 2,
-  "call_count": 92
+  "subcluster_idx": 3,
+  "call_count": 93
 }

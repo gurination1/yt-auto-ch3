@@ -70,12 +70,14 @@ THUMBNAIL_LAYOUTS = [
 
 # topic sub-cluster rotation for Verified History channel
 HISTORY_SUBCLUSTERS = [
-    "ancient history and archaeology discoveries",
-    "medieval history and empire organization",
-    "early modern decisions and global expansions",
-    "cold war and modern military history secrets",
-    "historical myths corrections and document discoveries",
+    "Megastructures and Modern Marvel Engineering",
+    "Spacecraft, Rocketry, and Space Exploration Engineering",
+    "Heavy Machinery, Excavators, and Mining Titans",
+    "Bridges, Tunnels, and Infrastructure Feats",
+    "Automotive, Engines, and High-Speed Transportation"
 ]
+TOPIC_SUBCLUSTERS = HISTORY_SUBCLUSTERS
+SCIENCE_SUBCLUSTERS = HISTORY_SUBCLUSTERS
 
 YT_CATEGORY_EDUCATION = "27"
 YT_CATEGORY_SCIENCE   = "28"

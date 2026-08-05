@@ -1,5 +1,24 @@
 import os
 
+# Auto-load local_env.sh if present to populate environment variables
+def _autoload_local_env():
+    for env_path in ["local_env.sh", "../local_env.sh", "/root/yt-auto/local_env.sh", "/root/local_env.sh"]:
+        if os.path.exists(env_path):
+            try:
+                with open(env_path, "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if line.startswith("export ") and "=" in line:
+                            k, v = line[7:].split("=", 1)
+                            k = k.strip()
+                            v = v.strip().strip('"').strip("'")
+                            if k and k not in os.environ and v:
+                                os.environ[k] = v
+            except Exception:
+                pass
+
+_autoload_local_env()
+
 # ── Gemini Key Pool ──────────────────────────────────────────────────────────
 # GEMINI_API_KEYS = comma-separated list (e.g. "key1,key2,key3")
 # Multiple keys from DIFFERENT Google accounts give truly separate quotas.
@@ -68,20 +87,18 @@ THUMBNAIL_LAYOUTS = [
     "split_left",         # dark left panel with text, right panel shows frame
 ]
 
-# topic sub-cluster rotation for Verified History channel
-HISTORY_SUBCLUSTERS = [
-    "Megastructures and Modern Marvel Engineering",
-    "Spacecraft, Rocketry, and Space Exploration Engineering",
-    "Heavy Machinery, Excavators, and Mining Titans",
-    "Bridges, Tunnels, and Infrastructure Feats",
-    "Automotive, Engines, and High-Speed Transportation"
+# topic sub-cluster rotation for Science and Technology channel
+SCIENCE_SUBCLUSTERS = [
+    "space exploration and astrophysics",
+    "physics and quantum mechanics mysteries",
+    "advanced chemistry and materials science",
+    "biotechnology and genetic engineering",
+    "future technology and computing breakthroughs",
 ]
-TOPIC_SUBCLUSTERS = HISTORY_SUBCLUSTERS
-SCIENCE_SUBCLUSTERS = HISTORY_SUBCLUSTERS
 
 YT_CATEGORY_EDUCATION = "27"
 YT_CATEGORY_SCIENCE   = "28"
-NASA_BROLL_ENABLED    = False
+NASA_BROLL_ENABLED    = True
 
 
 
@@ -112,4 +129,4 @@ def validate_config():
 
 
 # ── Social / Beacons Link ───────────────────────────────────────────────────
-BEACONS_LINK = os.environ.get("BEACONS_LINK", "https://beacons.ai/mysterydemysters")
+BEACONS_LINK = os.environ.get("BEACONS_LINK", "https://beacons.ai/edu_fun")

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Correcting the popular narrative that the 1983 Able Archer exercise nearly triggered nuclear war, based on declassified intelligence assessments from both sides.",
     "The debunking of the popular myth that the Great Wall of China is visible from space with the naked eye, a claim disproven by multiple astronauts, including Yang Liwei in 2003.",
     "The archaeological evidence challenging the myth of the 'Sea Peoples' as a singular, unified invading force, revealing diverse groups and motivations.",
     "Three key administrative innovations of Charlemagne's reign (768-814 CE) that structured the Carolingian Empire, including the missi dominici and standardized currency.",
@@ -89,8 +88,9 @@
     "Three documented innovations of the ancient Roman Cursus Publicus, the imperial postal and transport system, including its network of relay stations, official vehicles, and express couriers (1st century CE onwards).",
     "Hundreds of monumental geoglyphs discovered in the Amazon rainforest reveal an ancient civilization far larger than previously imagined, challenging long-held assumptions about its population density and societal structure.",
     "The unprecedented survival and successful payload deployment of a Chinese Long March 3B rocket after being directly struck by a massive lightning bolt moments after launch, showcasing extreme engineering resilience.",
-    "How magnetorheological fluids could give excavators 'smart blood' for unprecedented control."
+    "How magnetorheological fluids could give excavators 'smart blood' for unprecedented control.",
+    "AI models are now capable of designing fully functional, novel viral genomes, leading to urgent discussions about biosecurity and the governance of synthetic biology."
   ],
-  "subcluster_idx": 3,
-  "call_count": 93
+  "subcluster_idx": 4,
+  "call_count": 94
 }

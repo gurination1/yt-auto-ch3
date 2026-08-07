@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Three key administrative innovations of Charlemagne's reign (768-814 CE) that structured the Carolingian Empire, including the missi dominici and standardized currency.",
     "Correcting the myth that early European global expansion was solely driven by 'gold, God, and glory,' by examining the economic motivations of state-chartered companies like the VOC (1602).",
     "Correcting the pervasive myth of Operation Mockingbird as a monolithic CIA media control program, based on findings from the 1975 Church Committee report.",
     "Archaeological proof at L'Anse aux Meadows (1960s) debunking the 'Columbus discovered America' myth by confirming Viking settlement.",
@@ -89,8 +88,9 @@
     "How magnetorheological fluids could give excavators 'smart blood' for unprecedented control.",
     "AI models are now capable of designing fully functional, novel viral genomes, leading to urgent discussions about biosecurity and the governance of synthetic biology.",
     "Quantum networking achieves unprecedented entanglement stability over long-distance metropolitan fiber, signaling a new era for secure communication.",
-    "How dark energy expands the observable universe cosmos #948"
+    "How dark energy expands the observable universe cosmos #948",
+    "Quantum Teleportation Breakthrough Physics #1786077554"
   ],
-  "subcluster_idx": 1,
-  "call_count": 96
+  "subcluster_idx": 2,
+  "call_count": 97
 }

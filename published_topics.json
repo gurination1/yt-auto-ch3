@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Correcting the myth that Ferdinand Magellan personally completed the first circumnavigation of the Earth, based on historical logs from the Victoria (1519-1522).",
     "Correcting the popular belief that the Stasi operated with unchecked impunity, by detailing documented official processes for citizen complaints and the eventual parliamentary oversight bodies established after German reunification.",
     "Correcting the myth that Emperor Nero 'fiddled while Rome burned' in 64 CE, based on contemporary historical accounts like Tacitus and Suetonius.",
     "Correcting the myth of Neanderthals as primitive brutes, based on archaeological evidence of complex tools, art, and burial rituals from sites like Bruniquel Cave (c. 176,000 BCE).",
@@ -89,8 +88,9 @@
     "Neutron Star Density Mysteries Astrophysics #1786093160",
     "Quantum Computing's Verification Breakthrough: IBM's Claim of \"Quantum Advantage\" Now Includes a Method to Verify Correctness, Addressing a Long-Standing Challenge in the Field.",
     "The unexpected impact of a decade-old SpaceX Falcon 9 booster on the Moon has created a unique opportunity for scientists to study fresh lunar geology and track space debris, with South Korea's Danuri orbiter already imaging the new crater.",
-    "Solar Wind Cosmic Shields Science #1786118521"
+    "Solar Wind Cosmic Shields Science #1786118521",
+    "Engineers have developed a novel cobalt-aluminum alloy that is up to ten times stronger than steel, yet surprisingly flexible, achieved through innovative nanoscale design."
   ],
-  "subcluster_idx": 2,
-  "call_count": 102
+  "subcluster_idx": 3,
+  "call_count": 103
 }

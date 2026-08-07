@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Archaeological proof at L'Anse aux Meadows (1960s) debunking the 'Columbus discovered America' myth by confirming Viking settlement.",
     "The archaeological evidence debunking the 'Curse of Tutankhamun' following the 1922 tomb discovery, highlighting media sensationalism.",
     "The Byzantine Empire's Theme System (Themata): A strategic military-administrative innovation documented from the 7th century.",
     "Correcting the myth that Ferdinand Magellan personally completed the first circumnavigation of the Earth, based on historical logs from the Victoria (1519-1522).",
@@ -89,8 +88,9 @@
     "How dark energy expands the observable universe cosmos #948",
     "Quantum Teleportation Breakthrough Physics #1786077554",
     "Cell-inspired nanoreactors are transforming sustainable hydrogen peroxide production by mimicking biological structures to efficiently convert sunlight into chemical energy.",
-    "Neutron Star Density Mysteries Astrophysics #1786093160"
+    "Neutron Star Density Mysteries Astrophysics #1786093160",
+    "Quantum Computing's Verification Breakthrough: IBM's Claim of \"Quantum Advantage\" Now Includes a Method to Verify Correctness, Addressing a Long-Standing Challenge in the Field."
   ],
-  "subcluster_idx": 4,
-  "call_count": 99
+  "subcluster_idx": 0,
+  "call_count": 100
 }

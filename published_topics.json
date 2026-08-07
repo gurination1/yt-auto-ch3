@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Byzantine Empire's Theme System (Themata): A strategic military-administrative innovation documented from the 7th century.",
     "Correcting the myth that Ferdinand Magellan personally completed the first circumnavigation of the Earth, based on historical logs from the Victoria (1519-1522).",
     "Correcting the popular belief that the Stasi operated with unchecked impunity, by detailing documented official processes for citizen complaints and the eventual parliamentary oversight bodies established after German reunification.",
     "Correcting the myth that Emperor Nero 'fiddled while Rome burned' in 64 CE, based on contemporary historical accounts like Tacitus and Suetonius.",
@@ -89,8 +88,9 @@
     "Cell-inspired nanoreactors are transforming sustainable hydrogen peroxide production by mimicking biological structures to efficiently convert sunlight into chemical energy.",
     "Neutron Star Density Mysteries Astrophysics #1786093160",
     "Quantum Computing's Verification Breakthrough: IBM's Claim of \"Quantum Advantage\" Now Includes a Method to Verify Correctness, Addressing a Long-Standing Challenge in the Field.",
-    "The unexpected impact of a decade-old SpaceX Falcon 9 booster on the Moon has created a unique opportunity for scientists to study fresh lunar geology and track space debris, with South Korea's Danuri orbiter already imaging the new crater."
+    "The unexpected impact of a decade-old SpaceX Falcon 9 booster on the Moon has created a unique opportunity for scientists to study fresh lunar geology and track space debris, with South Korea's Danuri orbiter already imaging the new crater.",
+    "Solar Wind Cosmic Shields Science #1786118521"
   ],
-  "subcluster_idx": 1,
-  "call_count": 101
+  "subcluster_idx": 2,
+  "call_count": 102
 }

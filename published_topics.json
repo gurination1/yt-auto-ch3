@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Correcting the myth of Neanderthals as primitive brutes, based on archaeological evidence of complex tools, art, and burial rituals from sites like Bruniquel Cave (c. 176,000 BCE).",
     "Correcting the myth that medieval castles were solely defensive structures, by revealing their primary function as administrative hubs and symbols of feudal power, exemplified by Caernarfon Castle (construction began 1283).",
     "Correcting the myth that early European global exploration was simply about 'discovering' new lands, by detailing the continuous revisions and strategic importance of Spain's Padr\u00f3n Real (initiated 1507) as a living, secret master map.",
     "Correcting the myth of KGB operational infallibility, detailing documented high-profile defections and internal purges, such as Oleg Gordievsky (1985).",
@@ -89,8 +88,9 @@
     "Solar Wind Cosmic Shields Science #1786118521",
     "Engineers have developed a novel cobalt-aluminum alloy that is up to ten times stronger than steel, yet surprisingly flexible, achieved through innovative nanoscale design.",
     "Advanced CRISPR systems now achieve precise, large DNA sequence insertions, overcoming previous genetic engineering limitations for complex genetic modifications.",
-    "How **counterfactual computation** allows quantum computers to execute algorithms without the quantum particles ever actually entering the computational region, enabling simulations of radically different physical laws."
+    "How **counterfactual computation** allows quantum computers to execute algorithms without the quantum particles ever actually entering the computational region, enabling simulations of radically different physical laws.",
+    "Scientists are observing Pluto's atmosphere as it gradually shrinks and thins, a natural phenomenon occurring as the dwarf planet moves into colder, darker regions of its 248-year orbit."
   ],
-  "subcluster_idx": 0,
-  "call_count": 105
+  "subcluster_idx": 1,
+  "call_count": 106
 }

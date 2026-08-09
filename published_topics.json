@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Correcting the myth that early European global exploration was simply about 'discovering' new lands, by detailing the continuous revisions and strategic importance of Spain's Padr\u00f3n Real (initiated 1507) as a living, secret master map.",
     "Correcting the myth of KGB operational infallibility, detailing documented high-profile defections and internal purges, such as Oleg Gordievsky (1985).",
     "Correcting the popular myth of a single, catastrophic burning of the Library of Alexandria, based on historical evidence of its gradual decline and multiple smaller destructions from the 1st century BCE.",
     "Correcting the colonial-era myth that Great Zimbabwe (11th-15th century CE) was built by non-African civilizations, based on archaeological evidence of indigenous Shona craftsmanship.",
@@ -89,8 +88,9 @@
     "Advanced CRISPR systems now achieve precise, large DNA sequence insertions, overcoming previous genetic engineering limitations for complex genetic modifications.",
     "How **counterfactual computation** allows quantum computers to execute algorithms without the quantum particles ever actually entering the computational region, enabling simulations of radically different physical laws.",
     "Scientists are observing Pluto's atmosphere as it gradually shrinks and thins, a natural phenomenon occurring as the dwarf planet moves into colder, darker regions of its 248-year orbit.",
-    "AI Accelerates Quantum Encryption Threat; World Unprepared: Recent breakthroughs, partly driven by AI, suggest quantum computers capable of breaking current internet encryption protocols may arrive much sooner than anticipated, sparking urgent concerns about global cybersecurity readiness."
+    "AI Accelerates Quantum Encryption Threat; World Unprepared: Recent breakthroughs, partly driven by AI, suggest quantum computers capable of breaking current internet encryption protocols may arrive much sooner than anticipated, sparking urgent concerns about global cybersecurity readiness.",
+    "How advanced synthetic materials can autonomously repair damage, even severed parts, using **dynamic covalent bonds** or embedded microcapsules containing healing agents for self-regeneration."
   ],
-  "subcluster_idx": 2,
-  "call_count": 107
+  "subcluster_idx": 3,
+  "call_count": 108
 }

@@ -87,13 +87,15 @@ THUMBNAIL_LAYOUTS = [
     "split_left",         # dark left panel with text, right panel shows frame
 ]
 
-# topic sub-cluster rotation for Science and Technology channel
+# topic sub-cluster rotation for History and Ancient Civilizations channel
 SCIENCE_SUBCLUSTERS = [
-    "space exploration and astrophysics",
-    "physics and quantum mechanics mysteries",
-    "advanced chemistry and materials science",
-    "biotechnology and genetic engineering",
-    "future technology and computing breakthroughs",
+    "ancient Egyptian engineering and pharaonic mysteries",
+    "Roman military strategies, expansion and downfall",
+    "lost civilizations and underwater archaeological discoveries",
+    "medieval warfare, siege tactics and secret order of knights",
+    "pivotal historical turning points and forgotten battles",
+    "ancient Greek philosophy, inventions and warfare",
+    "industrial revolution breakthroughs and historical espionage",
 ]
 
 YT_CATEGORY_EDUCATION = "27"

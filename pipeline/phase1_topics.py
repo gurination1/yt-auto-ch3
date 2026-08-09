@@ -55,8 +55,8 @@ SAFETY & COMPLIANCE CONSTRAINTS (MANDATORY):
 - Avoid political controversies, conspiracy theories, or tragic/graphic events.
 - Focus on educational, curious, and inspiring scientific information.
 
-AVOID: Oceans, marine biology, forests, animal behavior, weather, geology (those are Channel 2 Nature).
-FOCUS: Science and technology — space, quantum mechanics, future computing, physics, biotech, advanced chemistry, engineering.
+AVOID: Modern space science, deep ocean creatures, financial stocks, futuristic tech.
+FOCUS: History, ancient civilizations, warfare tactics, empire rise and fall, historical turning points, lost archaeological treasures.
 
 Return ONLY a raw JSON array of objects. No markdown, no preamble.
 Each object must have exactly these fields:

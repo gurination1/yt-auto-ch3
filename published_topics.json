@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Correcting the colonial-era myth that Great Zimbabwe (11th-15th century CE) was built by non-African civilizations, based on archaeological evidence of indigenous Shona craftsmanship.",
     "Correcting the myth of a singular 'Viking Empire' by examining the decentralized nature of their polities and the administrative structure of the Danelaw (established 878 CE).",
     "Correcting the myth that European military might was the sole determinant of early Spanish conquests in the Americas, by examining the documented demographic collapse from Old World diseases like smallpox (e.g., Hispaniola, 1493-1518).",
     "Correcting the myth that the Berlin Wall's construction (August 13, 1961) was a spontaneous act, revealing extensive prior planning.",
@@ -89,8 +88,9 @@
     "AI Accelerates Quantum Encryption Threat; World Unprepared: Recent breakthroughs, partly driven by AI, suggest quantum computers capable of breaking current internet encryption protocols may arrive much sooner than anticipated, sparking urgent concerns about global cybersecurity readiness.",
     "How advanced synthetic materials can autonomously repair damage, even severed parts, using **dynamic covalent bonds** or embedded microcapsules containing healing agents for self-regeneration.",
     "The International Medieval Combat Federation (IMCF) World Championship is exploding on social media, showcasing a global resurgence of full-contact medieval armored combat (Buhurt) and redefining modern martial arts with ancient warrior traditions.",
-    "Recent battlefield archaeology in Balaclava reveals the forgotten bravery of Ottoman Turkish defenders, challenging the popular narrative of the Charge of the Light Brigade and its pivotal moment in the Crimean War."
+    "Recent battlefield archaeology in Balaclava reveals the forgotten bravery of Ottoman Turkish defenders, challenging the popular narrative of the Charge of the Light Brigade and its pivotal moment in the Crimean War.",
+    "How Plato's Theory of Forms unexpectedly mirrors modern physics' search for fundamental mathematical realism, suggesting abstract structures are \"more real\" than physical manifestations."
   ],
-  "subcluster_idx": 5,
-  "call_count": 110
+  "subcluster_idx": 6,
+  "call_count": 111
 }

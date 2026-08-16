@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The 'New Colonialism' Debate: How Early Modern Resource Decisions Still Shape Global Exploitation Today",
     "Correcting the myth that the Cuban Missile Crisis (October 1962) was solely resolved by formal diplomacy, revealing the critical role of back-channel negotiations and naval operations.",
     "Ongoing AI Decipherment of Herculaneum Scrolls Reveals New Epicurean Texts and Expanded Philosophical Insights",
     "The recent discovery of a well-preserved 1,600-year-old Byzantine-era residential city in Egypt's Dakhla Oasis, revealing intricate details of daily life and urban planning.",
@@ -89,8 +88,9 @@
     "New archaeological findings at G\u00f6beklitepe uncover rectangular buildings, suggesting residential use and fundamentally altering the understanding of this 10,000-year-old site beyond its previous interpretation as solely a ceremonial center.",
     "The recent discovery of a 2,300-year-old tomb of an ancient Greek wrestler in Turkey is sparking new analyses of the integral role of physical prowess and athletic culture within ancient Greek society and its direct ties to military readiness and civic identity.",
     "How early industrial espionage targeted the thermodynamic efficiency of the *Rankine Cycle* in steam engines, revealing that the true value lay not in visible machinery, but in subtle superheating and condensation techniques that dictated fuel economy.",
-    "New 3D modeling reveals a hidden internal ramp system as the likely method for constructing the Great Pyramid of Giza, challenging long-held external ramp theories."
+    "New 3D modeling reveals a hidden internal ramp system as the likely method for constructing the Great Pyramid of Giza, challenging long-held external ramp theories.",
+    "Unearthing Unknown Roman Battles: Mass Grave Reveals Groin Injuries in Vienna"
   ],
-  "subcluster_idx": 1,
-  "call_count": 127
+  "subcluster_idx": 2,
+  "call_count": 128
 }

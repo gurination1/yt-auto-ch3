@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Ongoing AI Decipherment of Herculaneum Scrolls Reveals New Epicurean Texts and Expanded Philosophical Insights",
     "The recent discovery of a well-preserved 1,600-year-old Byzantine-era residential city in Egypt's Dakhla Oasis, revealing intricate details of daily life and urban planning.",
     "The Abbasid House of Wisdom's institutional model for knowledge preservation and translation in Baghdad (9th-13th century CE)",
     "New research challenges Eurocentric views of early modern diplomacy by revealing the sophistication of East Asian systems and the changing roles of language in global negotiations.",
@@ -89,8 +88,9 @@
     "How early industrial espionage targeted the thermodynamic efficiency of the *Rankine Cycle* in steam engines, revealing that the true value lay not in visible machinery, but in subtle superheating and condensation techniques that dictated fuel economy.",
     "New 3D modeling reveals a hidden internal ramp system as the likely method for constructing the Great Pyramid of Giza, challenging long-held external ramp theories.",
     "Unearthing Unknown Roman Battles: Mass Grave Reveals Groin Injuries in Vienna",
-    "What if an entire ancient coastal city vanished rapidly, not due to sea-level rise, but by **tectonic subsidence** causing the land itself to sink hundreds of feet in a catastrophic event?"
+    "What if an entire ancient coastal city vanished rapidly, not due to sea-level rise, but by **tectonic subsidence** causing the land itself to sink hundreds of feet in a catastrophic event?",
+    "New forensic analysis of medieval skeletal remains reveals the brutal impact of trebuchets during sieges, detailing injuries akin to modern high-impact trauma."
   ],
-  "subcluster_idx": 3,
-  "call_count": 129
+  "subcluster_idx": 4,
+  "call_count": 130
 }

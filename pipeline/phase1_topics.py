@@ -81,34 +81,10 @@ Each object must have exactly these fields:
         import random, time
         rand_id = int(time.time()) % 1000
         topics_list = [
-            {
-                "topic": f"How dark energy expands the observable universe cosmos #{rand_id}",
-                "short_hook": "Dark energy is tearing space apart.",
-                "hook_type": "curiosity_gap",
-                "for_format": "both",
-                "subcluster": current_subcluster
-            },
-            {
-                "topic": f"Quantum Teleportation Breakthrough Physics #{int(time.time())}",
-                "short_hook": "Information traveled instantly across space.",
-                "hook_type": "curiosity_gap",
-                "for_format": "both",
-                "subcluster": current_subcluster
-            },
-            {
-                "topic": f"Neutron Star Density Mysteries Astrophysics #{int(time.time()) + 1}",
-                "short_hook": "One teaspoon weighs a billion tons.",
-                "hook_type": "curiosity_gap",
-                "for_format": "both",
-                "subcluster": current_subcluster
-            },
-            {
-                "topic": f"Solar Wind Cosmic Shields Science #{int(time.time()) + 2}",
-                "short_hook": "Sun protects Earth from deep space radiation.",
-                "hook_type": "curiosity_gap",
-                "for_format": "both",
-                "subcluster": current_subcluster
-            }
+            {"topic": f"Bronze Age Collapse Mediterranean Civilizations #{rand_id}", "short_hook": "Entire empires collapsed in single century.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster},
+            {"topic": f"Roman Legionary Siege Engineering Architecture #{rand_id+1}", "short_hook": "Roman armies conquered using rapid architecture.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster},
+            {"topic": f"Library of Alexandria Lost Classical Knowledge #{rand_id+2}", "short_hook": "Ancient humanity lost thousands of years of science.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster},
+            {"topic": f"Spartan Phalanx Warfare Military Discipline #{rand_id+3}", "short_hook": "Spartan shields created unbreakable battle walls.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster}
         ]
 
     # ── 4. Pick first topic matching format_type and not a duplicate ─────────

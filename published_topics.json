@@ -1,6 +1,5 @@
 {
   "topics": [
-    "New accusations of mass murder and secret burials emerge from a recent congressional hearing on the CIA's Cold War-era MKULTRA program.",
     "Correcting the pervasive myth that Vikings wore horned helmets, based on archaeological evidence and contemporary Norse iconography (e.g., Oseberg tapestry, 9th century CE).",
     "Archaeologists recover 22 monumental stone blocks from the Lighthouse of Alexandria for digital reconstruction.",
     "New archaeological discoveries beneath the tomb of Emperor Otto the Great in Magdeburg Cathedral, revealing previously unknown medieval construction phases and insights into early Holy Roman Empire political-religious centers.",
@@ -89,8 +88,9 @@
     "New forensic analysis of medieval skeletal remains reveals the brutal impact of trebuchets during sieges, detailing injuries akin to modern high-impact trauma.",
     "Europe's unprecedented drought is uncovering a forgotten underwater landscape, revealing sunken warships and unexploded ordnance from past conflicts, forcing a timely re-evaluation of historical battlegrounds and the environmental impact on their preservation.",
     "How Empedocles' ancient Greek 'survival of the fittest parts' theory surprisingly prefigured natural selection by millennia, through his concept of random anatomical combinations.",
-    "Cold War Spy Satellites Reveal Ancient Water Engineering Breakthroughs."
+    "Cold War Spy Satellites Reveal Ancient Water Engineering Breakthroughs.",
+    "Robot exploration reveals a 4,500-year-old sealed passage within the Great Pyramid, fueling speculation about hidden chambers and new insights into pharaonic engineering."
   ],
-  "subcluster_idx": 0,
-  "call_count": 133
+  "subcluster_idx": 1,
+  "call_count": 134
 }

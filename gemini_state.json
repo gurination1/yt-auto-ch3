@@ -1,38 +1,38 @@
 {
   "0": {
-    "cooldown_until": 1787110673.965044,
+    "cooldown_until": 1787134297.0693414,
     "failures": 1,
     "status": "active"
   },
   "1": {
-    "cooldown_until": 0.0,
-    "failures": 0,
+    "cooldown_until": 1787134954.2113726,
+    "failures": 1,
     "status": "active"
   },
   "2": {
-    "cooldown_until": 0.0,
-    "failures": 0,
-    "status": "active"
+    "cooldown_until": 1787212800.0,
+    "failures": 2,
+    "status": "daily_exhausted"
   },
   "3": {
-    "cooldown_until": 0.0,
-    "failures": 0,
+    "cooldown_until": 1787135020.8216708,
+    "failures": 1,
     "status": "active"
   },
   "4": {
-    "cooldown_until": 0.0,
-    "failures": 0,
-    "status": "active"
+    "cooldown_until": 1787212800.0,
+    "failures": 2,
+    "status": "daily_exhausted"
   },
   "5": {
-    "cooldown_until": 0.0,
-    "failures": 0,
+    "cooldown_until": 1787135340.0759628,
+    "failures": 1,
     "status": "active"
   },
   "6": {
-    "cooldown_until": 0.0,
-    "failures": 0,
-    "status": "active"
+    "cooldown_until": 1787212800.0,
+    "failures": 4,
+    "status": "daily_exhausted"
   },
   "7": {
     "cooldown_until": 2101043256.370346,
@@ -40,9 +40,9 @@
     "status": "disabled"
   },
   "8": {
-    "cooldown_until": 0.0,
-    "failures": 0,
-    "status": "active"
+    "cooldown_until": 1787212800.0,
+    "failures": 2,
+    "status": "daily_exhausted"
   },
   "9": {
     "cooldown_until": 0.0,
@@ -50,8 +50,8 @@
     "status": "active"
   },
   "10": {
-    "cooldown_until": 0.0,
-    "failures": 0,
+    "cooldown_until": 1787134354.6199179,
+    "failures": 1,
     "status": "active"
   },
   "11": {
@@ -60,8 +60,8 @@
     "status": "active"
   },
   "12": {
-    "cooldown_until": 0.0,
-    "failures": 0,
+    "cooldown_until": 1787134614.8290503,
+    "failures": 1,
     "status": "active"
   },
   "13": {
@@ -70,8 +70,8 @@
     "status": "disabled"
   },
   "14": {
-    "cooldown_until": 0.0,
-    "failures": 0,
+    "cooldown_until": 1787134914.6166885,
+    "failures": 1,
     "status": "active"
   }
 }

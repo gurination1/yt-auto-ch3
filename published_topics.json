@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Department of Defense's recent release of declassified Unidentified Anomalous Phenomena (UAP) files, including a mysterious star-shaped object caught on U.S. military camera over the Yellow Sea, sparking renewed public and expert scrutiny of historical military sightings and government transparency.",
     "Archaeologists Unearth 18 Ancient Egyptian Tombs with Golden Tongues for the Afterlife",
     "Correcting the myth that ancient Greek temples like the Parthenon (completed 438 BCE) were pristine white marble structures, based on archaeological evidence of vibrant paint pigments.",
     "A new DNA study challenges long-held assumptions about medieval shared family graves, revealing surprising patterns of kinship in Viking Age and Middle Ages burial sites across Scandinavia.",
@@ -89,8 +88,9 @@
     "How Roman siege engineers precisely engineered the collapse of enemy walls by exploiting the counter-intuitive physics of granular materials, specifically the **angle of repose** and **shear strength** of soil, to achieve maximum destructive effect with minimal effort.",
     "How dark energy expands the observable universe cosmos #658",
     "The ongoing fascination and recent social media discussions surrounding the historical betrayal and dissolution of the Knights Templar in 1307 by King Philip IV, and the enduring mystery of their alleged survival and continuation through the Military Order of Christ in Portugal.",
-    "How Hannibal's \"elastic center\" at Cannae didn't just envelop, but leveraged principles of battlefield psychological manipulation and dynamic force vectoring to shatter Roman legions."
+    "How Hannibal's \"elastic center\" at Cannae didn't just envelop, but leveraged principles of battlefield psychological manipulation and dynamic force vectoring to shatter Roman legions.",
+    "AI Deciphers Herculaneum Papyri, Revealing Plato's Burial Site and Lost Philosophy"
   ],
-  "subcluster_idx": 5,
-  "call_count": 138
+  "subcluster_idx": 6,
+  "call_count": 139
 }

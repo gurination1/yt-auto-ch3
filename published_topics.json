@@ -1,6 +1,5 @@
 {
   "topics": [
-    "A new DNA study challenges long-held assumptions about medieval shared family graves, revealing surprising patterns of kinship in Viking Age and Middle Ages burial sites across Scandinavia.",
     "The Adaptive Genius of Early Modern Portuguese Colonial Administration: A Model for Small Nations' Global Reach",
     "Correcting the myth that Cold War espionage was solely high-tech, by revealing the documented prevalence of low-tech methods like dead drops and microdots, based on declassified FBI and CIA files.",
     "Homer's Iliad Papyrus Discovered Inside 1,600-Year-Old Egyptian Mummy",
@@ -89,8 +88,9 @@
     "How Hannibal's \"elastic center\" at Cannae didn't just envelop, but leveraged principles of battlefield psychological manipulation and dynamic force vectoring to shatter Roman legions.",
     "AI Deciphers Herculaneum Papyri, Revealing Plato's Burial Site and Lost Philosophy",
     "The emergence of bioengineered textiles, using engineered microorganisms and mycelium-based materials, is sparking a new \"textile revolution\" that draws direct parallels to the foundational innovations of the First Industrial Revolution.",
-    "How ancient Egyptian temple alignments with celestial events were achieved through precise astronomical surveying using star transits and plumb-line instruments, demonstrating an empirical understanding of celestial mechanics far beyond simple sun observations."
+    "How ancient Egyptian temple alignments with celestial events were achieved through precise astronomical surveying using star transits and plumb-line instruments, demonstrating an empirical understanding of celestial mechanics far beyond simple sun observations.",
+    "Current re-evaluations are highlighting how Roman economic policies, particularly inflation and taxation, directly undermined military funding and logistical capabilities, accelerating the empire's decline."
   ],
-  "subcluster_idx": 1,
-  "call_count": 141
+  "subcluster_idx": 2,
+  "call_count": 142
 }

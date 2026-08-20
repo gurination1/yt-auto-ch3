@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Correcting the myth that ancient Greek temples like the Parthenon (completed 438 BCE) were pristine white marble structures, based on archaeological evidence of vibrant paint pigments.",
     "A new DNA study challenges long-held assumptions about medieval shared family graves, revealing surprising patterns of kinship in Viking Age and Middle Ages burial sites across Scandinavia.",
     "The Adaptive Genius of Early Modern Portuguese Colonial Administration: A Model for Small Nations' Global Reach",
     "Correcting the myth that Cold War espionage was solely high-tech, by revealing the documented prevalence of low-tech methods like dead drops and microdots, based on declassified FBI and CIA files.",
@@ -89,8 +88,9 @@
     "The ongoing fascination and recent social media discussions surrounding the historical betrayal and dissolution of the Knights Templar in 1307 by King Philip IV, and the enduring mystery of their alleged survival and continuation through the Military Order of Christ in Portugal.",
     "How Hannibal's \"elastic center\" at Cannae didn't just envelop, but leveraged principles of battlefield psychological manipulation and dynamic force vectoring to shatter Roman legions.",
     "AI Deciphers Herculaneum Papyri, Revealing Plato's Burial Site and Lost Philosophy",
-    "The emergence of bioengineered textiles, using engineered microorganisms and mycelium-based materials, is sparking a new \"textile revolution\" that draws direct parallels to the foundational innovations of the First Industrial Revolution."
+    "The emergence of bioengineered textiles, using engineered microorganisms and mycelium-based materials, is sparking a new \"textile revolution\" that draws direct parallels to the foundational innovations of the First Industrial Revolution.",
+    "How ancient Egyptian temple alignments with celestial events were achieved through precise astronomical surveying using star transits and plumb-line instruments, demonstrating an empirical understanding of celestial mechanics far beyond simple sun observations."
   ],
-  "subcluster_idx": 0,
-  "call_count": 140
+  "subcluster_idx": 1,
+  "call_count": 141
 }

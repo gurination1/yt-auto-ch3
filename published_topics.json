@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Homer's Iliad Papyrus Discovered Inside 1,600-Year-Old Egyptian Mummy",
     "The ongoing archaeological debate over India's 9,500-year-old underwater city in the Gulf of Khambhat, potentially rewriting civilization's origins.",
     "Correcting the myth of universally abysmal medieval urban sanitation, by detailing documented advanced water management and waste disposal systems in cities like Siena (14th century) and Fes (13th century).",
     "New research redefines early modern global trade by demonstrating the active role of Indigenous Khoe and Cree nations in shaping economic systems with European companies like the Dutch East India Company and Hudson's Bay Company.",
@@ -89,8 +88,9 @@
     "How ancient Egyptian temple alignments with celestial events were achieved through precise astronomical surveying using star transits and plumb-line instruments, demonstrating an empirical understanding of celestial mechanics far beyond simple sun observations.",
     "Current re-evaluations are highlighting how Roman economic policies, particularly inflation and taxation, directly undermined military funding and logistical capabilities, accelerating the empire's decline.",
     "New archaeological evidence at Tell Abu Saifi strongly suggests the discovery of Mesen, a long-lost ancient Egyptian city known from historical records, potentially rewriting the understanding of a key military road and trade route.",
-    "How medieval siege warfare often devolved into a brutal subterranean 'mine and counter-mine' conflict, where engineers and soldiers fought in pitch-black tunnels, using acoustic detection and controlled collapses to undermine fortress foundations."
+    "How medieval siege warfare often devolved into a brutal subterranean 'mine and counter-mine' conflict, where engineers and soldiers fought in pitch-black tunnels, using acoustic detection and controlled collapses to undermine fortress foundations.",
+    "Renewed discussions around Richard the Lionheart's leadership at the Battle of Arsuf (1191) are re-examining how disciplined tactics and morale secured a crucial Crusader victory against Saladin's forces."
   ],
-  "subcluster_idx": 4,
-  "call_count": 144
+  "subcluster_idx": 5,
+  "call_count": 145
 }

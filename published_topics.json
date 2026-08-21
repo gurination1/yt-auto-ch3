@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Adaptive Genius of Early Modern Portuguese Colonial Administration: A Model for Small Nations' Global Reach",
     "Correcting the myth that Cold War espionage was solely high-tech, by revealing the documented prevalence of low-tech methods like dead drops and microdots, based on declassified FBI and CIA files.",
     "Homer's Iliad Papyrus Discovered Inside 1,600-Year-Old Egyptian Mummy",
     "The ongoing archaeological debate over India's 9,500-year-old underwater city in the Gulf of Khambhat, potentially rewriting civilization's origins.",
@@ -89,8 +88,9 @@
     "AI Deciphers Herculaneum Papyri, Revealing Plato's Burial Site and Lost Philosophy",
     "The emergence of bioengineered textiles, using engineered microorganisms and mycelium-based materials, is sparking a new \"textile revolution\" that draws direct parallels to the foundational innovations of the First Industrial Revolution.",
     "How ancient Egyptian temple alignments with celestial events were achieved through precise astronomical surveying using star transits and plumb-line instruments, demonstrating an empirical understanding of celestial mechanics far beyond simple sun observations.",
-    "Current re-evaluations are highlighting how Roman economic policies, particularly inflation and taxation, directly undermined military funding and logistical capabilities, accelerating the empire's decline."
+    "Current re-evaluations are highlighting how Roman economic policies, particularly inflation and taxation, directly undermined military funding and logistical capabilities, accelerating the empire's decline.",
+    "New archaeological evidence at Tell Abu Saifi strongly suggests the discovery of Mesen, a long-lost ancient Egyptian city known from historical records, potentially rewriting the understanding of a key military road and trade route."
   ],
-  "subcluster_idx": 2,
-  "call_count": 142
+  "subcluster_idx": 3,
+  "call_count": 143
 }

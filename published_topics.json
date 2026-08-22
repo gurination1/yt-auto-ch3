@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Correcting the myth of universally abysmal medieval urban sanitation, by detailing documented advanced water management and waste disposal systems in cities like Siena (14th century) and Fes (13th century).",
     "New research redefines early modern global trade by demonstrating the active role of Indigenous Khoe and Cree nations in shaping economic systems with European companies like the Dutch East India Company and Hudson's Bay Company.",
     "The resurfacing dangers of abandoned Cold War nuclear and biological sites like Camp Century and Runit Dome, due to climate change.",
     "The decipherment of the Rosetta Stone by Jean-Fran\u00e7ois Champollion in 1822, unlocking the understanding of ancient Egyptian hieroglyphs.",
@@ -89,8 +88,9 @@
     "New archaeological evidence at Tell Abu Saifi strongly suggests the discovery of Mesen, a long-lost ancient Egyptian city known from historical records, potentially rewriting the understanding of a key military road and trade route.",
     "How medieval siege warfare often devolved into a brutal subterranean 'mine and counter-mine' conflict, where engineers and soldiers fought in pitch-black tunnels, using acoustic detection and controlled collapses to undermine fortress foundations.",
     "Renewed discussions around Richard the Lionheart's leadership at the Battle of Arsuf (1191) are re-examining how disciplined tactics and morale secured a crucial Crusader victory against Saladin's forces.",
-    "The discovery of 30 previously unknown verses by Empedocles, revealing original insights into his pre-Socratic philosophy of the natural world and challenging long-held interpretations of his influence."
+    "The discovery of 30 previously unknown verses by Empedocles, revealing original insights into his pre-Socratic philosophy of the natural world and challenging long-held interpretations of his influence.",
+    "How the **Jacquard loom's punch cards**, designed for intricate textile patterns, inadvertently laid the foundational logic for Charles Babbage's Analytical Engine and modern computing, long before electricity."
   ],
-  "subcluster_idx": 6,
-  "call_count": 146
+  "subcluster_idx": 0,
+  "call_count": 147
 }

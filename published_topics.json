@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The resurfacing dangers of abandoned Cold War nuclear and biological sites like Camp Century and Runit Dome, due to climate change.",
     "The decipherment of the Rosetta Stone by Jean-Fran\u00e7ois Champollion in 1822, unlocking the understanding of ancient Egyptian hieroglyphs.",
     "Archaeologists in Luxor uncover 10 painted coffins, over 30 mummified cats, and the tomb of an unknown priest, revealing new insights into ancient Egyptian burial practices.",
     "How the Rosetta Stone was actually deciphered in 1822",
@@ -89,8 +88,9 @@
     "Renewed discussions around Richard the Lionheart's leadership at the Battle of Arsuf (1191) are re-examining how disciplined tactics and morale secured a crucial Crusader victory against Saladin's forces.",
     "The discovery of 30 previously unknown verses by Empedocles, revealing original insights into his pre-Socratic philosophy of the natural world and challenging long-held interpretations of his influence.",
     "How the **Jacquard loom's punch cards**, designed for intricate textile patterns, inadvertently laid the foundational logic for Charles Babbage's Analytical Engine and modern computing, long before electricity.",
-    "Urgent Conservation Engineering: Protecting a Newly Discovered 3,000-Year-Old Ramesside Tomb from Flash Flood Destruction."
+    "Urgent Conservation Engineering: Protecting a Newly Discovered 3,000-Year-Old Ramesside Tomb from Flash Flood Destruction.",
+    "Ongoing archaeological revelations of early Roman marching camps in Germania continue to rewrite the narrative of Rome's deepest military advances into unconquered territories."
   ],
-  "subcluster_idx": 1,
-  "call_count": 148
+  "subcluster_idx": 2,
+  "call_count": 149
 }

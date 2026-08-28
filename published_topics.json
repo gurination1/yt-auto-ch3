@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The dramatic discovery of the Uluburun shipwreck off Turkey in 1982, a Late Bronze Age vessel (c. 1300 BCE) that became a time capsule revealing the extensive and diverse trade networks of the ancient Mediterranean.",
     "Hidden for centuries, 13th and 14th-century polychrome wooden panels discovered beneath a private home in Toledo, Spain, are transforming our understanding of medieval domestic art and craftsmanship.",
     "New Delhi Dialogue Calls for National Commemoration Day for Victims of Colonialism, Reassessing British Rule's Lasting Impact on India's Economy and Institutions",
     "Three key intelligence insights gained by the US and UK through Operation Gold, the Berlin Tunnel espionage project, active from 1955 to 1956.",
@@ -89,8 +88,9 @@
     "Newly translated 15th-century maritime logs and recovered artifacts from coastal East Africa are igniting a viral debate: Did a 'Forgotten Fleet' of Chinese treasure ships, predating Zheng He's known voyages, establish short-lived outposts, hinting at an earlier, unrecorded chapter of global exploration?",
     "How the Stoic practice of *prohairesis* \u2013 choosing one's attitude regardless of external events \u2013 unexpectedly functions as an ancient **cognitive reframing mechanism**, allowing individuals to consciously detach from involuntary emotional responses.",
     "The unfolding 'Fifth Industrial Revolution' driven by the convergence of artificial intelligence, advanced manufacturing, and semiconductor investment, signaling a historic expansion of productive capacity in nations like America.",
-    "Roman Legionary Siege Engineering Architecture #317"
+    "Roman Legionary Siege Engineering Architecture #317",
+    "How the Roman **impedimenta** system, requiring legionaries to carry an extraordinary 60-80 lbs of personal equipment, tools, and rations, enabled unprecedented strategic mobility and deep penetration into enemy territory by minimizing reliance on vulnerable, extended supply lines."
   ],
-  "subcluster_idx": 1,
-  "call_count": 155
+  "subcluster_idx": 2,
+  "call_count": 156
 }

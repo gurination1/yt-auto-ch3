@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Atlantic's Rumor Mill: How Unverified News Drove 17th-Century European Expansion",
     "Fresh perspectives from recently highlighted declassified CIA histories are re-evaluating the agency's previously underestimated covert role and intelligence gathering challenges during the 1956 Hungarian Revolution.",
     "Three crucial cartographic and navigational document discoveries that significantly altered the understanding of 15th-century Portuguese exploration, including the Cantino Planisphere (1502) and its depiction of the Americas.",
     "Excavation of a Roman military camp in Slovakia uncovers hastily buried soldiers, providing a stark new look at Roman frontier life under Marcus Aurelius.",
@@ -89,8 +88,9 @@
     "How the accidental discovery and exploitation of the **'anvil effect'** \u2013 the localized work hardening of metal through repeated hammer blows \u2013 was more critical to early iron tool and weapon superiority than the initial smelting process itself.",
     "Peloponnesian War's Echoes: Re-examining Thucydides for US-China Strategic Competition Insights",
     "AI's Unseen Hand: How New Algorithms are Revolutionizing the Declassification and Analysis of Cold War Espionage Archives.",
-    "How the precise placement of massive pyramid capstones might have relied on a **differential sand-release mechanism** within a lever-and-fulcrum system, allowing micro-adjustments by controlling sand flow."
+    "How the precise placement of massive pyramid capstones might have relied on a **differential sand-release mechanism** within a lever-and-fulcrum system, allowing micro-adjustments by controlling sand flow.",
+    "Bronze Age Collapse Mediterranean Civilizations #461"
   ],
-  "subcluster_idx": 1,
-  "call_count": 162
+  "subcluster_idx": 2,
+  "call_count": 163
 }

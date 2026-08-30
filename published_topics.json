@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Three crucial cartographic and navigational document discoveries that significantly altered the understanding of 15th-century Portuguese exploration, including the Cantino Planisphere (1502) and its depiction of the Americas.",
     "Excavation of a Roman military camp in Slovakia uncovers hastily buried soldiers, providing a stark new look at Roman frontier life under Marcus Aurelius.",
     "The discovery of 11th-12th-century mud-brick structures and artifacts at the Akzhar settlement in Kazakhstan, providing new evidence for urban development and societal organization in medieval Central Asia.",
     "The Ottoman conquest of Constantinople (1453) and its immediate, documented impact on European overland trade routes, spurring maritime exploration efforts.",
@@ -89,8 +88,9 @@
     "AI's Unseen Hand: How New Algorithms are Revolutionizing the Declassification and Analysis of Cold War Espionage Archives.",
     "How the precise placement of massive pyramid capstones might have relied on a **differential sand-release mechanism** within a lever-and-fulcrum system, allowing micro-adjustments by controlling sand flow.",
     "Bronze Age Collapse Mediterranean Civilizations #461",
-    "Library of Alexandria Lost Classical Knowledge #130"
+    "Library of Alexandria Lost Classical Knowledge #130",
+    "How the Knights Templar's **secret cipher system** functioned as an early form of secure banking, allowing crusaders to transfer vast wealth across continents safely, centuries before modern encryption."
   ],
-  "subcluster_idx": 3,
-  "call_count": 164
+  "subcluster_idx": 4,
+  "call_count": 165
 }

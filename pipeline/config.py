@@ -99,15 +99,13 @@ THUMBNAIL_LAYOUTS = [
     "split_left",         # dark left panel with text, right panel shows frame
 ]
 
-# topic sub-cluster rotation for History and Ancient Civilizations channel
+# topic sub-cluster rotation for Science and Technology channel
 SCIENCE_SUBCLUSTERS = [
-    "ancient Egyptian engineering and pharaonic mysteries",
-    "Roman military strategies, expansion and downfall",
-    "lost civilizations and underwater archaeological discoveries",
-    "medieval warfare, siege tactics and secret order of knights",
-    "pivotal historical turning points and forgotten battles",
-    "ancient Greek philosophy, inventions and warfare",
-    "industrial revolution breakthroughs and historical espionage",
+    "space exploration and astrophysics",
+    "physics and quantum mechanics mysteries",
+    "advanced chemistry and materials science",
+    "biotechnology and genetic engineering",
+    "future technology and computing breakthroughs",
 ]
 
 YT_CATEGORY_EDUCATION = "27"
@@ -120,10 +118,17 @@ def validate_config():
     missing = []
     if not GEMINI_API_KEYS:
         missing.append("GEMINI_API_KEY or GEMINI_API_KEYS")
-    for var, val in [("PEXELS_API_KEY", PEXELS_API_KEY),
-                     ("YT_CLIENT_ID", YT_CLIENT_ID),
-                     ("YT_CLIENT_SECRET", YT_CLIENT_SECRET),
-                     ("YT_REFRESH_TOKEN", YT_REFRESH_TOKEN)]:
+    
+    check_vars = []
+    if PEXELS_API_KEY:
+        check_vars.append(("PEXELS_API_KEY", PEXELS_API_KEY))
+    if os.environ.get("DISABLE_YT_UPLOAD") != "1":
+        check_vars.extend([
+            ("YT_CLIENT_ID", YT_CLIENT_ID),
+            ("YT_CLIENT_SECRET", YT_CLIENT_SECRET),
+            ("YT_REFRESH_TOKEN", YT_REFRESH_TOKEN)
+        ])
+    for var, val in check_vars:
         if not val:
             missing.append(var)
     if missing:

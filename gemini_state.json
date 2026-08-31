@@ -1,13 +1,13 @@
 {
   "0": {
-    "cooldown_until": 1788163200.0,
+    "cooldown_until": 1788249600.0,
     "failures": 4,
     "status": "daily_exhausted"
   },
   "1": {
-    "cooldown_until": 1788163200.0,
-    "failures": 4,
-    "status": "daily_exhausted"
+    "cooldown_until": 1788162717.236574,
+    "failures": 0,
+    "status": "active"
   },
   "2": {
     "cooldown_until": 1788163200.0,
@@ -15,24 +15,24 @@
     "status": "daily_exhausted"
   },
   "3": {
-    "cooldown_until": 1788163200.0,
-    "failures": 4,
-    "status": "daily_exhausted"
+    "cooldown_until": 1788163311.0408418,
+    "failures": 1,
+    "status": "active"
   },
   "4": {
-    "cooldown_until": 1788163200.0,
-    "failures": 4,
-    "status": "daily_exhausted"
+    "cooldown_until": 1788163325.1884782,
+    "failures": 1,
+    "status": "active"
   },
   "5": {
-    "cooldown_until": 1788163200.0,
-    "failures": 4,
-    "status": "daily_exhausted"
+    "cooldown_until": 1788163579.911654,
+    "failures": 6,
+    "status": "active"
   },
   "6": {
-    "cooldown_until": 1788163200.0,
-    "failures": 4,
-    "status": "daily_exhausted"
+    "cooldown_until": 1788163591.9230514,
+    "failures": 0,
+    "status": "active"
   },
   "7": {
     "cooldown_until": 2102788130.751467,
@@ -40,28 +40,28 @@
     "status": "disabled"
   },
   "8": {
-    "cooldown_until": 1788163200.0,
+    "cooldown_until": 1788163699.7328334,
+    "failures": 0,
+    "status": "active"
+  },
+  "9": {
+    "cooldown_until": 1788249600.0,
     "failures": 4,
     "status": "daily_exhausted"
   },
-  "9": {
-    "cooldown_until": 0.0,
-    "failures": 0,
-    "status": "active"
-  },
   "10": {
-    "cooldown_until": 0.0,
-    "failures": 0,
-    "status": "active"
+    "cooldown_until": 1788249600.0,
+    "failures": 4,
+    "status": "daily_exhausted"
   },
   "11": {
-    "cooldown_until": 0.0,
-    "failures": 0,
-    "status": "active"
+    "cooldown_until": 1788249600.0,
+    "failures": 4,
+    "status": "daily_exhausted"
   },
   "12": {
-    "cooldown_until": 0.0,
-    "failures": 0,
-    "status": "active"
+    "cooldown_until": 1788249600.0,
+    "failures": 4,
+    "status": "daily_exhausted"
   }
 }

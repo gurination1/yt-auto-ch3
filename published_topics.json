@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Newly Recovered Byzantine Imperial Regalia from Recent Shipwreck Discovery",
     "New 16th-Century Portuguese Shipwreck Discovery Rewrites Global Trade Routes",
     "The accidental public revelation of the Glomar Explorer's mission to recover a sunken Soviet submarine (K-129) in 1974, sparked by journalist Jack Anderson's FOIA request and subsequent declassified CIA documents.",
     "The viral recognition of Iranian archaeologist Hamideh Choubak, whose 25 years of meticulous documentation and excavation were pivotal in securing UNESCO World Heritage status for Alamut Castle, challenging traditional narratives of archaeological credit.",
@@ -89,8 +88,9 @@
     "Bronze Age Collapse Mediterranean Civilizations #157",
     "Bronze Age Collapse Mediterranean Civilizations #497",
     "Bronze Age Collapse Mediterranean Civilizations #517",
-    "Bronze Age Collapse Mediterranean Civilizations #602"
+    "Bronze Age Collapse Mediterranean Civilizations #602",
+    "Recently digitized 14th-century monastic chronicles hint at a previously undocumented 'inner circle' within a lesser-known crusader order, suggesting esoteric rituals and political machinations beyond their public activities."
   ],
-  "subcluster_idx": 3,
-  "call_count": 171
+  "subcluster_idx": 4,
+  "call_count": 172
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Ranking the three most significant breakthroughs in deciphering ancient cuneiform scripts since the 19th century, starting with Henry Rawlinson's work on the Behistun Inscription (1835-1847).",
     "Newly Recovered Byzantine Imperial Regalia from Recent Shipwreck Discovery",
     "New 16th-Century Portuguese Shipwreck Discovery Rewrites Global Trade Routes",
     "The accidental public revelation of the Glomar Explorer's mission to recover a sunken Soviet submarine (K-129) in 1974, sparked by journalist Jack Anderson's FOIA request and subsequent declassified CIA documents.",
@@ -89,8 +88,9 @@
     "Bronze Age Collapse Mediterranean Civilizations #652",
     "Bronze Age Collapse Mediterranean Civilizations #157",
     "Bronze Age Collapse Mediterranean Civilizations #497",
-    "Bronze Age Collapse Mediterranean Civilizations #517"
+    "Bronze Age Collapse Mediterranean Civilizations #517",
+    "Bronze Age Collapse Mediterranean Civilizations #602"
   ],
-  "subcluster_idx": 2,
-  "call_count": 170
+  "subcluster_idx": 3,
+  "call_count": 171
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "New 16th-Century Portuguese Shipwreck Discovery Rewrites Global Trade Routes",
     "The accidental public revelation of the Glomar Explorer's mission to recover a sunken Soviet submarine (K-129) in 1974, sparked by journalist Jack Anderson's FOIA request and subsequent declassified CIA documents.",
     "The viral recognition of Iranian archaeologist Hamideh Choubak, whose 25 years of meticulous documentation and excavation were pivotal in securing UNESCO World Heritage status for Alamut Castle, challenging traditional narratives of archaeological credit.",
     "Unearthing a 2,800-Year-Old Mesoamerican Burial with an Unusual Sea Turtle Vessel in El Salvador",
@@ -89,8 +88,9 @@
     "Bronze Age Collapse Mediterranean Civilizations #497",
     "Bronze Age Collapse Mediterranean Civilizations #517",
     "Bronze Age Collapse Mediterranean Civilizations #602",
-    "Recently digitized 14th-century monastic chronicles hint at a previously undocumented 'inner circle' within a lesser-known crusader order, suggesting esoteric rituals and political machinations beyond their public activities."
+    "Recently digitized 14th-century monastic chronicles hint at a previously undocumented 'inner circle' within a lesser-known crusader order, suggesting esoteric rituals and political machinations beyond their public activities.",
+    "Fresh historical analysis is spotlighting the 1456 Siege of Belgrade as an underappreciated, pivotal turning point, where a diverse, 'ragtag' defense halted the seemingly unstoppable Ottoman expansion into Europe, dramatically altering the continent's geopolitical future."
   ],
-  "subcluster_idx": 4,
-  "call_count": 172
+  "subcluster_idx": 5,
+  "call_count": 173
 }

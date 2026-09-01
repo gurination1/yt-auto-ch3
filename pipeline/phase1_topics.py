@@ -1,6 +1,6 @@
 import os
 import json
-from pipeline.config import TOPIC_LOG_SIZE, SCIENCE_SUBCLUSTERS
+from pipeline.config import TOPIC_LOG_SIZE, HISTORY_SUBCLUSTERS
 from pipeline.gemini import GeminiClient, _robust_json_loads
 
 def select_topic(format_type: str) -> dict:
@@ -23,7 +23,7 @@ def select_topic(format_type: str) -> dict:
     call_count += 1
 
     # ── 2. Determine subcluster + evergreen vs trending ──────────────────────
-    current_subcluster = SCIENCE_SUBCLUSTERS[subcluster_idx % len(SCIENCE_SUBCLUSTERS)]
+    current_subcluster = HISTORY_SUBCLUSTERS[subcluster_idx % len(HISTORY_SUBCLUSTERS)]
     is_trending = (call_count % 3 != 0)   # 2 out of 3 calls = trending topic
 
     if is_trending:
@@ -157,7 +157,7 @@ Each object must have exactly these fields:
     # ── 5. Persist state ──────────────────────────────────────────────────────
     published.append(selected_topic["topic"])
     published = published[-TOPIC_LOG_SIZE:]
-    next_subcluster_idx = (subcluster_idx + 1) % len(SCIENCE_SUBCLUSTERS)
+    next_subcluster_idx = (subcluster_idx + 1) % len(HISTORY_SUBCLUSTERS)
 
     with open(topic_log_path, "w") as f:
         json.dump({

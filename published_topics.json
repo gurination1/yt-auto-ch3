@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Unearthing a 2,800-Year-Old Mesoamerican Burial with an Unusual Sea Turtle Vessel in El Salvador",
     "The early 20th-century discovery and subsequent decipherment of the Khitan Large Script, unlocking documented administrative decrees and imperial records of the Liao Dynasty (907-1125 CE).",
     "Unlocking 200-year-old Red Sea navigational charts: Indigenous seafaring secrets revealed.",
     "Newly revealed details about a World War II U-boat attack on Christmas Eve 1944, which the U.S. Army kept secret for 50 years, causing 763 American casualties.",
@@ -89,8 +88,9 @@
     "Recently digitized 14th-century monastic chronicles hint at a previously undocumented 'inner circle' within a lesser-known crusader order, suggesting esoteric rituals and political machinations beyond their public activities.",
     "Fresh historical analysis is spotlighting the 1456 Siege of Belgrade as an underappreciated, pivotal turning point, where a diverse, 'ragtag' defense halted the seemingly unstoppable Ottoman expansion into Europe, dramatically altering the continent's geopolitical future.",
     "How **Hawking Radiation** means black holes aren't eternal cosmic traps, but slowly evaporate over quadrillions of years, turning their immense gravity into a trickle of emitted particles.",
-    "Spartan Battle of Leuctra Oblique Line Tactic #399"
+    "Spartan Battle of Leuctra Oblique Line Tactic #399",
+    "Ancient Trebuchet Counterweight Siege Machine"
   ],
-  "subcluster_idx": 2,
-  "call_count": 175
+  "subcluster_idx": 3,
+  "call_count": 176
 }

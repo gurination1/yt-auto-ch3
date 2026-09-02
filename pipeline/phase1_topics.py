@@ -55,12 +55,13 @@ SAFETY & COMPLIANCE CONSTRAINTS (MANDATORY):
 - Avoid political controversies, conspiracy theories, or tragic/graphic events.
 - Focus on educational, curious, and inspiring scientific information.
 
-AVOID: Modern space science, deep ocean creatures, financial stocks, futuristic tech.
+AVOID: Astrophysics, black holes, quantum mechanics, deep ocean creatures, futuristic tech, AI, modern space exploration.
+FOCUS: Ancient civilizations, Bronze Age Collapse, Roman military tactics, Mongol cavalry warfare, medieval siege weapons, lost archaeological cities, pivotal historic battles.
 FOCUS: History, ancient civilizations, warfare tactics, empire rise and fall, historical turning points, lost archaeological treasures.
 
 Return ONLY a raw JSON array of objects. No markdown, no preamble.
 Each object must have exactly these fields:
-- "topic": specific subject with a named fact, theory, or mechanism (e.g. "Quantum entanglement enables faster than light simulation without moving particles")
+- "topic": specific subject with a named fact, theory, or mechanism (e.g. "Byzantine Greek Fire siphon nozzles shot pressurized self-igniting petroleum at enemy ships")
 - "short_hook": opening question or statement, 8 words or less, creates a strong information gap
 - "hook_type": one of "curiosity_gap", "contrarian", "time_pressure", "self_identification", "narrative_pull"
 - "for_format": "short", "long", or "both"
@@ -80,12 +81,18 @@ Each object must have exactly these fields:
         print(f"[Phase1] Error fetching or parsing topics from Gemini: {e}")
         import random, time
         rand_id = int(time.time()) % 1000
-        topics_list = [
-            {"topic": f"Bronze Age Collapse Mediterranean Civilizations #{rand_id}", "short_hook": "Entire empires collapsed in single century.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster},
-            {"topic": f"Roman Legionary Siege Engineering Architecture #{rand_id+1}", "short_hook": "Roman armies conquered using rapid architecture.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster},
-            {"topic": f"Library of Alexandria Lost Classical Knowledge #{rand_id+2}", "short_hook": "Ancient humanity lost thousands of years of science.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster},
-            {"topic": f"Spartan Phalanx Warfare Military Discipline #{rand_id+3}", "short_hook": "Spartan shields created unbreakable battle walls.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster}
+                import random, time
+        rand_id = int(time.time()) % 1000
+        diverse_history_topics = [
+            {"topic": f"Byzantine Greek Fire Naval Flame Siphon #{rand_id}", "short_hook": "Ancient empire destroyed fleets with water-burning napalm.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
+            {"topic": f"Roman Legion Testudo Shield Wall Phalanx #{rand_id+1}", "short_hook": "Roman tortoise formation deflected thousands of arrows.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
+            {"topic": f"Bronze Age Collapse Sea Peoples Invasions #{rand_id+2}", "short_hook": "Mysterious invasion wiped out 5 empires simultaneously.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "rise and fall of obscure world empires"},
+            {"topic": f"Mongol Feigned Retreat Subutai War Tactic #{rand_id+3}", "short_hook": "Mongols faked retreat to destroy European knights.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
+            {"topic": f"Ancient Trebuchet Counterweight Siege Machine #{rand_id+4}", "short_hook": "Medieval superweapon launched 300-pound boulders over castle walls.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
+            {"topic": f"Spartan Battle of Leuctra Oblique Line Tactic #{rand_id+5}", "short_hook": "Theban general defeated invincible Spartan army in minutes.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "turning point historical battles and decisive tactical gambits"}
         ]
+        random.shuffle(diverse_history_topics)
+        topics_list = diverse_history_topics
 
     # ── 4. Pick first topic matching format_type and not a duplicate ─────────
     import re

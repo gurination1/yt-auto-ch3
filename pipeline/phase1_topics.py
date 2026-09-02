@@ -24,7 +24,7 @@ def select_topic(format_type: str) -> dict:
 
     # ── 2. Determine subcluster + evergreen vs trending ──────────────────────
     current_subcluster = HISTORY_SUBCLUSTERS[subcluster_idx % len(HISTORY_SUBCLUSTERS)]
-    is_trending = (call_count % 3 != 0)   # 2 out of 3 calls = trending topic
+    is_trending = (call_count % 3 != 0)
 
     if is_trending:
         topic_instruction = (
@@ -37,7 +37,7 @@ def select_topic(format_type: str) -> dict:
             f"Generate 5 EVERGREEN topics about {current_subcluster}. "
             f"Each must reveal a bizarre, counterintuitive, or little-known fact "
             f"that educated adults don't know. Frame as 'What if X happened' or 'How Y actually works'. "
-            f"Every topic MUST name a specific mechanism, theory, machine, structure, or phenomenon — "
+            f"Every topic MUST name a specific mechanism, animal power, hunting behavior, or biological adaptation — "
             f"NOT a vague 'scientists are surprised' hook."
         )
 
@@ -53,11 +53,10 @@ SAFETY & COMPLIANCE CONSTRAINTS (MANDATORY):
 - The topics MUST be 100% advertiser-friendly, family-friendly, and compliant with YouTube/Meta community guidelines.
 - Strictly AVOID: medical advice, health/cure claims, Covid-19/vaccine/epidemic speculation, dangerous stunts/activities, illegal substances, or weapons.
 - Avoid political controversies, conspiracy theories, or tragic/graphic events.
-- Focus on educational, curious, and inspiring scientific information.
+- Focus on educational, curious, and inspiring wildlife and natural science information.
 
 AVOID: Astrophysics, black holes, quantum mechanics, deep ocean creatures, futuristic tech, AI, modern space exploration.
 FOCUS: Ancient civilizations, Bronze Age Collapse, Roman military tactics, Mongol cavalry warfare, medieval siege weapons, lost archaeological cities, pivotal historic battles.
-FOCUS: History, ancient civilizations, warfare tactics, empire rise and fall, historical turning points, lost archaeological treasures.
 
 Return ONLY a raw JSON array of objects. No markdown, no preamble.
 Each object must have exactly these fields:
@@ -73,15 +72,11 @@ Each object must have exactly these fields:
     try:
         response_text = client.generate_text(prompt, use_grounding=is_trending, temperature=0.75)
         topics_list = _robust_json_loads(response_text)
-        if not isinstance(topics_list, list):
-            raise ValueError("Response is not a JSON list")
-        if not topics_list:
-            raise ValueError("Response is an empty list")
+        if not isinstance(topics_list, list) or not topics_list:
+            raise ValueError("Response is not a valid non-empty JSON list")
     except Exception as e:
         print(f"[Phase1] Error fetching or parsing topics from Gemini: {e}")
         import random, time
-        rand_id = int(time.time()) % 1000
-                import random, time
         rand_id = int(time.time()) % 1000
         diverse_history_topics = [
             {"topic": f"Byzantine Greek Fire Naval Flame Siphon #{rand_id}", "short_hook": "Ancient empire destroyed fleets with water-burning napalm.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
@@ -147,9 +142,7 @@ Each object must have exactly these fields:
         except Exception as e:
             print(f"Error parsing retried topics: {e}")
 
-    # Fallback to first generated if no non-duplicate found
     if not selected_topic:
-        print("[Phase1] Warning: Could not generate a completely non-duplicate topic. Using first available as fallback.")
         for item in topics_list:
             if item.get("for_format", "both") in (format_type, "both"):
                 selected_topic = item
@@ -157,7 +150,6 @@ Each object must have exactly these fields:
         if not selected_topic:
             selected_topic = topics_list[0]
             selected_topic["for_format"] = format_type
-
 
     print(f"[Phase1] Selected: {selected_topic['topic']}")
 

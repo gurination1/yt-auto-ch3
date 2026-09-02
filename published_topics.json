@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The viral recognition of Iranian archaeologist Hamideh Choubak, whose 25 years of meticulous documentation and excavation were pivotal in securing UNESCO World Heritage status for Alamut Castle, challenging traditional narratives of archaeological credit.",
     "Unearthing a 2,800-Year-Old Mesoamerican Burial with an Unusual Sea Turtle Vessel in El Salvador",
     "The early 20th-century discovery and subsequent decipherment of the Khitan Large Script, unlocking documented administrative decrees and imperial records of the Liao Dynasty (907-1125 CE).",
     "Unlocking 200-year-old Red Sea navigational charts: Indigenous seafaring secrets revealed.",
@@ -89,8 +88,9 @@
     "Bronze Age Collapse Mediterranean Civilizations #602",
     "Recently digitized 14th-century monastic chronicles hint at a previously undocumented 'inner circle' within a lesser-known crusader order, suggesting esoteric rituals and political machinations beyond their public activities.",
     "Fresh historical analysis is spotlighting the 1456 Siege of Belgrade as an underappreciated, pivotal turning point, where a diverse, 'ragtag' defense halted the seemingly unstoppable Ottoman expansion into Europe, dramatically altering the continent's geopolitical future.",
-    "How **Hawking Radiation** means black holes aren't eternal cosmic traps, but slowly evaporate over quadrillions of years, turning their immense gravity into a trickle of emitted particles."
+    "How **Hawking Radiation** means black holes aren't eternal cosmic traps, but slowly evaporate over quadrillions of years, turning their immense gravity into a trickle of emitted particles.",
+    "Spartan Battle of Leuctra Oblique Line Tactic #399"
   ],
-  "subcluster_idx": 1,
-  "call_count": 174
+  "subcluster_idx": 2,
+  "call_count": 175
 }

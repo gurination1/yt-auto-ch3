@@ -79,12 +79,12 @@ Each object must have exactly these fields:
         import random, time
         rand_id = int(time.time()) % 1000
         diverse_history_topics = [
-            {"topic": f"Byzantine Greek Fire Naval Flame Siphon #{rand_id}", "short_hook": "Ancient empire destroyed fleets with water-burning napalm.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
-            {"topic": f"Roman Legion Testudo Shield Wall Phalanx #{rand_id+1}", "short_hook": "Roman tortoise formation deflected thousands of arrows.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
-            {"topic": f"Bronze Age Collapse Sea Peoples Invasions #{rand_id+2}", "short_hook": "Mysterious invasion wiped out 5 empires simultaneously.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "rise and fall of obscure world empires"},
-            {"topic": f"Mongol Feigned Retreat Subutai War Tactic #{rand_id+3}", "short_hook": "Mongols faked retreat to destroy European knights.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
-            {"topic": f"Ancient Trebuchet Counterweight Siege Machine #{rand_id+4}", "short_hook": "Medieval superweapon launched 300-pound boulders over castle walls.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
-            {"topic": f"Spartan Battle of Leuctra Oblique Line Tactic #{rand_id+5}", "short_hook": "Theban general defeated invincible Spartan army in minutes.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "turning point historical battles and decisive tactical gambits"}
+            {"topic": f"Byzantine Greek Fire Naval Flame Siphon", "short_hook": "Ancient empire destroyed fleets with water-burning napalm.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
+            {"topic": f"Roman Legion Testudo Shield Wall Phalanx", "short_hook": "Roman tortoise formation deflected thousands of arrows.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
+            {"topic": f"Bronze Age Collapse Sea Peoples Invasions", "short_hook": "Mysterious invasion wiped out 5 empires simultaneously.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "rise and fall of obscure world empires"},
+            {"topic": f"Mongol Feigned Retreat Subutai War Tactic", "short_hook": "Mongols faked retreat to destroy European knights.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
+            {"topic": f"Ancient Trebuchet Counterweight Siege Machine", "short_hook": "Medieval superweapon launched 300-pound boulders over castle walls.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
+            {"topic": f"Spartan Battle of Leuctra Oblique Line Tactic", "short_hook": "Theban general defeated invincible Spartan army in minutes.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "turning point historical battles and decisive tactical gambits"}
         ]
         random.shuffle(diverse_history_topics)
         topics_list = diverse_history_topics

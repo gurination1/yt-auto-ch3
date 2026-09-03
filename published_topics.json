@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Three documented innovations of the ancient Roman Cursus Publicus, the imperial postal and transport system, including its network of relay stations, official vehicles, and express couriers (1st century CE onwards).",
     "Hundreds of monumental geoglyphs discovered in the Amazon rainforest reveal an ancient civilization far larger than previously imagined, challenging long-held assumptions about its population density and societal structure.",
     "The unprecedented survival and successful payload deployment of a Chinese Long March 3B rocket after being directly struck by a massive lightning bolt moments after launch, showcasing extreme engineering resilience.",
     "How magnetorheological fluids could give excavators 'smart blood' for unprecedented control.",
@@ -89,8 +88,9 @@
     "Ancient Trebuchet Counterweight Siege Machine",
     "How **protein coagulation** in goat's milk allowed Roman agents to use invisible ink, revealing secret messages only when heated, a technique described by Ovid.",
     "A lost Maya city, Valeriana, complete with pyramids and plazas, has been rediscovered in the Mexican jungle through a groundbreaking combination of online environmental data and LiDAR technology.",
-    "Archaeologists are re-evaluating the 'dolphin' weapon, a unique ancient naval device recovered from the Antikythera shipwreck, designed to inflict critical damage on enemy vessels."
+    "Archaeologists are re-evaluating the 'dolphin' weapon, a unique ancient naval device recovered from the Antikythera shipwreck, designed to inflict critical damage on enemy vessels.",
+    "How the Mongol cavalry weaponized the specialized hunting behavior of golden eagles to instill panic in European infantry lines, leveraging a biological fear response hardwired in mammalian prey."
   ],
-  "subcluster_idx": 1,
-  "call_count": 179
+  "subcluster_idx": 2,
+  "call_count": 180
 }

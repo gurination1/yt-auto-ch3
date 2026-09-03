@@ -71,7 +71,7 @@ GEMINI_PRO       = "gemini-2.5-pro"
 GEMINI_TTS_MODEL = "gemini-2.5-flash-preview-tts"
 GEMINI_API_BASE  = "https://generativelanguage.googleapis.com/v1beta"
 
-GEMINI_VOICES    = ["Aoede","Charon","Fenrir","Kore","Puck","Leda","Orus","Callirrhoe","Achird","Iapetus"]
+GEMINI_VOICES    = ["Fenrir", "Puck", "Charon", "Orus", "Kore"]
 KOKORO_VOICES    = ["af_heart","af_bella","af_nicole","af_sarah","af_sky","af_aoede","am_adam","am_michael","am_fenrir","am_puck"]
 
 # ── Video Specs ──────────────────────────────────────────────────────────────
@@ -152,12 +152,6 @@ BEACONS_LINK = os.environ.get("BEACONS_LINK", "https://beacons.ai/edu_fun")
 
 # Channel subcluster aliases for phase6_music compatibility
 NATURAL_WORLD_SUBCLUSTERS = SCIENCE_SUBCLUSTERS
-HISTORY_SUBCLUSTERS = [
-    "ancient siege warfare and tactical battlefield maneuvers",
-    "rise and catastrophic fall of ancient empires",
-    "lost ancient engineering and architectural marvels",
-    "secret military units and historical espionage",
-    "pivotal turning points that changed world history"
-]
+HISTORY_SUBCLUSTERS = SCIENCE_SUBCLUSTERS
 MYSTERY_SUBCLUSTERS = SCIENCE_SUBCLUSTERS
 ENGINEERING_SUBCLUSTERS = SCIENCE_SUBCLUSTERS

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Unlocking 200-year-old Red Sea navigational charts: Indigenous seafaring secrets revealed.",
     "Newly revealed details about a World War II U-boat attack on Christmas Eve 1944, which the U.S. Army kept secret for 50 years, causing 763 American casualties.",
     "Three documented innovations of the ancient Roman Cursus Publicus, the imperial postal and transport system, including its network of relay stations, official vehicles, and express couriers (1st century CE onwards).",
     "Hundreds of monumental geoglyphs discovered in the Amazon rainforest reveal an ancient civilization far larger than previously imagined, challenging long-held assumptions about its population density and societal structure.",
@@ -89,8 +88,9 @@
     "How **Hawking Radiation** means black holes aren't eternal cosmic traps, but slowly evaporate over quadrillions of years, turning their immense gravity into a trickle of emitted particles.",
     "Spartan Battle of Leuctra Oblique Line Tactic #399",
     "Ancient Trebuchet Counterweight Siege Machine",
-    "How **protein coagulation** in goat's milk allowed Roman agents to use invisible ink, revealing secret messages only when heated, a technique described by Ovid."
+    "How **protein coagulation** in goat's milk allowed Roman agents to use invisible ink, revealing secret messages only when heated, a technique described by Ovid.",
+    "A lost Maya city, Valeriana, complete with pyramids and plazas, has been rediscovered in the Mexican jungle through a groundbreaking combination of online environmental data and LiDAR technology."
   ],
-  "subcluster_idx": 4,
-  "call_count": 177
+  "subcluster_idx": 0,
+  "call_count": 178
 }

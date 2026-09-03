@@ -99,18 +99,21 @@ THUMBNAIL_LAYOUTS = [
     "split_left",         # dark left panel with text, right panel shows frame
 ]
 
-# topic sub-cluster rotation for Science and Technology channel
+# topic sub-cluster rotation for History and Warfare Tactics channel
+CHANNEL_NICHE = os.environ.get("CHANNEL_NICHE", "history")
 SCIENCE_SUBCLUSTERS = [
-    "space exploration and astrophysics",
-    "physics and quantum mechanics mysteries",
-    "advanced chemistry and materials science",
-    "biotechnology and genetic engineering",
-    "future technology and computing breakthroughs",
+    "ancient siege engineering and forgotten weapons",
+    "legendary military commanders and battle tactics",
+    "rise and fall of ancient empires and conspiracies",
+    "declassified wartime espionage and covert operations",
+    "lost civilizations and ancient battlefield archaeology",
 ]
+HISTORY_SUBCLUSTERS = SCIENCE_SUBCLUSTERS
 
 YT_CATEGORY_EDUCATION = "27"
-YT_CATEGORY_SCIENCE   = "28"
-NASA_BROLL_ENABLED    = True
+YT_CATEGORY_SCIENCE   = "27"  # Education
+YT_CATEGORY_DEFAULT   = "27"
+NASA_BROLL_ENABLED    = False
 
 
 

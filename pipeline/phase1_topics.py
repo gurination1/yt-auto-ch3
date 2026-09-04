@@ -24,21 +24,23 @@ def select_topic(format_type: str) -> dict:
 
     # ── 2. Determine subcluster + evergreen vs trending ──────────────────────
     current_subcluster = HISTORY_SUBCLUSTERS[subcluster_idx % len(HISTORY_SUBCLUSTERS)]
-    is_trending = (call_count % 3 != 0)
+    is_trending = (call_count % 3 != 0)   # 2 out of 3 calls = trending topic
 
     if is_trending:
         topic_instruction = (
-            f"Use Google Search to find current HIGHLY VIRAL news from the last 24-48 hours SPECIFICALLY about {current_subcluster}. "
-            f"Generate 5 TRENDING topics strictly within {current_subcluster} that are currently exploding on social media or making massive news. "
-            f"Frame each as a timely, highly intriguing analysis. Strictly preserve this channel's dedicated niche and do NOT generate generic news."
+            f"Use Google Search to find mind-blowing, highly viral recent discoveries or breakthroughs from the last 24-48 hours specifically about {current_subcluster}. "
+            f"Generate 5 TRENDING topics that reveal a startling reality normal people did NOT know. "
+            f"STRICT RULES: Must be a concrete, verified true discovery with massive visual curiosity. NO dry academic papers. "
+            f"Every topic must make an average person say: 'Wait, is that actually real?!'"
         )
     else:
         topic_instruction = (
-            f"Generate 5 EVERGREEN topics about {current_subcluster}. "
-            f"Each must reveal a bizarre, counterintuitive, or little-known fact "
-            f"that educated adults don't know. Frame as 'What if X happened' or 'How Y actually works'. "
-            f"Every topic MUST name a specific mechanism, animal power, hunting behavior, or biological adaptation — "
-            f"NOT a vague 'scientists are surprised' hook."
+            f"Generate 5 insanely fascinating, real-world EVERGREEN topics about {current_subcluster}. "
+            f"CRITICAL REQUIREMENTS: "
+            f"1. Must reveal a bizarre, shocking, or counter-intuitive secret that 99% of people do NOT know. "
+            f"2. FORBIDDEN: Do NOT write generic textbook concepts (e.g. 'Quantum Computing Superposition Logic', 'How Photosynthesis Works', 'What if giant excavators dig canals'). "
+            f"3. REQUIRED: A specific real-world anomaly, unbelievable physical fact, or mind-bending paradox (e.g. 'The metal that melts in your hand but shatters glass', 'Why hot water freezes faster than cold water', 'The room that is so quiet you can hear your own blood pumping'). "
+            f"4. Easy to understand: An 8th grader must instantly grasp why it is insane. Zero PhD jargon."
         )
 
     # ── 3. Build Gemini prompt ───────────────────────────────────────────────
@@ -53,15 +55,17 @@ SAFETY & COMPLIANCE CONSTRAINTS (MANDATORY):
 - The topics MUST be 100% advertiser-friendly, family-friendly, and compliant with YouTube/Meta community guidelines.
 - Strictly AVOID: medical advice, health/cure claims, Covid-19/vaccine/epidemic speculation, dangerous stunts/activities, illegal substances, or weapons.
 - Avoid political controversies, conspiracy theories, or tragic/graphic events.
-- Focus on educational, curious, and inspiring wildlife and natural science information.
+- Focus on educational, curious, and inspiring ancient history, battle tactics, tactical secrets, and historical archaeology.
 
-AVOID: Astrophysics, black holes, quantum mechanics, deep ocean creatures, futuristic tech, AI, modern space exploration.
-FOCUS: Ancient civilizations, Bronze Age Collapse, Roman military tactics, Mongol cavalry warfare, medieval siege weapons, lost archaeological cities, pivotal historic battles.
+AUDIENCE & HOOK RULES:
+- The topic MUST be so clear, punchy, and intriguing that someone scrolling TikTok or Shorts immediately stops.
+- Pick concrete historical weapons, tactical maneuvers, architectural marvels, or artifacts with high visual payoff.
+- FORBIDDEN: Abstract theories, philosophical musings, hypothetical scenarios ('What if X happened...').
 
 Return ONLY a raw JSON array of objects. No markdown, no preamble.
 Each object must have exactly these fields:
-- "topic": specific subject with a named fact, theory, or mechanism (e.g. "Byzantine Greek Fire siphon nozzles shot pressurized self-igniting petroleum at enemy ships")
-- "short_hook": opening question or statement, 8 words or less, creates a strong information gap
+- "topic": specific, punchy curiosity subject naming the real anomaly or object (e.g. "The Roman concrete formula that healed itself and grew stronger underwater")
+- "short_hook": opening question or bold statement, 8 words or less, creates an irresistible curiosity gap
 - "hook_type": one of "curiosity_gap", "contrarian", "time_pressure", "self_identification", "narrative_pull"
 - "for_format": "short", "long", or "both"
 - "subcluster": the sub-cluster this belongs to (string)
@@ -70,24 +74,22 @@ Each object must have exactly these fields:
     print(f"[Phase1] Requesting topics — subcluster: {current_subcluster} | trending: {is_trending}")
     client = GeminiClient()
     try:
-        response_text = client.generate_text(prompt, use_grounding=is_trending, temperature=0.75)
+        response_text = client.generate_text(prompt, use_grounding=False, temperature=0.85)
         topics_list = _robust_json_loads(response_text)
-        if not isinstance(topics_list, list) or not topics_list:
-            raise ValueError("Response is not a valid non-empty JSON list")
+        if not isinstance(topics_list, list):
+            raise ValueError("Response is not a JSON list")
+        if not topics_list:
+            raise ValueError("Response is an empty list")
     except Exception as e:
         print(f"[Phase1] Error fetching or parsing topics from Gemini: {e}")
         import random, time
         rand_id = int(time.time()) % 1000
-        diverse_history_topics = [
-            {"topic": f"Byzantine Greek Fire Naval Flame Siphon", "short_hook": "Ancient empire destroyed fleets with water-burning napalm.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
-            {"topic": f"Roman Legion Testudo Shield Wall Phalanx", "short_hook": "Roman tortoise formation deflected thousands of arrows.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
-            {"topic": f"Bronze Age Collapse Sea Peoples Invasions", "short_hook": "Mysterious invasion wiped out 5 empires simultaneously.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "rise and fall of obscure world empires"},
-            {"topic": f"Mongol Feigned Retreat Subutai War Tactic", "short_hook": "Mongols faked retreat to destroy European knights.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
-            {"topic": f"Ancient Trebuchet Counterweight Siege Machine", "short_hook": "Medieval superweapon launched 300-pound boulders over castle walls.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "tactical military breakthroughs and weapon evolutions"},
-            {"topic": f"Spartan Battle of Leuctra Oblique Line Tactic", "short_hook": "Theban general defeated invincible Spartan army in minutes.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": "turning point historical battles and decisive tactical gambits"}
+        topics_list = [
+            {"topic": "The Roman concrete formula that healed itself and grew stronger underwater", "short_hook": "Why ancient Roman piers still haven't collapsed.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster},
+            {"topic": "Archimedes Claw: The ancient Greek crane that lifted Roman warships out of the sea", "short_hook": "This ancient weapon flipped warships upside down!", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster},
+            {"topic": "Greek Fire: The lost Byzantine napalm weapon that burned directly on top of water", "short_hook": "The ancient flamethrower recipe lost to history.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster},
+            {"topic": "The whistling arrows used by Mongol cavalry to coordinate terrifying battlefield traps", "short_hook": "Why Mongol cavalry fired screaming arrows.", "hook_type": "curiosity_gap", "for_format": "both", "subcluster": current_subcluster}
         ]
-        random.shuffle(diverse_history_topics)
-        topics_list = diverse_history_topics
 
     # ── 4. Pick first topic matching format_type and not a duplicate ─────────
     import re
@@ -142,7 +144,9 @@ Each object must have exactly these fields:
         except Exception as e:
             print(f"Error parsing retried topics: {e}")
 
+    # Fallback to first generated if no non-duplicate found
     if not selected_topic:
+        print("[Phase1] Warning: Could not generate a completely non-duplicate topic. Using first available as fallback.")
         for item in topics_list:
             if item.get("for_format", "both") in (format_type, "both"):
                 selected_topic = item
@@ -150,6 +154,7 @@ Each object must have exactly these fields:
         if not selected_topic:
             selected_topic = topics_list[0]
             selected_topic["for_format"] = format_type
+
 
     print(f"[Phase1] Selected: {selected_topic['topic']}")
 

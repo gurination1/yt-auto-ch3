@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The unprecedented survival and successful payload deployment of a Chinese Long March 3B rocket after being directly struck by a massive lightning bolt moments after launch, showcasing extreme engineering resilience.",
     "How magnetorheological fluids could give excavators 'smart blood' for unprecedented control.",
     "AI models are now capable of designing fully functional, novel viral genomes, leading to urgent discussions about biosecurity and the governance of synthetic biology.",
     "Quantum networking achieves unprecedented entanglement stability over long-distance metropolitan fiber, signaling a new era for secure communication.",
@@ -89,8 +88,9 @@
     "A lost Maya city, Valeriana, complete with pyramids and plazas, has been rediscovered in the Mexican jungle through a groundbreaking combination of online environmental data and LiDAR technology.",
     "Archaeologists are re-evaluating the 'dolphin' weapon, a unique ancient naval device recovered from the Antikythera shipwreck, designed to inflict critical damage on enemy vessels.",
     "How the Mongol cavalry weaponized the specialized hunting behavior of golden eagles to instill panic in European infantry lines, leveraging a biological fear response hardwired in mammalian prey.",
-    "The acoustic resonance chambers hidden inside Maltese megalithic temples that broadcasted low-frequency hypnotic sounds"
+    "The acoustic resonance chambers hidden inside Maltese megalithic temples that broadcasted low-frequency hypnotic sounds",
+    "The Declassified WWII 'Ghost Army' That Fooled Hitler with Inflatable Tanks and Fake Radio Traffic"
   ],
-  "subcluster_idx": 3,
-  "call_count": 181
+  "subcluster_idx": 4,
+  "call_count": 182
 }

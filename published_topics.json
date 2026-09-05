@@ -1,6 +1,5 @@
 {
   "topics": [
-    "AI models are now capable of designing fully functional, novel viral genomes, leading to urgent discussions about biosecurity and the governance of synthetic biology.",
     "Quantum networking achieves unprecedented entanglement stability over long-distance metropolitan fiber, signaling a new era for secure communication.",
     "How dark energy expands the observable universe cosmos #948",
     "Quantum Teleportation Breakthrough Physics #1786077554",
@@ -89,8 +88,9 @@
     "How the Mongol cavalry weaponized the specialized hunting behavior of golden eagles to instill panic in European infantry lines, leveraging a biological fear response hardwired in mammalian prey.",
     "The acoustic resonance chambers hidden inside Maltese megalithic temples that broadcasted low-frequency hypnotic sounds",
     "The Declassified WWII 'Ghost Army' That Fooled Hitler with Inflatable Tanks and Fake Radio Traffic",
-    "Ancient Mesoamerican 'super-rubber' technology that defied known chemistry"
+    "Ancient Mesoamerican 'super-rubber' technology that defied known chemistry",
+    "The 'Liquid Stone' Composite: Self-Healing Ancient Siege Walls That Absorbed Catapult Blasts"
   ],
-  "subcluster_idx": 0,
-  "call_count": 183
+  "subcluster_idx": 1,
+  "call_count": 184
 }

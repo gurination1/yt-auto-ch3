@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Neutron Star Density Mysteries Astrophysics #1786093160",
     "Quantum Computing's Verification Breakthrough: IBM's Claim of \"Quantum Advantage\" Now Includes a Method to Verify Correctness, Addressing a Long-Standing Challenge in the Field.",
     "The unexpected impact of a decade-old SpaceX Falcon 9 booster on the Moon has created a unique opportunity for scientists to study fresh lunar geology and track space debris, with South Korea's Danuri orbiter already imaging the new crater.",
     "Solar Wind Cosmic Shields Science #1786118521",
@@ -89,8 +88,9 @@
     "Analysis of ancient pollen and geological strata around a legendary siege reveals a specific, short-lived 'super-fog' weather phenomenon, suggesting a decisive, planned environmental weapon used by defenders to ambush attackers.",
     "The Maya Paradox: How Their Brilliant Concept of Zero May Have Blinded Them to Their Own Downfall",
     "The Secret 'Fake City' Where Spies Trained for Real Missions",
-    "Archaeologists unearth a Roman legionary camp, perfectly preserved by a sudden mudslide, revealing intact leather armor, writing tablets, and personal effects, a stunning 'day-in-the-life' snapshot from 2000 years ago."
+    "Archaeologists unearth a Roman legionary camp, perfectly preserved by a sudden mudslide, revealing intact leather armor, writing tablets, and personal effects, a stunning 'day-in-the-life' snapshot from 2000 years ago.",
+    "The Blinding Mirrors of Archimedes: How Ancient Solar Engineering Weaponized Light, Not Fire."
   ],
-  "subcluster_idx": 0,
-  "call_count": 188
+  "subcluster_idx": 1,
+  "call_count": 189
 }

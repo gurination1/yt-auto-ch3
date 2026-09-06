@@ -2,6 +2,8 @@ name: Generate Long Video
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 9 * * 4'    # Thursday 09:00 UTC / 14:30 IST (Ch3 Weekly Long Video)
 
 permissions:
   contents: write

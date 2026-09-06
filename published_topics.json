@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Cell-inspired nanoreactors are transforming sustainable hydrogen peroxide production by mimicking biological structures to efficiently convert sunlight into chemical energy.",
     "Neutron Star Density Mysteries Astrophysics #1786093160",
     "Quantum Computing's Verification Breakthrough: IBM's Claim of \"Quantum Advantage\" Now Includes a Method to Verify Correctness, Addressing a Long-Standing Challenge in the Field.",
     "The unexpected impact of a decade-old SpaceX Falcon 9 booster on the Moon has created a unique opportunity for scientists to study fresh lunar geology and track space debris, with South Korea's Danuri orbiter already imaging the new crater.",
@@ -89,8 +88,9 @@
     "The 'Liquid Stone' Composite: Self-Healing Ancient Siege Walls That Absorbed Catapult Blasts",
     "Analysis of ancient pollen and geological strata around a legendary siege reveals a specific, short-lived 'super-fog' weather phenomenon, suggesting a decisive, planned environmental weapon used by defenders to ambush attackers.",
     "The Maya Paradox: How Their Brilliant Concept of Zero May Have Blinded Them to Their Own Downfall",
-    "The Secret 'Fake City' Where Spies Trained for Real Missions"
+    "The Secret 'Fake City' Where Spies Trained for Real Missions",
+    "The Roman concrete formula that healed itself and grew stronger underwater"
   ],
-  "subcluster_idx": 4,
-  "call_count": 187
+  "subcluster_idx": 0,
+  "call_count": 188
 }

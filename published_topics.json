@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Solar Wind Cosmic Shields Science #1786118521",
     "Engineers have developed a novel cobalt-aluminum alloy that is up to ten times stronger than steel, yet surprisingly flexible, achieved through innovative nanoscale design.",
     "Advanced CRISPR systems now achieve precise, large DNA sequence insertions, overcoming previous genetic engineering limitations for complex genetic modifications.",
     "How **counterfactual computation** allows quantum computers to execute algorithms without the quantum particles ever actually entering the computational region, enabling simulations of radically different physical laws.",
@@ -89,8 +88,9 @@
     "Archaeologists unearth a Roman legionary camp, perfectly preserved by a sudden mudslide, revealing intact leather armor, writing tablets, and personal effects, a stunning 'day-in-the-life' snapshot from 2000 years ago.",
     "The Blinding Mirrors of Archimedes: How Ancient Solar Engineering Weaponized Light, Not Fire.",
     "Recent LiDAR scans near Roman frontier fortifications have uncovered faint, precisely laid out grid patterns, suggesting advanced, standardized targeting systems for ballistas, allowing for unprecedented accuracy and coordinated fire.",
-    "Forensic Proof: Ancient Roman 'Poisoner's Guild' Systematically Eliminated Rivals"
+    "Forensic Proof: Ancient Roman 'Poisoner's Guild' Systematically Eliminated Rivals",
+    "The CIA's \"Thing\": A Spy Device That Listened for Years with NO Batteries, Wires, or Power Source"
   ],
-  "subcluster_idx": 3,
-  "call_count": 191
+  "subcluster_idx": 4,
+  "call_count": 192
 }

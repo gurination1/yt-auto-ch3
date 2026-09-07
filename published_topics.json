@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The unexpected impact of a decade-old SpaceX Falcon 9 booster on the Moon has created a unique opportunity for scientists to study fresh lunar geology and track space debris, with South Korea's Danuri orbiter already imaging the new crater.",
     "Solar Wind Cosmic Shields Science #1786118521",
     "Engineers have developed a novel cobalt-aluminum alloy that is up to ten times stronger than steel, yet surprisingly flexible, achieved through innovative nanoscale design.",
     "Advanced CRISPR systems now achieve precise, large DNA sequence insertions, overcoming previous genetic engineering limitations for complex genetic modifications.",
@@ -89,8 +88,9 @@
     "The Secret 'Fake City' Where Spies Trained for Real Missions",
     "Archaeologists unearth a Roman legionary camp, perfectly preserved by a sudden mudslide, revealing intact leather armor, writing tablets, and personal effects, a stunning 'day-in-the-life' snapshot from 2000 years ago.",
     "The Blinding Mirrors of Archimedes: How Ancient Solar Engineering Weaponized Light, Not Fire.",
-    "Recent LiDAR scans near Roman frontier fortifications have uncovered faint, precisely laid out grid patterns, suggesting advanced, standardized targeting systems for ballistas, allowing for unprecedented accuracy and coordinated fire."
+    "Recent LiDAR scans near Roman frontier fortifications have uncovered faint, precisely laid out grid patterns, suggesting advanced, standardized targeting systems for ballistas, allowing for unprecedented accuracy and coordinated fire.",
+    "Forensic Proof: Ancient Roman 'Poisoner's Guild' Systematically Eliminated Rivals"
   ],
-  "subcluster_idx": 2,
-  "call_count": 190
+  "subcluster_idx": 3,
+  "call_count": 191
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Engineers have developed a novel cobalt-aluminum alloy that is up to ten times stronger than steel, yet surprisingly flexible, achieved through innovative nanoscale design.",
     "Advanced CRISPR systems now achieve precise, large DNA sequence insertions, overcoming previous genetic engineering limitations for complex genetic modifications.",
     "How **counterfactual computation** allows quantum computers to execute algorithms without the quantum particles ever actually entering the computational region, enabling simulations of radically different physical laws.",
     "Scientists are observing Pluto's atmosphere as it gradually shrinks and thins, a natural phenomenon occurring as the dwarf planet moves into colder, darker regions of its 248-year orbit.",
@@ -89,8 +88,9 @@
     "The Blinding Mirrors of Archimedes: How Ancient Solar Engineering Weaponized Light, Not Fire.",
     "Recent LiDAR scans near Roman frontier fortifications have uncovered faint, precisely laid out grid patterns, suggesting advanced, standardized targeting systems for ballistas, allowing for unprecedented accuracy and coordinated fire.",
     "Forensic Proof: Ancient Roman 'Poisoner's Guild' Systematically Eliminated Rivals",
-    "The CIA's \"Thing\": A Spy Device That Listened for Years with NO Batteries, Wires, or Power Source"
+    "The CIA's \"Thing\": A Spy Device That Listened for Years with NO Batteries, Wires, or Power Source",
+    "New forensic evidence from the **Tollense Valley battlefield** reveals over 140 Bronze Age warriors were killed by massed archers and blunt force, proving highly organized, large-scale warfare existed 3,200 years ago."
   ],
-  "subcluster_idx": 4,
-  "call_count": 192
+  "subcluster_idx": 0,
+  "call_count": 193
 }

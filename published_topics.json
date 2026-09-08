@@ -82,9 +82,10 @@
     "Recent LiDAR scans near Roman frontier fortifications have uncovered faint, precisely laid out grid patterns, suggesting advanced, standardized targeting systems for ballistas, allowing for unprecedented accuracy and coordinated fire.",
     "Forensic Proof: Ancient Roman 'Poisoner's Guild' Systematically Eliminated Rivals",
     "The CIA's \"Thing\": A Spy Device That Listened for Years with NO Batteries, Wires, or Power Source",
-    "New forensic evidence from the **Tollense Valley battlefield** reveals over 140 Bronze Age warriors were killed by massed archers and blunt force, proving highly organized, large-scale warfare existed 3,200 years ago."
+    "New forensic evidence from the **Tollense Valley battlefield** reveals over 140 Bronze Age warriors were killed by massed archers and blunt force, proving highly organized, large-scale warfare existed 3,200 years ago.",
+    "5,000-Year-Old Fortress Hides Roman Soldier's Millennium-Later Burial"
   ],
-  "subcluster_idx": 4,
-  "call_count": 192,
-  "fallback_idx": 0
+  "subcluster_idx": 0,
+  "fallback_idx": 1,
+  "call_count": 193
 }

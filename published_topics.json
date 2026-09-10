@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How **counterfactual computation** allows quantum computers to execute algorithms without the quantum particles ever actually entering the computational region, enabling simulations of radically different physical laws.",
     "Scientists are observing Pluto's atmosphere as it gradually shrinks and thins, a natural phenomenon occurring as the dwarf planet moves into colder, darker regions of its 248-year orbit.",
     "AI Accelerates Quantum Encryption Threat; World Unprepared: Recent breakthroughs, partly driven by AI, suggest quantum computers capable of breaking current internet encryption protocols may arrive much sooner than anticipated, sparking urgent concerns about global cybersecurity readiness.",
     "How advanced synthetic materials can autonomously repair damage, even severed parts, using **dynamic covalent bonds** or embedded microcapsules containing healing agents for self-regeneration.",
@@ -89,9 +88,10 @@
     "Ancient Judge's Tomb Reveals Empire's Hidden Weakness",
     "The \"Desert Whisperers\": How ancient nomadic tribes understood the acoustics of sand dunes, using their parabolic shapes (often enhanced) as natural listening devices to eavesdrop on distant enemy camps for miles.",
     "Pompeii's Lost 'Machine Gun' Discovery",
-    "Marcus Aurelius's Lost Legion: A Roman Camp Abandoned Overnight with Hasty Mass Graves"
+    "Marcus Aurelius's Lost Legion: A Roman Camp Abandoned Overnight with Hasty Mass Graves",
+    "The 'Underwater Flamethrower' Paradox: How Byzantine naval siphons could project liquid fire underwater for short bursts, igniting enemy ship hulls from below the waterline, a secret defying all known combustion."
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 8,
-  "call_count": 200
+  "subcluster_idx": 3,
+  "fallback_idx": 9,
+  "call_count": 201
 }

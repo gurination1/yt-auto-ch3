@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The International Medieval Combat Federation (IMCF) World Championship is exploding on social media, showcasing a global resurgence of full-contact medieval armored combat (Buhurt) and redefining modern martial arts with ancient warrior traditions.",
     "Recent battlefield archaeology in Balaclava reveals the forgotten bravery of Ottoman Turkish defenders, challenging the popular narrative of the Charge of the Light Brigade and its pivotal moment in the Crimean War.",
     "How Plato's Theory of Forms unexpectedly mirrors modern physics' search for fundamental mathematical realism, suggesting abstract structures are \"more real\" than physical manifestations.",
     "A hidden 17th-century blast furnace unearthed beneath a Shropshire pub is rewriting the origins of the British Industrial Revolution, revealing an earlier, sophisticated iron-making hub than previously understood.",
@@ -89,9 +88,10 @@
     "The 'Underwater Flamethrower' Paradox: How Byzantine naval siphons could project liquid fire underwater for short bursts, igniting enemy ship hulls from below the waterline, a secret defying all known combustion.",
     "Global Mystery: The 4.2-Kiloyear Collapse",
     "Lost 1,400-Year-Old Battlefield Pinpointed by Declassified Spy Satellites",
-    "The Torsion Catapult's Hidden Weakness: Why Twisting Harder Made It *Weaker*"
+    "The Torsion Catapult's Hidden Weakness: Why Twisting Harder Made It *Weaker*",
+    "Mysterious Roman Mass Burials in Slovakian Wells"
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 12,
-  "call_count": 204
+  "subcluster_idx": 2,
+  "fallback_idx": 13,
+  "call_count": 205
 }

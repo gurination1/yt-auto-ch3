@@ -1,6 +1,5 @@
 {
   "topics": [
-    "AI Accelerates Quantum Encryption Threat; World Unprepared: Recent breakthroughs, partly driven by AI, suggest quantum computers capable of breaking current internet encryption protocols may arrive much sooner than anticipated, sparking urgent concerns about global cybersecurity readiness.",
     "How advanced synthetic materials can autonomously repair damage, even severed parts, using **dynamic covalent bonds** or embedded microcapsules containing healing agents for self-regeneration.",
     "The International Medieval Combat Federation (IMCF) World Championship is exploding on social media, showcasing a global resurgence of full-contact medieval armored combat (Buhurt) and redefining modern martial arts with ancient warrior traditions.",
     "Recent battlefield archaeology in Balaclava reveals the forgotten bravery of Ottoman Turkish defenders, challenging the popular narrative of the Charge of the Light Brigade and its pivotal moment in the Crimean War.",
@@ -89,9 +88,10 @@
     "Pompeii's Lost 'Machine Gun' Discovery",
     "Marcus Aurelius's Lost Legion: A Roman Camp Abandoned Overnight with Hasty Mass Graves",
     "The 'Underwater Flamethrower' Paradox: How Byzantine naval siphons could project liquid fire underwater for short bursts, igniting enemy ship hulls from below the waterline, a secret defying all known combustion.",
-    "Global Mystery: The 4.2-Kiloyear Collapse"
+    "Global Mystery: The 4.2-Kiloyear Collapse",
+    "Lost 1,400-Year-Old Battlefield Pinpointed by Declassified Spy Satellites"
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 10,
-  "call_count": 202
+  "subcluster_idx": 0,
+  "fallback_idx": 11,
+  "call_count": 203
 }

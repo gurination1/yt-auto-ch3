@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Recent battlefield archaeology in Balaclava reveals the forgotten bravery of Ottoman Turkish defenders, challenging the popular narrative of the Charge of the Light Brigade and its pivotal moment in the Crimean War.",
     "How Plato's Theory of Forms unexpectedly mirrors modern physics' search for fundamental mathematical realism, suggesting abstract structures are \"more real\" than physical manifestations.",
     "A hidden 17th-century blast furnace unearthed beneath a Shropshire pub is rewriting the origins of the British Industrial Revolution, revealing an earlier, sophisticated iron-making hub than previously understood.",
     "Colossal hydraulic system discovered at Dahshur suggests advanced water engineering for pyramid construction.",
@@ -89,9 +88,10 @@
     "Global Mystery: The 4.2-Kiloyear Collapse",
     "Lost 1,400-Year-Old Battlefield Pinpointed by Declassified Spy Satellites",
     "The Torsion Catapult's Hidden Weakness: Why Twisting Harder Made It *Weaker*",
-    "Mysterious Roman Mass Burials in Slovakian Wells"
+    "Mysterious Roman Mass Burials in Slovakian Wells",
+    "Byzantine Greek Fire: The Lost Superweapon's Unsolvable Chemistry."
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 13,
-  "call_count": 205
+  "subcluster_idx": 3,
+  "fallback_idx": 14,
+  "call_count": 206
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "A hidden 17th-century blast furnace unearthed beneath a Shropshire pub is rewriting the origins of the British Industrial Revolution, revealing an earlier, sophisticated iron-making hub than previously understood.",
     "Colossal hydraulic system discovered at Dahshur suggests advanced water engineering for pyramid construction.",
     "How the Roman military's vast road network intuitively applied principles of **network optimization** and **graph theory** to achieve unparalleled logistical efficiency, minimizing travel times and resource distribution costs across the empire.",
     "The discovery of the world's oldest intact 2,400-year-old Greek trading vessel in the Black Sea, preserved by anoxic conditions, redefines ancient maritime history and ship construction.",
@@ -89,9 +88,10 @@
     "The Torsion Catapult's Hidden Weakness: Why Twisting Harder Made It *Weaker*",
     "Mysterious Roman Mass Burials in Slovakian Wells",
     "Byzantine Greek Fire: The Lost Superweapon's Unsolvable Chemistry.",
-    "How Hannibal Used Hypothermia to Paralyze 30,000 Roman Swords at the Battle of Trebia"
+    "How Hannibal Used Hypothermia to Paralyze 30,000 Roman Swords at the Battle of Trebia",
+    "3,000-Year-Old Underwater Urartu Fortress Reveals Hidden Defenses"
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 15,
-  "call_count": 207
+  "subcluster_idx": 0,
+  "fallback_idx": 16,
+  "call_count": 208
 }

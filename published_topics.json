@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The discovery of the world's oldest intact 2,400-year-old Greek trading vessel in the Black Sea, preserved by anoxic conditions, redefines ancient maritime history and ship construction.",
     "How the specific **thixotropic** properties of the waterlogged forest floor created a deadly trap for Roman legions during the Battle of the Teutoburg Forest (9 CE).",
     "Fresh analysis highlights Theophrastus's pioneering contributions to personality psychology, revealing how ancient Greek philosophical observations laid groundwork for modern psychological fields.",
     "China's Supercritical CO2 Turbine Breakthrough Ignites Global Discussion: Is the Era of Steam Power, a Cornerstone of Industrial Revolutions, Finally Drawing to a Close?",
@@ -89,9 +88,10 @@
     "How Hannibal Used Hypothermia to Paralyze 30,000 Roman Swords at the Battle of Trebia",
     "3,000-Year-Old Underwater Urartu Fortress Reveals Hidden Defenses",
     "The Jotapata 'Stealth' Ballista Stones: Why Romans Painted Their Siege Ammo Black",
-    "Why Roman Legionaries Smashed Their Own Shield Bosses Before Every Battle"
+    "Why Roman Legionaries Smashed Their Own Shield Bosses Before Every Battle",
+    "Caesar\u2019s Hidden 'Stimuli' Iron-Hook Trench Traps"
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 18,
-  "call_count": 210
+  "subcluster_idx": 3,
+  "fallback_idx": 19,
+  "call_count": 211
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Colossal hydraulic system discovered at Dahshur suggests advanced water engineering for pyramid construction.",
     "How the Roman military's vast road network intuitively applied principles of **network optimization** and **graph theory** to achieve unparalleled logistical efficiency, minimizing travel times and resource distribution costs across the empire.",
     "The discovery of the world's oldest intact 2,400-year-old Greek trading vessel in the Black Sea, preserved by anoxic conditions, redefines ancient maritime history and ship construction.",
     "How the specific **thixotropic** properties of the waterlogged forest floor created a deadly trap for Roman legions during the Battle of the Teutoburg Forest (9 CE).",
@@ -89,9 +88,10 @@
     "Mysterious Roman Mass Burials in Slovakian Wells",
     "Byzantine Greek Fire: The Lost Superweapon's Unsolvable Chemistry.",
     "How Hannibal Used Hypothermia to Paralyze 30,000 Roman Swords at the Battle of Trebia",
-    "3,000-Year-Old Underwater Urartu Fortress Reveals Hidden Defenses"
+    "3,000-Year-Old Underwater Urartu Fortress Reveals Hidden Defenses",
+    "The Jotapata 'Stealth' Ballista Stones: Why Romans Painted Their Siege Ammo Black"
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 16,
-  "call_count": 208
+  "subcluster_idx": 1,
+  "fallback_idx": 17,
+  "call_count": 209
 }

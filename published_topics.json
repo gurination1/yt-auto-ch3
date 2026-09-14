@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How the specific **thixotropic** properties of the waterlogged forest floor created a deadly trap for Roman legions during the Battle of the Teutoburg Forest (9 CE).",
     "Fresh analysis highlights Theophrastus's pioneering contributions to personality psychology, revealing how ancient Greek philosophical observations laid groundwork for modern psychological fields.",
     "China's Supercritical CO2 Turbine Breakthrough Ignites Global Discussion: Is the Era of Steam Power, a Cornerstone of Industrial Revolutions, Finally Drawing to a Close?",
     "How the chemical properties of natron actually ensured millennia of mummification for ancient Egyptians, revealing its sophisticated role in halting decomposition.",
@@ -89,9 +88,10 @@
     "3,000-Year-Old Underwater Urartu Fortress Reveals Hidden Defenses",
     "The Jotapata 'Stealth' Ballista Stones: Why Romans Painted Their Siege Ammo Black",
     "Why Roman Legionaries Smashed Their Own Shield Bosses Before Every Battle",
-    "Caesar\u2019s Hidden 'Stimuli' Iron-Hook Trench Traps"
+    "Caesar\u2019s Hidden 'Stimuli' Iron-Hook Trench Traps",
+    "The Akkad Empire's self-inflicted 'water sabotage' collapse"
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 19,
-  "call_count": 211
+  "subcluster_idx": 4,
+  "fallback_idx": 20,
+  "call_count": 212
 }

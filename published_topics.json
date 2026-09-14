@@ -1,6 +1,5 @@
 {
   "topics": [
-    "China's Supercritical CO2 Turbine Breakthrough Ignites Global Discussion: Is the Era of Steam Power, a Cornerstone of Industrial Revolutions, Finally Drawing to a Close?",
     "How the chemical properties of natron actually ensured millennia of mummification for ancient Egyptians, revealing its sophisticated role in halting decomposition.",
     "Rome's unbreakable willpower after the catastrophic Battle of Cannae, where a strategic ban on peace talks forged an unyielding mindset that reshaped its military future.",
     "Archaeologists believe they may have finally uncovered the long-sought location of a lost city founded by Alexander the Great, a discovery poised to rewrite significant chapters of ancient history.",
@@ -89,9 +88,10 @@
     "Why Roman Legionaries Smashed Their Own Shield Bosses Before Every Battle",
     "Caesar\u2019s Hidden 'Stimuli' Iron-Hook Trench Traps",
     "The Akkad Empire's self-inflicted 'water sabotage' collapse",
-    "The Hidden Escape Tunnels Carved Directly Through Living Volcano Rock"
+    "The Hidden Escape Tunnels Carved Directly Through Living Volcano Rock",
+    "The Self-Righting Lead-Weighted Roman Tribulus"
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 21,
-  "call_count": 213
+  "subcluster_idx": 1,
+  "fallback_idx": 22,
+  "call_count": 214
 }

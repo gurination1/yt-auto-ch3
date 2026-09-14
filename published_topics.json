@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Fresh analysis highlights Theophrastus's pioneering contributions to personality psychology, revealing how ancient Greek philosophical observations laid groundwork for modern psychological fields.",
     "China's Supercritical CO2 Turbine Breakthrough Ignites Global Discussion: Is the Era of Steam Power, a Cornerstone of Industrial Revolutions, Finally Drawing to a Close?",
     "How the chemical properties of natron actually ensured millennia of mummification for ancient Egyptians, revealing its sophisticated role in halting decomposition.",
     "Rome's unbreakable willpower after the catastrophic Battle of Cannae, where a strategic ban on peace talks forged an unyielding mindset that reshaped its military future.",
@@ -89,9 +88,10 @@
     "The Jotapata 'Stealth' Ballista Stones: Why Romans Painted Their Siege Ammo Black",
     "Why Roman Legionaries Smashed Their Own Shield Bosses Before Every Battle",
     "Caesar\u2019s Hidden 'Stimuli' Iron-Hook Trench Traps",
-    "The Akkad Empire's self-inflicted 'water sabotage' collapse"
+    "The Akkad Empire's self-inflicted 'water sabotage' collapse",
+    "The Hidden Escape Tunnels Carved Directly Through Living Volcano Rock"
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 20,
-  "call_count": 212
+  "subcluster_idx": 0,
+  "fallback_idx": 21,
+  "call_count": 213
 }

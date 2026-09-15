@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How the chemical properties of natron actually ensured millennia of mummification for ancient Egyptians, revealing its sophisticated role in halting decomposition.",
     "Rome's unbreakable willpower after the catastrophic Battle of Cannae, where a strategic ban on peace talks forged an unyielding mindset that reshaped its military future.",
     "Archaeologists believe they may have finally uncovered the long-sought location of a lost city founded by Alexander the Great, a discovery poised to rewrite significant chapters of ancient history.",
     "How specific medieval battle formations subtly exploited principles of **acoustic interference patterns** to amplify the perceived volume and psychological impact of war cries, creating a disorienting effect on enemy lines.",
@@ -89,9 +88,10 @@
     "Caesar\u2019s Hidden 'Stimuli' Iron-Hook Trench Traps",
     "The Akkad Empire's self-inflicted 'water sabotage' collapse",
     "The Hidden Escape Tunnels Carved Directly Through Living Volcano Rock",
-    "The Self-Righting Lead-Weighted Roman Tribulus"
+    "The Self-Righting Lead-Weighted Roman Tribulus",
+    "High-Frequency Bronze Battle Whistles of Roman Centurions"
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 22,
-  "call_count": 214
+  "subcluster_idx": 2,
+  "fallback_idx": 23,
+  "call_count": 215
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Rome's unbreakable willpower after the catastrophic Battle of Cannae, where a strategic ban on peace talks forged an unyielding mindset that reshaped its military future.",
     "Archaeologists believe they may have finally uncovered the long-sought location of a lost city founded by Alexander the Great, a discovery poised to rewrite significant chapters of ancient history.",
     "How specific medieval battle formations subtly exploited principles of **acoustic interference patterns** to amplify the perceived volume and psychological impact of war cries, creating a disorienting effect on enemy lines.",
     "New archaeological findings at G\u00f6beklitepe uncover rectangular buildings, suggesting residential use and fundamentally altering the understanding of this 10,000-year-old site beyond its previous interpretation as solely a ceremonial center.",
@@ -89,9 +88,10 @@
     "The Akkad Empire's self-inflicted 'water sabotage' collapse",
     "The Hidden Escape Tunnels Carved Directly Through Living Volcano Rock",
     "The Self-Righting Lead-Weighted Roman Tribulus",
-    "High-Frequency Bronze Battle Whistles of Roman Centurions"
+    "High-Frequency Bronze Battle Whistles of Roman Centurions",
+    "The bizarre physics of the Byzantine naval siphon, which used sealed pneumatic pressure chambers to force-project burning naphtha across open water."
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 23,
-  "call_count": 215
+  "subcluster_idx": 3,
+  "fallback_idx": 24,
+  "call_count": 216
 }

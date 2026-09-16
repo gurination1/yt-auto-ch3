@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How early industrial espionage targeted the thermodynamic efficiency of the *Rankine Cycle* in steam engines, revealing that the true value lay not in visible machinery, but in subtle superheating and condensation techniques that dictated fuel economy.",
     "New 3D modeling reveals a hidden internal ramp system as the likely method for constructing the Great Pyramid of Giza, challenging long-held external ramp theories.",
     "Unearthing Unknown Roman Battles: Mass Grave Reveals Groin Injuries in Vienna",
     "What if an entire ancient coastal city vanished rapidly, not due to sea-level rise, but by **tectonic subsidence** causing the land itself to sink hundreds of feet in a catastrophic event?",
@@ -89,9 +88,10 @@
     "The catastrophic tactical blunder at the Battle of the Catalaunian Plains where Roman and Visigothic forces accidentally ambushed each other in pitch darkness.",
     "How declassified Cold War CORONA satellite imagery revealed 396 hidden Roman fortresses, shattering a 100-year-old theory about Rome's defensive borders.",
     "Why Roman artillery operators deliberately soaked their catapult torsion ropes in olive oil during winter to prevent sudden, catastrophic metal-shattering explosions.",
-    "How Roman engineers weaponized the structural design of marching sandals, embedding asymmetrical iron hobnails to maximize traction during brutal frontal infantry charges uphill."
+    "How Roman engineers weaponized the structural design of marching sandals, embedding asymmetrical iron hobnails to maximize traction during brutal frontal infantry charges uphill.",
+    "The forgotten acoustic resonance trick used in ancient underground counter-mining tunnels, where hanging bronze bowls mapped enemy tunneling vectors through vibrational echolocation."
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 3,
-  "call_count": 220
+  "subcluster_idx": 3,
+  "fallback_idx": 4,
+  "call_count": 221
 }

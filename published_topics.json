@@ -1,6 +1,5 @@
 {
   "topics": [
-    "New 3D modeling reveals a hidden internal ramp system as the likely method for constructing the Great Pyramid of Giza, challenging long-held external ramp theories.",
     "Unearthing Unknown Roman Battles: Mass Grave Reveals Groin Injuries in Vienna",
     "What if an entire ancient coastal city vanished rapidly, not due to sea-level rise, but by **tectonic subsidence** causing the land itself to sink hundreds of feet in a catastrophic event?",
     "New forensic analysis of medieval skeletal remains reveals the brutal impact of trebuchets during sieges, detailing injuries akin to modern high-impact trauma.",
@@ -89,9 +88,10 @@
     "How declassified Cold War CORONA satellite imagery revealed 396 hidden Roman fortresses, shattering a 100-year-old theory about Rome's defensive borders.",
     "Why Roman artillery operators deliberately soaked their catapult torsion ropes in olive oil during winter to prevent sudden, catastrophic metal-shattering explosions.",
     "How Roman engineers weaponized the structural design of marching sandals, embedding asymmetrical iron hobnails to maximize traction during brutal frontal infantry charges uphill.",
-    "The forgotten acoustic resonance trick used in ancient underground counter-mining tunnels, where hanging bronze bowls mapped enemy tunneling vectors through vibrational echolocation."
+    "The forgotten acoustic resonance trick used in ancient underground counter-mining tunnels, where hanging bronze bowls mapped enemy tunneling vectors through vibrational echolocation.",
+    "How the Bronze Age Sea Peoples weaponized the 'chariot lock' formation to systematically immobilize and slaughter heavier Egyptian royal iron-equipped armored divisions."
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 4,
-  "call_count": 221
+  "subcluster_idx": 4,
+  "fallback_idx": 5,
+  "call_count": 222
 }

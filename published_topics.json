@@ -1,6 +1,5 @@
 {
   "topics": [
-    "New forensic analysis of medieval skeletal remains reveals the brutal impact of trebuchets during sieges, detailing injuries akin to modern high-impact trauma.",
     "Europe's unprecedented drought is uncovering a forgotten underwater landscape, revealing sunken warships and unexploded ordnance from past conflicts, forcing a timely re-evaluation of historical battlegrounds and the environmental impact on their preservation.",
     "How Empedocles' ancient Greek 'survival of the fittest parts' theory surprisingly prefigured natural selection by millennia, through his concept of random anatomical combinations.",
     "Cold War Spy Satellites Reveal Ancient Water Engineering Breakthroughs.",
@@ -89,9 +88,10 @@
     "The forgotten acoustic resonance trick used in ancient underground counter-mining tunnels, where hanging bronze bowls mapped enemy tunneling vectors through vibrational echolocation.",
     "How the Bronze Age Sea Peoples weaponized the 'chariot lock' formation to systematically immobilize and slaughter heavier Egyptian royal iron-equipped armored divisions.",
     "The declassified aerial imaging discovery of the lost Parthian fortress network that utilized mirrored parabolic mudbrick walls to blind approaching infantry.",
-    "How Roman artillerymen used human hair from captured enemies and temple priestesses as the ultimate high-tensile spring material for torsion catapults."
+    "How Roman artillerymen used human hair from captured enemies and temple priestesses as the ultimate high-tensile spring material for torsion catapults.",
+    "How Roman legionaries weaponized human bladder stones and vinegar to create a caustic acidic wash that cleaned oxidized armor faster than modern abrasives."
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 7,
-  "call_count": 224
+  "subcluster_idx": 2,
+  "fallback_idx": 8,
+  "call_count": 225
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Unearthing Unknown Roman Battles: Mass Grave Reveals Groin Injuries in Vienna",
     "What if an entire ancient coastal city vanished rapidly, not due to sea-level rise, but by **tectonic subsidence** causing the land itself to sink hundreds of feet in a catastrophic event?",
     "New forensic analysis of medieval skeletal remains reveals the brutal impact of trebuchets during sieges, detailing injuries akin to modern high-impact trauma.",
     "Europe's unprecedented drought is uncovering a forgotten underwater landscape, revealing sunken warships and unexploded ordnance from past conflicts, forcing a timely re-evaluation of historical battlegrounds and the environmental impact on their preservation.",
@@ -89,9 +88,10 @@
     "Why Roman artillery operators deliberately soaked their catapult torsion ropes in olive oil during winter to prevent sudden, catastrophic metal-shattering explosions.",
     "How Roman engineers weaponized the structural design of marching sandals, embedding asymmetrical iron hobnails to maximize traction during brutal frontal infantry charges uphill.",
     "The forgotten acoustic resonance trick used in ancient underground counter-mining tunnels, where hanging bronze bowls mapped enemy tunneling vectors through vibrational echolocation.",
-    "How the Bronze Age Sea Peoples weaponized the 'chariot lock' formation to systematically immobilize and slaughter heavier Egyptian royal iron-equipped armored divisions."
+    "How the Bronze Age Sea Peoples weaponized the 'chariot lock' formation to systematically immobilize and slaughter heavier Egyptian royal iron-equipped armored divisions.",
+    "The declassified aerial imaging discovery of the lost Parthian fortress network that utilized mirrored parabolic mudbrick walls to blind approaching infantry."
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 5,
-  "call_count": 222
+  "subcluster_idx": 0,
+  "fallback_idx": 6,
+  "call_count": 223
 }

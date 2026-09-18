@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Cold War Spy Satellites Reveal Ancient Water Engineering Breakthroughs.",
     "Robot exploration reveals a 4,500-year-old sealed passage within the Great Pyramid, fueling speculation about hidden chambers and new insights into pharaonic engineering.",
     "How Roman siege engineers precisely engineered the collapse of enemy walls by exploiting the counter-intuitive physics of granular materials, specifically the **angle of repose** and **shear strength** of soil, to achieve maximum destructive effect with minimal effort.",
     "The ongoing fascination and recent social media discussions surrounding the historical betrayal and dissolution of the Knights Templar in 1307 by King Philip IV, and the enduring mystery of their alleged survival and continuation through the Military Order of Christ in Portugal.",
@@ -89,9 +88,10 @@
     "How Roman artillerymen used human hair from captured enemies and temple priestesses as the ultimate high-tensile spring material for torsion catapults.",
     "How Roman legionaries weaponized human bladder stones and vinegar to create a caustic acidic wash that cleaned oxidized armor faster than modern abrasives.",
     "Why Roman military architects designed double-walled fortification trenches with intentional dead-zones to trap and asphyxiate infiltrating enemy sappers.",
-    "How the Akkad Empire's forgotten hyper-salinization agricultural blunder accidentally transformed their breadbasket into a permanent salt desert overnight."
+    "How the Akkad Empire's forgotten hyper-salinization agricultural blunder accidentally transformed their breadbasket into a permanent salt desert overnight.",
+    "How ancient Spartan border outposts utilized parabolic echo-valleys to project whispered passwords across mountain ranges without modern radio."
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 10,
-  "call_count": 227
+  "subcluster_idx": 0,
+  "fallback_idx": 11,
+  "call_count": 228
 }

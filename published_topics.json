@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Robot exploration reveals a 4,500-year-old sealed passage within the Great Pyramid, fueling speculation about hidden chambers and new insights into pharaonic engineering.",
     "How Roman siege engineers precisely engineered the collapse of enemy walls by exploiting the counter-intuitive physics of granular materials, specifically the **angle of repose** and **shear strength** of soil, to achieve maximum destructive effect with minimal effort.",
     "The ongoing fascination and recent social media discussions surrounding the historical betrayal and dissolution of the Knights Templar in 1307 by King Philip IV, and the enduring mystery of their alleged survival and continuation through the Military Order of Christ in Portugal.",
     "How Hannibal's \"elastic center\" at Cannae didn't just envelop, but leveraged principles of battlefield psychological manipulation and dynamic force vectoring to shatter Roman legions.",
@@ -89,9 +88,10 @@
     "How Roman legionaries weaponized human bladder stones and vinegar to create a caustic acidic wash that cleaned oxidized armor faster than modern abrasives.",
     "Why Roman military architects designed double-walled fortification trenches with intentional dead-zones to trap and asphyxiate infiltrating enemy sappers.",
     "How the Akkad Empire's forgotten hyper-salinization agricultural blunder accidentally transformed their breadbasket into a permanent salt desert overnight.",
-    "How ancient Spartan border outposts utilized parabolic echo-valleys to project whispered passwords across mountain ranges without modern radio."
+    "How ancient Spartan border outposts utilized parabolic echo-valleys to project whispered passwords across mountain ranges without modern radio.",
+    "The bizarre physics of the Carthaginian 'string-less' torsion torsion-spring engine that relied entirely on tightly bound horse mane hair."
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 11,
-  "call_count": 228
+  "subcluster_idx": 1,
+  "fallback_idx": 12,
+  "call_count": 229
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How Empedocles' ancient Greek 'survival of the fittest parts' theory surprisingly prefigured natural selection by millennia, through his concept of random anatomical combinations.",
     "Cold War Spy Satellites Reveal Ancient Water Engineering Breakthroughs.",
     "Robot exploration reveals a 4,500-year-old sealed passage within the Great Pyramid, fueling speculation about hidden chambers and new insights into pharaonic engineering.",
     "How Roman siege engineers precisely engineered the collapse of enemy walls by exploiting the counter-intuitive physics of granular materials, specifically the **angle of repose** and **shear strength** of soil, to achieve maximum destructive effect with minimal effort.",
@@ -89,9 +88,10 @@
     "The declassified aerial imaging discovery of the lost Parthian fortress network that utilized mirrored parabolic mudbrick walls to blind approaching infantry.",
     "How Roman artillerymen used human hair from captured enemies and temple priestesses as the ultimate high-tensile spring material for torsion catapults.",
     "How Roman legionaries weaponized human bladder stones and vinegar to create a caustic acidic wash that cleaned oxidized armor faster than modern abrasives.",
-    "Why Roman military architects designed double-walled fortification trenches with intentional dead-zones to trap and asphyxiate infiltrating enemy sappers."
+    "Why Roman military architects designed double-walled fortification trenches with intentional dead-zones to trap and asphyxiate infiltrating enemy sappers.",
+    "How the Akkad Empire's forgotten hyper-salinization agricultural blunder accidentally transformed their breadbasket into a permanent salt desert overnight."
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 9,
-  "call_count": 226
+  "subcluster_idx": 4,
+  "fallback_idx": 10,
+  "call_count": 227
 }

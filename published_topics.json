@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The ongoing fascination and recent social media discussions surrounding the historical betrayal and dissolution of the Knights Templar in 1307 by King Philip IV, and the enduring mystery of their alleged survival and continuation through the Military Order of Christ in Portugal.",
     "How Hannibal's \"elastic center\" at Cannae didn't just envelop, but leveraged principles of battlefield psychological manipulation and dynamic force vectoring to shatter Roman legions.",
     "AI Deciphers Herculaneum Papyri, Revealing Plato's Burial Site and Lost Philosophy",
     "The emergence of bioengineered textiles, using engineered microorganisms and mycelium-based materials, is sparking a new \"textile revolution\" that draws direct parallels to the foundational innovations of the First Industrial Revolution.",
@@ -89,9 +88,10 @@
     "How the Akkad Empire's forgotten hyper-salinization agricultural blunder accidentally transformed their breadbasket into a permanent salt desert overnight.",
     "How ancient Spartan border outposts utilized parabolic echo-valleys to project whispered passwords across mountain ranges without modern radio.",
     "The bizarre physics of the Carthaginian 'string-less' torsion torsion-spring engine that relied entirely on tightly bound horse mane hair.",
-    "How Roman centurions used codified hand-signal frequencies hidden inside rhythmic shield-banging to direct silent flanking maneuvers during chaotic melee combat."
+    "How Roman centurions used codified hand-signal frequencies hidden inside rhythmic shield-banging to direct silent flanking maneuvers during chaotic melee combat.",
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 13,
-  "call_count": 230
+  "subcluster_idx": 3,
+  "fallback_idx": 14,
+  "call_count": 231
 }

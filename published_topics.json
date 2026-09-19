@@ -1,6 +1,5 @@
 {
   "topics": [
-    "AI Deciphers Herculaneum Papyri, Revealing Plato's Burial Site and Lost Philosophy",
     "The emergence of bioengineered textiles, using engineered microorganisms and mycelium-based materials, is sparking a new \"textile revolution\" that draws direct parallels to the foundational innovations of the First Industrial Revolution.",
     "How ancient Egyptian temple alignments with celestial events were achieved through precise astronomical surveying using star transits and plumb-line instruments, demonstrating an empirical understanding of celestial mechanics far beyond simple sun observations.",
     "Current re-evaluations are highlighting how Roman economic policies, particularly inflation and taxation, directly undermined military funding and logistical capabilities, accelerating the empire's decline.",
@@ -89,9 +88,10 @@
     "The bizarre physics of the Carthaginian 'string-less' torsion torsion-spring engine that relied entirely on tightly bound horse mane hair.",
     "How Roman centurions used codified hand-signal frequencies hidden inside rhythmic shield-banging to direct silent flanking maneuvers during chaotic melee combat.",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
-    "How the Byzantine Empire's secret 'fire-well' cistern traps accidentally incinerated their own elite Varangian Guard during a night ambush."
+    "How the Byzantine Empire's secret 'fire-well' cistern traps accidentally incinerated their own elite Varangian Guard during a night ambush.",
+    "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges"
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 15,
-  "call_count": 232
+  "subcluster_idx": 0,
+  "fallback_idx": 16,
+  "call_count": 233
 }

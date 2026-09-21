@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The discovery of 30 previously unknown verses by Empedocles, revealing original insights into his pre-Socratic philosophy of the natural world and challenging long-held interpretations of his influence.",
     "How the **Jacquard loom's punch cards**, designed for intricate textile patterns, inadvertently laid the foundational logic for Charles Babbage's Analytical Engine and modern computing, long before electricity.",
     "Urgent Conservation Engineering: Protecting a Newly Discovered 3,000-Year-Old Ramesside Tomb from Flash Flood Destruction.",
     "Ongoing archaeological revelations of early Roman marching camps in Germania continue to rewrite the narrative of Rome's deepest military advances into unconquered territories.",
@@ -89,9 +88,10 @@
     "The forgotten Roman trench engineering secret of 'caeca fossae'\u2014hidden, vertical spear-lined spike pits disguised by fragile reed roofs that silently swallowed charging enemy cavalry.",
     "How the Battle of Teutoburg Forest disaster was sealed because Varus ignored the acoustic warning of bronze trumpets bouncing off wet canopy leaves.",
     "How ancient Persian intelligence agents weaponized carrier pigeons equipped with tiny, concealed poison darts for high-altitude targeted assassinations.",
-    "The Roman Pilum Javelin: The soft iron neck designed to bend upon impact so enemies could not throw it back"
+    "The Roman Pilum Javelin: The soft iron neck designed to bend upon impact so enemies could not throw it back",
+    "Why Roman troops marching in standard step accidentally synchronized their pace to a frequency that could shatter stone bridges beneath their feet."
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 22,
-  "call_count": 239
+  "subcluster_idx": 2,
+  "fallback_idx": 23,
+  "call_count": 240
 }

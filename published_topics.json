@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Ongoing archaeological revelations of early Roman marching camps in Germania continue to rewrite the narrative of Rome's deepest military advances into unconquered territories.",
     "How ancient Olmec cities, built on river floodplains, used 'raised field agriculture' to not only survive but thrive in environments prone to catastrophic floods, creating a counter-intuitive agricultural resilience mechanism.",
     "New archaeological findings are revealing previously unknown medieval castles across Europe, reshaping our understanding of regional power and daily life.",
     "Newly translated 15th-century maritime logs and recovered artifacts from coastal East Africa are igniting a viral debate: Did a 'Forgotten Fleet' of Chinese treasure ships, predating Zheng He's known voyages, establish short-lived outposts, hinting at an earlier, unrecorded chapter of global exploration?",
@@ -89,9 +88,10 @@
     "The Roman Pilum Javelin: The soft iron neck designed to bend upon impact so enemies could not throw it back",
     "Why Roman troops marching in standard step accidentally synchronized their pace to a frequency that could shatter stone bridges beneath their feet.",
     "How Roman engineers utilized inverted siphon pipelines spanning deep valleys to transport high-pressure water for hydraulic mining and siege operations.",
-    "How the Western Roman Empire's internal tax-coinage debasement created an instant military logistics collapse before a single arrow was ever fired."
+    "How the Western Roman Empire's internal tax-coinage debasement created an instant military logistics collapse before a single arrow was ever fired.",
+    "How Roman espionage agents embedded microscopic dyed threads into tunic hems to securely pass encrypted troop movement intelligence across borders."
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 0,
-  "call_count": 242
+  "subcluster_idx": 0,
+  "fallback_idx": 1,
+  "call_count": 243
 }

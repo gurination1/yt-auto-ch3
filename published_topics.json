@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Newly translated 15th-century maritime logs and recovered artifacts from coastal East Africa are igniting a viral debate: Did a 'Forgotten Fleet' of Chinese treasure ships, predating Zheng He's known voyages, establish short-lived outposts, hinting at an earlier, unrecorded chapter of global exploration?",
     "How the Stoic practice of *prohairesis* \u2013 choosing one's attitude regardless of external events \u2013 unexpectedly functions as an ancient **cognitive reframing mechanism**, allowing individuals to consciously detach from involuntary emotional responses.",
     "The unfolding 'Fifth Industrial Revolution' driven by the convergence of artificial intelligence, advanced manufacturing, and semiconductor investment, signaling a historic expansion of productive capacity in nations like America.",
     "Roman Legionary Siege Engineering Architecture",
@@ -89,9 +88,10 @@
     "How the Western Roman Empire's internal tax-coinage debasement created an instant military logistics collapse before a single arrow was ever fired.",
     "How Roman espionage agents embedded microscopic dyed threads into tunic hems to securely pass encrypted troop movement intelligence across borders.",
     "How ancient Greek siege engineers weaponized concentrated parabolic sun-mirrors to flash-heat and ignite pitch-coated wooden palisades from half a mile away.",
-    "How Roman legionaries executed the 'testudo' tortoise formation under a barrage of burning missiles without suffocating from the trapped heat and smoke."
+    "How Roman legionaries executed the 'testudo' tortoise formation under a barrage of burning missiles without suffocating from the trapped heat and smoke.",
+    "The Roman Ballista: The torsion-powered bolt thrower that pinned armored cavalry through solid wood shields"
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 3,
-  "call_count": 245
+  "subcluster_idx": 3,
+  "fallback_idx": 9,
+  "call_count": 246
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How the Stoic practice of *prohairesis* \u2013 choosing one's attitude regardless of external events \u2013 unexpectedly functions as an ancient **cognitive reframing mechanism**, allowing individuals to consciously detach from involuntary emotional responses.",
     "The unfolding 'Fifth Industrial Revolution' driven by the convergence of artificial intelligence, advanced manufacturing, and semiconductor investment, signaling a historic expansion of productive capacity in nations like America.",
     "Roman Legionary Siege Engineering Architecture",
     "How the Roman **impedimenta** system, requiring legionaries to carry an extraordinary 60-80 lbs of personal equipment, tools, and rations, enabled unprecedented strategic mobility and deep penetration into enemy territory by minimizing reliance on vulnerable, extended supply lines.",
@@ -89,9 +88,10 @@
     "How Roman espionage agents embedded microscopic dyed threads into tunic hems to securely pass encrypted troop movement intelligence across borders.",
     "How ancient Greek siege engineers weaponized concentrated parabolic sun-mirrors to flash-heat and ignite pitch-coated wooden palisades from half a mile away.",
     "How Roman legionaries executed the 'testudo' tortoise formation under a barrage of burning missiles without suffocating from the trapped heat and smoke.",
-    "The Roman Ballista: The torsion-powered bolt thrower that pinned armored cavalry through solid wood shields"
+    "The Roman Ballista: The torsion-powered bolt thrower that pinned armored cavalry through solid wood shields",
+    "How a fatal logistical miscalculation involving wet leather tent hides caused the total collapse of the elite Sasanian vanguard at Nineveh."
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 9,
-  "call_count": 246
+  "subcluster_idx": 4,
+  "fallback_idx": 10,
+  "call_count": 247
 }

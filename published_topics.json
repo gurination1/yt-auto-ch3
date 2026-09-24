@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Roman Legionary Siege Engineering Architecture",
     "How the Roman **impedimenta** system, requiring legionaries to carry an extraordinary 60-80 lbs of personal equipment, tools, and rations, enabled unprecedented strategic mobility and deep penetration into enemy territory by minimizing reliance on vulnerable, extended supply lines.",
     "Off the coast of France, the unearthing of a 7,000-year-old underwater city featuring megalithic structures is fundamentally reshaping our understanding of prehistoric coastal civilizations and the legends of drowned cities.",
     "AI Reconstruction of Medieval Siege Endurance: Beyond the Battlefield, Inside the Walls, new AI-generated content offers a visceral understanding of the prolonged psychological and physical ordeal faced by those trapped within besieged castles, highlighting the true battle of attrition.",
@@ -89,9 +88,10 @@
     "How Roman legionaries executed the 'testudo' tortoise formation under a barrage of burning missiles without suffocating from the trapped heat and smoke.",
     "The Roman Ballista: The torsion-powered bolt thrower that pinned armored cavalry through solid wood shields",
     "How a fatal logistical miscalculation involving wet leather tent hides caused the total collapse of the elite Sasanian vanguard at Nineveh.",
-    "Great Wall Sticky Rice Mortar: The ancient chemical recipe of amylopectin that made military fortresses earthquake-proof"
+    "Great Wall Sticky Rice Mortar: The ancient chemical recipe of amylopectin that made military fortresses earthquake-proof",
+    "How Roman artillerymen painted their massive ballista iron bolts with pitch and sulfur to act as prehistoric incendiary tracer rounds."
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 11,
-  "call_count": 248
+  "subcluster_idx": 1,
+  "fallback_idx": 12,
+  "call_count": 249
 }

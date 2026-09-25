@@ -1,6 +1,5 @@
 {
   "topics": [
-    "AI Reconstruction of Medieval Siege Endurance: Beyond the Battlefield, Inside the Walls, new AI-generated content offers a visceral understanding of the prolonged psychological and physical ordeal faced by those trapped within besieged castles, highlighting the true battle of attrition.",
     "How the accidental discovery and exploitation of the **'anvil effect'** \u2013 the localized work hardening of metal through repeated hammer blows \u2013 was more critical to early iron tool and weapon superiority than the initial smelting process itself.",
     "Peloponnesian War's Echoes: Re-examining Thucydides for US-China Strategic Competition Insights",
     "AI's Unseen Hand: How New Algorithms are Revolutionizing the Declassification and Analysis of Cold War Espionage Archives.",
@@ -89,9 +88,10 @@
     "Great Wall Sticky Rice Mortar: The ancient chemical recipe of amylopectin that made military fortresses earthquake-proof",
     "How Roman artillerymen painted their massive ballista iron bolts with pitch and sulfur to act as prehistoric incendiary tracer rounds.",
     "Why Roman legionaries trained with double-weight wooden practice swords against massive willow posts to build the lightning-fast upward thrust that bypassed ribs.",
-    "The Fall of Constantinople (1453): How the Orban super-bombard shattered the 1,000-year-old Theodosian stone walls"
+    "The Fall of Constantinople (1453): How the Orban super-bombard shattered the 1,000-year-old Theodosian stone walls",
+    "How the Roman general Crassus accidentally weaponized Parthian acoustic gold-pouring execution myths into a full-scale psychological panic at Carrhae."
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 15,
-  "call_count": 251
+  "subcluster_idx": 4,
+  "fallback_idx": 16,
+  "call_count": 252
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "AI's Unseen Hand: How New Algorithms are Revolutionizing the Declassification and Analysis of Cold War Espionage Archives.",
     "How the precise placement of massive pyramid capstones might have relied on a **differential sand-release mechanism** within a lever-and-fulcrum system, allowing micro-adjustments by controlling sand flow.",
     "Bronze Age Collapse Mediterranean Civilizations",
     "Library of Alexandria Lost Classical Knowledge",
@@ -89,9 +88,10 @@
     "The Fall of Constantinople (1453): How the Orban super-bombard shattered the 1,000-year-old Theodosian stone walls",
     "How the Roman general Crassus accidentally weaponized Parthian acoustic gold-pouring execution myths into a full-scale psychological panic at Carrhae.",
     "Roman Military Decimation: The brutal disciplinary punishment where disgraced cohorts bludgeoned every tenth man",
-    "How Carthaginian defenders weaponized multi-ton counterweight trebuchet arms fitted with double-hinged slings to hurl burning ceramic pots of unquenchable quicklime."
+    "How Carthaginian defenders weaponized multi-ton counterweight trebuchet arms fitted with double-hinged slings to hurl burning ceramic pots of unquenchable quicklime.",
+    "How Roman engineers buried hollow bronze pots beneath amphitheaters and military parade grounds to amplify the psychological roar of charging legions."
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 18,
-  "call_count": 254
+  "subcluster_idx": 2,
+  "fallback_idx": 19,
+  "call_count": 255
 }

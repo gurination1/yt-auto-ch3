@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Bronze Age Collapse Mediterranean Civilizations",
     "Library of Alexandria Lost Classical Knowledge",
     "How the Knights Templar's **secret cipher system** functioned as an early form of secure banking, allowing crusaders to transfer vast wealth across continents safely, centuries before modern encryption.",
     "Spartan Phalanx Warfare Military Discipline",
@@ -89,9 +88,10 @@
     "Roman Military Decimation: The brutal disciplinary punishment where disgraced cohorts bludgeoned every tenth man",
     "How Carthaginian defenders weaponized multi-ton counterweight trebuchet arms fitted with double-hinged slings to hurl burning ceramic pots of unquenchable quicklime.",
     "How Roman engineers buried hollow bronze pots beneath amphitheaters and military parade grounds to amplify the psychological roar of charging legions.",
-    "The Siege of Masada: How Roman soldiers constructed a colossal 375-foot earthen assault ramp up a sheer mesa"
+    "The Siege of Masada: How Roman soldiers constructed a colossal 375-foot earthen assault ramp up a sheer mesa",
+    "The fatal navigational ambush at the battle of Lake Trasimene where Roman legions marched straight into a morning fog trap."
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 20,
-  "call_count": 256
+  "subcluster_idx": 4,
+  "fallback_idx": 21,
+  "call_count": 257
 }

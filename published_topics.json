@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How the Knights Templar's **secret cipher system** functioned as an early form of secure banking, allowing crusaders to transfer vast wealth across continents safely, centuries before modern encryption.",
     "Spartan Phalanx Warfare Military Discipline",
     "Recently digitized 14th-century monastic chronicles hint at a previously undocumented 'inner circle' within a lesser-known crusader order, suggesting esoteric rituals and political machinations beyond their public activities.",
     "Fresh historical analysis is spotlighting the 1456 Siege of Belgrade as an underappreciated, pivotal turning point, where a diverse, 'ragtag' defense halted the seemingly unstoppable Ottoman expansion into Europe, dramatically altering the continent's geopolitical future.",
@@ -89,9 +88,10 @@
     "How Roman engineers buried hollow bronze pots beneath amphitheaters and military parade grounds to amplify the psychological roar of charging legions.",
     "The Siege of Masada: How Roman soldiers constructed a colossal 375-foot earthen assault ramp up a sheer mesa",
     "The fatal navigational ambush at the battle of Lake Trasimene where Roman legions marched straight into a morning fog trap.",
-    "The declassified archaeological excavation of a secret Carthaginian underwater escape tunnel sealed by a submerged counterweight stone gate."
+    "The declassified archaeological excavation of a secret Carthaginian underwater escape tunnel sealed by a submerged counterweight stone gate.",
+    "The forgotten Greek 'gastraphetes' mechanical crossbow, an ancient composite belly-bow that predated the heavy medieval arbalest by a millennium."
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 22,
-  "call_count": 258
+  "subcluster_idx": 1,
+  "fallback_idx": 23,
+  "call_count": 259
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Spartan Battle of Leuctra Oblique Line Tactic",
     "Ancient Trebuchet Counterweight Siege Machine",
     "How **protein coagulation** in goat's milk allowed Roman agents to use invisible ink, revealing secret messages only when heated, a technique described by Ovid.",
     "A lost Maya city, Valeriana, complete with pyramids and plazas, has been rediscovered in the Mexican jungle through a groundbreaking combination of online environmental data and LiDAR technology.",
@@ -89,9 +88,10 @@
     "Why Roman legions punished cowardly units by forcing them to camp outside fortified walls in open tents, where sleeping guards were systematically executed for dropping watch discipline.",
     "The Claw of Archimedes: The ancient mechanical crane that hooked and capsized Roman warships at Syracuse",
     "The Siege of Tyre: How Alexander the Great built a kilometer-long ocean causeway to shatter an island fortress",
-    "How declassified archival records uncovered a secret Spartan mountain pass relay system that transmitted complex military mobilization codes using polished bronze shield flashes."
+    "How declassified archival records uncovered a secret Spartan mountain pass relay system that transmitted complex military mobilization codes using polished bronze shield flashes.",
+    "The 'Acoustic Aiming' secret where siege engineers tuned the tension of torsion ropes by listening to the pitch of the vibration to achieve pinpoint accuracy."
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 4,
-  "call_count": 263
+  "subcluster_idx": 1,
+  "fallback_idx": 5,
+  "call_count": 264
 }

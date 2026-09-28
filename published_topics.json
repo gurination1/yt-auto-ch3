@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How **Hawking Radiation** means black holes aren't eternal cosmic traps, but slowly evaporate over quadrillions of years, turning their immense gravity into a trickle of emitted particles.",
     "Spartan Battle of Leuctra Oblique Line Tactic",
     "Ancient Trebuchet Counterweight Siege Machine",
     "How **protein coagulation** in goat's milk allowed Roman agents to use invisible ink, revealing secret messages only when heated, a technique described by Ovid.",
@@ -89,9 +88,10 @@
     "The forgotten Greek 'gastraphetes' mechanical crossbow, an ancient composite belly-bow that predated the heavy medieval arbalest by a millennium.",
     "Why Roman legions punished cowardly units by forcing them to camp outside fortified walls in open tents, where sleeping guards were systematically executed for dropping watch discipline.",
     "The Claw of Archimedes: The ancient mechanical crane that hooked and capsized Roman warships at Syracuse",
-    "The Siege of Tyre: How Alexander the Great built a kilometer-long ocean causeway to shatter an island fortress"
+    "The Siege of Tyre: How Alexander the Great built a kilometer-long ocean causeway to shatter an island fortress",
+    "How declassified archival records uncovered a secret Spartan mountain pass relay system that transmitted complex military mobilization codes using polished bronze shield flashes."
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 3,
-  "call_count": 262
+  "subcluster_idx": 0,
+  "fallback_idx": 4,
+  "call_count": 263
 }

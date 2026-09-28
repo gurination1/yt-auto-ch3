@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Fresh historical analysis is spotlighting the 1456 Siege of Belgrade as an underappreciated, pivotal turning point, where a diverse, 'ragtag' defense halted the seemingly unstoppable Ottoman expansion into Europe, dramatically altering the continent's geopolitical future.",
     "How **Hawking Radiation** means black holes aren't eternal cosmic traps, but slowly evaporate over quadrillions of years, turning their immense gravity into a trickle of emitted particles.",
     "Spartan Battle of Leuctra Oblique Line Tactic",
     "Ancient Trebuchet Counterweight Siege Machine",
@@ -89,9 +88,10 @@
     "The declassified archaeological excavation of a secret Carthaginian underwater escape tunnel sealed by a submerged counterweight stone gate.",
     "The forgotten Greek 'gastraphetes' mechanical crossbow, an ancient composite belly-bow that predated the heavy medieval arbalest by a millennium.",
     "Why Roman legions punished cowardly units by forcing them to camp outside fortified walls in open tents, where sleeping guards were systematically executed for dropping watch discipline.",
-    "The Claw of Archimedes: The ancient mechanical crane that hooked and capsized Roman warships at Syracuse"
+    "The Claw of Archimedes: The ancient mechanical crane that hooked and capsized Roman warships at Syracuse",
+    "The Siege of Tyre: How Alexander the Great built a kilometer-long ocean causeway to shatter an island fortress"
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 1,
-  "call_count": 261
+  "subcluster_idx": 4,
+  "fallback_idx": 3,
+  "call_count": 262
 }

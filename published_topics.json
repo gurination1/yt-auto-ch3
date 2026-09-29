@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How the Mongol cavalry weaponized the specialized hunting behavior of golden eagles to instill panic in European infantry lines, leveraging a biological fear response hardwired in mammalian prey.",
     "The acoustic resonance chambers hidden inside Maltese megalithic temples that broadcasted low-frequency hypnotic sounds",
     "The Declassified WWII 'Ghost Army' That Fooled Hitler with Inflatable Tanks and Fake Radio Traffic",
     "Ancient Mesoamerican 'super-rubber' technology that defied known chemistry",
@@ -89,9 +88,10 @@
     "Why Roman centurions intentionally shattered the lead weights off their plumbata throwing darts before launching them at charging barbarian lines.",
     "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
     "How Roman engineers accidentally baked their own frontline camps alive by choosing sulfur-rich volcanic tuff blocks for underground defensive barracks.",
-    "The secret underground labyrinth beneath the Derinkuyu fortress that used rolling multi-ton stone door wheels operable exclusively from the inside."
+    "The secret underground labyrinth beneath the Derinkuyu fortress that used rolling multi-ton stone door wheels operable exclusively from the inside.",
+    "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps"
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 9,
-  "call_count": 268
+  "subcluster_idx": 1,
+  "fallback_idx": 10,
+  "call_count": 269
 }

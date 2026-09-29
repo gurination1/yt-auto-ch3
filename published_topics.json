@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Archaeologists are re-evaluating the 'dolphin' weapon, a unique ancient naval device recovered from the Antikythera shipwreck, designed to inflict critical damage on enemy vessels.",
     "How the Mongol cavalry weaponized the specialized hunting behavior of golden eagles to instill panic in European infantry lines, leveraging a biological fear response hardwired in mammalian prey.",
     "The acoustic resonance chambers hidden inside Maltese megalithic temples that broadcasted low-frequency hypnotic sounds",
     "The Declassified WWII 'Ghost Army' That Fooled Hitler with Inflatable Tanks and Fake Radio Traffic",
@@ -89,9 +88,10 @@
     "The 'Acoustic Aiming' secret where siege engineers tuned the tension of torsion ropes by listening to the pitch of the vibration to achieve pinpoint accuracy.",
     "Why Roman centurions intentionally shattered the lead weights off their plumbata throwing darts before launching them at charging barbarian lines.",
     "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
-    "How Roman engineers accidentally baked their own frontline camps alive by choosing sulfur-rich volcanic tuff blocks for underground defensive barracks."
+    "How Roman engineers accidentally baked their own frontline camps alive by choosing sulfur-rich volcanic tuff blocks for underground defensive barracks.",
+    "The secret underground labyrinth beneath the Derinkuyu fortress that used rolling multi-ton stone door wheels operable exclusively from the inside."
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 8,
-  "call_count": 267
+  "subcluster_idx": 0,
+  "fallback_idx": 9,
+  "call_count": 268
 }

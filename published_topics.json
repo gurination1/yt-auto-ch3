@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The acoustic resonance chambers hidden inside Maltese megalithic temples that broadcasted low-frequency hypnotic sounds",
     "The Declassified WWII 'Ghost Army' That Fooled Hitler with Inflatable Tanks and Fake Radio Traffic",
     "Ancient Mesoamerican 'super-rubber' technology that defied known chemistry",
     "The 'Liquid Stone' Composite: Self-Healing Ancient Siege Walls That Absorbed Catapult Blasts",
@@ -89,9 +88,10 @@
     "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
     "How Roman engineers accidentally baked their own frontline camps alive by choosing sulfur-rich volcanic tuff blocks for underground defensive barracks.",
     "The secret underground labyrinth beneath the Derinkuyu fortress that used rolling multi-ton stone door wheels operable exclusively from the inside.",
-    "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps"
+    "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps",
+    "Why Roman commanders forced punished cohorts to stand completely motionless for hours holding lead-weighted lead ingots over their heads."
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 10,
-  "call_count": 269
+  "subcluster_idx": 2,
+  "fallback_idx": 11,
+  "call_count": 270
 }

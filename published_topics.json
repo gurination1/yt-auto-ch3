@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How **protein coagulation** in goat's milk allowed Roman agents to use invisible ink, revealing secret messages only when heated, a technique described by Ovid.",
     "A lost Maya city, Valeriana, complete with pyramids and plazas, has been rediscovered in the Mexican jungle through a groundbreaking combination of online environmental data and LiDAR technology.",
     "Archaeologists are re-evaluating the 'dolphin' weapon, a unique ancient naval device recovered from the Antikythera shipwreck, designed to inflict critical damage on enemy vessels.",
     "How the Mongol cavalry weaponized the specialized hunting behavior of golden eagles to instill panic in European infantry lines, leveraging a biological fear response hardwired in mammalian prey.",
@@ -89,9 +88,10 @@
     "The Siege of Tyre: How Alexander the Great built a kilometer-long ocean causeway to shatter an island fortress",
     "How declassified archival records uncovered a secret Spartan mountain pass relay system that transmitted complex military mobilization codes using polished bronze shield flashes.",
     "The 'Acoustic Aiming' secret where siege engineers tuned the tension of torsion ropes by listening to the pitch of the vibration to achieve pinpoint accuracy.",
-    "Why Roman centurions intentionally shattered the lead weights off their plumbata throwing darts before launching them at charging barbarian lines."
+    "Why Roman centurions intentionally shattered the lead weights off their plumbata throwing darts before launching them at charging barbarian lines.",
+    "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards"
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 6,
-  "call_count": 265
+  "subcluster_idx": 3,
+  "fallback_idx": 7,
+  "call_count": 266
 }

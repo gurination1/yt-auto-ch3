@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The 'Liquid Stone' Composite: Self-Healing Ancient Siege Walls That Absorbed Catapult Blasts",
     "Analysis of ancient pollen and geological strata around a legendary siege reveals a specific, short-lived 'super-fog' weather phenomenon, suggesting a decisive, planned environmental weapon used by defenders to ambush attackers.",
     "The Maya Paradox: How Their Brilliant Concept of Zero May Have Blinded Them to Their Own Downfall",
     "The Secret 'Fake City' Where Spies Trained for Real Missions",
@@ -89,9 +88,10 @@
     "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps",
     "Why Roman commanders forced punished cohorts to stand completely motionless for hours holding lead-weighted lead ingots over their heads.",
     "The Spartan Hoplite Phalanx: How bronze aspis shields and 9-foot dory spears built an impenetrable human wall",
-    "How the mysterious collapse of the Mycenaean palace economies was triggered by an overlooked supply chain choke point involving imported Tyrian purple snail dye."
+    "How the mysterious collapse of the Mycenaean palace economies was triggered by an overlooked supply chain choke point involving imported Tyrian purple snail dye.",
+    "The bizarre physics of the Carthaginian underwater harbor boom chains that used floating buoyant amphorae to silently snap enemy galley steering oars."
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 13,
-  "call_count": 272
+  "subcluster_idx": 0,
+  "fallback_idx": 14,
+  "call_count": 273
 }

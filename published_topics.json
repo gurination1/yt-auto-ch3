@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Maya Paradox: How Their Brilliant Concept of Zero May Have Blinded Them to Their Own Downfall",
     "The Secret 'Fake City' Where Spies Trained for Real Missions",
     "Archaeologists unearth a Roman legionary camp, perfectly preserved by a sudden mudslide, revealing intact leather armor, writing tablets, and personal effects, a stunning 'day-in-the-life' snapshot from 2000 years ago.",
     "The Blinding Mirrors of Archimedes: How Ancient Solar Engineering Weaponized Light, Not Fire.",
@@ -89,9 +88,10 @@
     "The Spartan Hoplite Phalanx: How bronze aspis shields and 9-foot dory spears built an impenetrable human wall",
     "How the mysterious collapse of the Mycenaean palace economies was triggered by an overlooked supply chain choke point involving imported Tyrian purple snail dye.",
     "The bizarre physics of the Carthaginian underwater harbor boom chains that used floating buoyant amphorae to silently snap enemy galley steering oars.",
-    "Cataphract Shock Cavalry: The fully armored horse-and-rider juggernauts that trampled Mediterranean battle lines"
+    "Cataphract Shock Cavalry: The fully armored horse-and-rider juggernauts that trampled Mediterranean battle lines",
+    "How Roman military tribunes utilized chemical-stained linen strips tied around legionary right arms to instantly identify tactical cohort positions during dust-blinded desert skirmishes."
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 18,
-  "call_count": 274
+  "subcluster_idx": 2,
+  "fallback_idx": 19,
+  "call_count": 275
 }

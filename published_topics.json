@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Recent LiDAR scans near Roman frontier fortifications have uncovered faint, precisely laid out grid patterns, suggesting advanced, standardized targeting systems for ballistas, allowing for unprecedented accuracy and coordinated fire.",
     "Forensic Proof: Ancient Roman 'Poisoner's Guild' Systematically Eliminated Rivals",
     "The CIA's \"Thing\": A Spy Device That Listened for Years with NO Batteries, Wires, or Power Source",
     "New forensic evidence from the **Tollense Valley battlefield** reveals over 140 Bronze Age warriors were killed by massed archers and blunt force, proving highly organized, large-scale warfare existed 3,200 years ago.",
@@ -89,9 +88,10 @@
     "How Roman military tribunes utilized chemical-stained linen strips tied around legionary right arms to instantly identify tactical cohort positions during dust-blinded desert skirmishes.",
     "How ancient Greek fortification designers built deceptive labyrinthine entryway trenches lined with dead-end pivot gates that crushed charging infantry squads.",
     "Persian Scythed Chariots: The spinning iron wheel-blade combat chariots engineered to sever enemy infantry ranks",
-    "The Battle of Agincourt: How English longbow stakes planted in muddy terrain halted French armored knights"
+    "The Battle of Agincourt: How English longbow stakes planted in muddy terrain halted French armored knights",
+    "The Siege of Alesia: How Julius Caesar constructed two concentric 15-mile fortified walls while besieged himself"
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 23,
-  "call_count": 278
+  "subcluster_idx": 1,
+  "fallback_idx": 8,
+  "call_count": 279
 }

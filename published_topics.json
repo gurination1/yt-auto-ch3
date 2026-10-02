@@ -1,6 +1,5 @@
 {
   "topics": [
-    "5,000-Year-Old Fortress Hides Roman Soldier's Millennium-Later Burial",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Roman Legionary's \"Combat Trance\": How Repetitive Drills Bypassed Fear and Pain",
     "Ancient Roman Shipwreck's 'Pollen GPS': How Tar Coatings Mapped its Entire Journey",
@@ -89,9 +88,10 @@
     "The Siege of Alesia: How Julius Caesar constructed two concentric 15-mile fortified walls while besieged himself",
     "Byzantine Greek Fire: The pressurized chemical naval flamethrower that continued burning on ocean water",
     "The Roman Testudo Formation: How interlocking scutum shields deflected arrows, heavy stones, and javelins",
-    "How the mighty Persian invasion fleet at the Battle of Salamis suffered a total tactical collapse because their massive warships were too wide to turn in the narrow, trap-like strait."
+    "How the mighty Persian invasion fleet at the Battle of Salamis suffered a total tactical collapse because their massive warships were too wide to turn in the narrow, trap-like strait.",
+    "How declassified LIDAR mapping revealed secret Hellenistic fortress water cisterns laced with toxic arsenic minerals to poison invading armies."
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 6,
-  "call_count": 282
+  "subcluster_idx": 0,
+  "fallback_idx": 7,
+  "call_count": 283
 }

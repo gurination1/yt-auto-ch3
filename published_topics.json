@@ -1,6 +1,5 @@
 {
   "topics": [
-    "New forensic evidence from the **Tollense Valley battlefield** reveals over 140 Bronze Age warriors were killed by massed archers and blunt force, proving highly organized, large-scale warfare existed 3,200 years ago.",
     "5,000-Year-Old Fortress Hides Roman Soldier's Millennium-Later Burial",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Roman Legionary's \"Combat Trance\": How Repetitive Drills Bypassed Fear and Pain",
@@ -89,9 +88,10 @@
     "The Battle of Agincourt: How English longbow stakes planted in muddy terrain halted French armored knights",
     "The Siege of Alesia: How Julius Caesar constructed two concentric 15-mile fortified walls while besieged himself",
     "Byzantine Greek Fire: The pressurized chemical naval flamethrower that continued burning on ocean water",
-    "The Roman Testudo Formation: How interlocking scutum shields deflected arrows, heavy stones, and javelins"
+    "The Roman Testudo Formation: How interlocking scutum shields deflected arrows, heavy stones, and javelins",
+    "How the mighty Persian invasion fleet at the Battle of Salamis suffered a total tactical collapse because their massive warships were too wide to turn in the narrow, trap-like strait."
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 5,
-  "call_count": 281
+  "subcluster_idx": 4,
+  "fallback_idx": 6,
+  "call_count": 282
 }

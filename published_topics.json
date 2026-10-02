@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The CIA's \"Thing\": A Spy Device That Listened for Years with NO Batteries, Wires, or Power Source",
     "New forensic evidence from the **Tollense Valley battlefield** reveals over 140 Bronze Age warriors were killed by massed archers and blunt force, proving highly organized, large-scale warfare existed 3,200 years ago.",
     "5,000-Year-Old Fortress Hides Roman Soldier's Millennium-Later Burial",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
@@ -89,9 +88,10 @@
     "Persian Scythed Chariots: The spinning iron wheel-blade combat chariots engineered to sever enemy infantry ranks",
     "The Battle of Agincourt: How English longbow stakes planted in muddy terrain halted French armored knights",
     "The Siege of Alesia: How Julius Caesar constructed two concentric 15-mile fortified walls while besieged himself",
-    "Byzantine Greek Fire: The pressurized chemical naval flamethrower that continued burning on ocean water"
+    "Byzantine Greek Fire: The pressurized chemical naval flamethrower that continued burning on ocean water",
+    "The Roman Testudo Formation: How interlocking scutum shields deflected arrows, heavy stones, and javelins"
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 4,
-  "call_count": 280
+  "subcluster_idx": 3,
+  "fallback_idx": 5,
+  "call_count": 281
 }

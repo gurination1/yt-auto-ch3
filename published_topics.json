@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Ancient Judge's Tomb Reveals Empire's Hidden Weakness",
     "The \"Desert Whisperers\": How ancient nomadic tribes understood the acoustics of sand dunes, using their parabolic shapes (often enhanced) as natural listening devices to eavesdrop on distant enemy camps for miles.",
     "Pompeii's Lost 'Machine Gun' Discovery",
     "Marcus Aurelius's Lost Legion: A Roman Camp Abandoned Overnight with Hasty Mass Graves",
@@ -89,9 +88,10 @@
     "How declassified LIDAR mapping revealed secret Hellenistic fortress water cisterns laced with toxic arsenic minerals to poison invading armies.",
     "The bizarre physics of the ancient multi-spring polybolos, a rapid-fire chain-loaded torsion machine gun that predated modern automatic firearms by nearly two thousand years.",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
-    "The Battle of Cannae: How Hannibal's double envelopment crescent tactic surrounded 70,000 Roman legionaries"
+    "The Battle of Cannae: How Hannibal's double envelopment crescent tactic surrounded 70,000 Roman legionaries",
+    "The Battle of Carrhae: How Parthian horse archers used camel supply trains to continuously bombard Crassus"
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 6,
-  "call_count": 286
+  "subcluster_idx": 4,
+  "fallback_idx": 13,
+  "call_count": 287
 }

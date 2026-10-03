@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Pompeii's Lost 'Machine Gun' Discovery",
     "Marcus Aurelius's Lost Legion: A Roman Camp Abandoned Overnight with Hasty Mass Graves",
     "The 'Underwater Flamethrower' Paradox: How Byzantine naval siphons could project liquid fire underwater for short bursts, igniting enemy ship hulls from below the waterline, a secret defying all known combustion.",
     "Global Mystery: The 4.2-Kiloyear Collapse",
@@ -89,9 +88,10 @@
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Battle of Cannae: How Hannibal's double envelopment crescent tactic surrounded 70,000 Roman legionaries",
     "The Battle of Carrhae: How Parthian horse archers used camel supply trains to continuously bombard Crassus",
-    "The Battle of Teutoburg Forest: How Arminius trapped three Roman legions in marshy bottlenecks to wipe out 20,000 men"
+    "The Battle of Teutoburg Forest: How Arminius trapped three Roman legions in marshy bottlenecks to wipe out 20,000 men",
+    "The Anglo-Saxon Shield Wall: How interlocking Linden wood shields withstood cavalry impact at the Battle of Hastings"
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 19,
-  "call_count": 288
+  "subcluster_idx": 1,
+  "fallback_idx": 24,
+  "call_count": 289
 }

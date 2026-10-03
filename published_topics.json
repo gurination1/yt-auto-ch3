@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Ancient Roman Shipwreck's 'Pollen GPS': How Tar Coatings Mapped its Entire Journey",
     "Ancient Judge's Tomb Reveals Empire's Hidden Weakness",
     "The \"Desert Whisperers\": How ancient nomadic tribes understood the acoustics of sand dunes, using their parabolic shapes (often enhanced) as natural listening devices to eavesdrop on distant enemy camps for miles.",
     "Pompeii's Lost 'Machine Gun' Discovery",
@@ -89,9 +88,10 @@
     "How the mighty Persian invasion fleet at the Battle of Salamis suffered a total tactical collapse because their massive warships were too wide to turn in the narrow, trap-like strait.",
     "How declassified LIDAR mapping revealed secret Hellenistic fortress water cisterns laced with toxic arsenic minerals to poison invading armies.",
     "The bizarre physics of the ancient multi-spring polybolos, a rapid-fire chain-loaded torsion machine gun that predated modern automatic firearms by nearly two thousand years.",
-    "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat"
+    "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
+    "The Battle of Cannae: How Hannibal's double envelopment crescent tactic surrounded 70,000 Roman legionaries"
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 2,
-  "call_count": 285
+  "subcluster_idx": 3,
+  "fallback_idx": 6,
+  "call_count": 286
 }

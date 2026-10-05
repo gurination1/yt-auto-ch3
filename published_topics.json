@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Torsion Catapult's Hidden Weakness: Why Twisting Harder Made It *Weaker*",
     "Mysterious Roman Mass Burials in Slovakian Wells",
     "Byzantine Greek Fire: The Lost Superweapon's Unsolvable Chemistry.",
     "How Hannibal Used Hypothermia to Paralyze 30,000 Roman Swords at the Battle of Trebia",
@@ -89,9 +88,10 @@
     "Why Roman legionaries deliberately scored the interior bronze lining of their helmet cheek-pieces with razor-thin anti-slip micro-grooves.",
     "The Bronze Age Collapse: How the mysterious Sea Peoples demolished Mediterranean empires in less than 50 years",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
   ],
-  "subcluster_idx": 0,
+  "subcluster_idx": 1,
   "fallback_idx": 14,
-  "call_count": 293
+  "call_count": 294
 }

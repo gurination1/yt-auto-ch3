@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Byzantine Greek Fire: The Lost Superweapon's Unsolvable Chemistry.",
     "How Hannibal Used Hypothermia to Paralyze 30,000 Roman Swords at the Battle of Trebia",
     "3,000-Year-Old Underwater Urartu Fortress Reveals Hidden Defenses",
     "The Jotapata 'Stealth' Ballista Stones: Why Romans Painted Their Siege Ammo Black",
@@ -89,9 +88,10 @@
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
   ],
-  "subcluster_idx": 2,
+  "subcluster_idx": 3,
   "fallback_idx": 14,
-  "call_count": 295
+  "call_count": 296
 }

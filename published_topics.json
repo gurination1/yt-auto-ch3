@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How Hannibal Used Hypothermia to Paralyze 30,000 Roman Swords at the Battle of Trebia",
     "3,000-Year-Old Underwater Urartu Fortress Reveals Hidden Defenses",
     "The Jotapata 'Stealth' Ballista Stones: Why Romans Painted Their Siege Ammo Black",
     "Why Roman Legionaries Smashed Their Own Shield Bosses Before Every Battle",
@@ -89,9 +88,10 @@
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
-    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
+    "Why the Byzantine garrison at the Battle of Yarmuk accidentally caused a massive rout by tying their cavalry together with ropes to prevent desertion."
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 14,
-  "call_count": 296
+  "subcluster_idx": 4,
+  "fallback_idx": 15,
+  "call_count": 297
 }

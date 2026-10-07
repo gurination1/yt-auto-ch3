@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Caesar\u2019s Hidden 'Stimuli' Iron-Hook Trench Traps",
     "The Akkad Empire's self-inflicted 'water sabotage' collapse",
     "The Hidden Escape Tunnels Carved Directly Through Living Volcano Rock",
     "The Self-Righting Lead-Weighted Roman Tribulus",
@@ -89,9 +88,10 @@
     "Why the Byzantine garrison at the Battle of Yarmuk accidentally caused a massive rout by tying their cavalry together with ropes to prevent desertion.",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
-    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
+    "How Hellenistic naval architects integrated counter-weighted swinging boom arms onto war galleys to physically flip enemy boarding bridges backward."
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 14,
-  "call_count": 300
+  "subcluster_idx": 3,
+  "fallback_idx": 15,
+  "call_count": 301
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Hidden Escape Tunnels Carved Directly Through Living Volcano Rock",
     "The Self-Righting Lead-Weighted Roman Tribulus",
     "High-Frequency Bronze Battle Whistles of Roman Centurions",
     "The bizarre physics of the Byzantine naval siphon, which used sealed pneumatic pressure chambers to force-project burning naphtha across open water.",
@@ -89,9 +88,10 @@
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "How Hellenistic naval architects integrated counter-weighted swinging boom arms onto war galleys to physically flip enemy boarding bridges backward.",
-    "How the Carthaginian defenders at the Siege of New Carthage suffered a catastrophic defensive breach because an unpredicted low-tide phenomenon drained their harbor lagoon overnight."
+    "How the Carthaginian defenders at the Siege of New Carthage suffered a catastrophic defensive breach because an unpredicted low-tide phenomenon drained their harbor lagoon overnight.",
+    "The forgotten medieval fortress water-trap design that flooded inner bailey courtyards with boiling oil-infused wastewater during coordinated sapper tunnel breaches."
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 16,
-  "call_count": 302
+  "subcluster_idx": 0,
+  "fallback_idx": 17,
+  "call_count": 303
 }

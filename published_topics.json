@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The bizarre physics of the Byzantine naval siphon, which used sealed pneumatic pressure chambers to force-project burning naphtha across open water.",
     "The catastrophic tactical blunder at the Battle of the Catalaunian Plains where Roman and Visigothic forces accidentally ambushed each other in pitch darkness.",
     "How declassified Cold War CORONA satellite imagery revealed 396 hidden Roman fortresses, shattering a 100-year-old theory about Rome's defensive borders.",
     "Why Roman artillery operators deliberately soaked their catapult torsion ropes in olive oil during winter to prevent sudden, catastrophic metal-shattering explosions.",
@@ -89,9 +88,10 @@
     "How the Carthaginian defenders at the Siege of New Carthage suffered a catastrophic defensive breach because an unpredicted low-tide phenomenon drained their harbor lagoon overnight.",
     "The forgotten medieval fortress water-trap design that flooded inner bailey courtyards with boiling oil-infused wastewater during coordinated sapper tunnel breaches.",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
-    "Why Roman field commanders laced standard-issue tent leather with caustic lime to instantly blind enemy nocturnal infiltrators slicing through canvas."
+    "Why Roman field commanders laced standard-issue tent leather with caustic lime to instantly blind enemy nocturnal infiltrators slicing through canvas.",
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 15,
-  "call_count": 305
+  "subcluster_idx": 3,
+  "fallback_idx": 14,
+  "call_count": 306
 }

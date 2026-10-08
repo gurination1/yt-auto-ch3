@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How declassified Cold War CORONA satellite imagery revealed 396 hidden Roman fortresses, shattering a 100-year-old theory about Rome's defensive borders.",
     "Why Roman artillery operators deliberately soaked their catapult torsion ropes in olive oil during winter to prevent sudden, catastrophic metal-shattering explosions.",
     "How Roman engineers weaponized the structural design of marching sandals, embedding asymmetrical iron hobnails to maximize traction during brutal frontal infantry charges uphill.",
     "The forgotten acoustic resonance trick used in ancient underground counter-mining tunnels, where hanging bronze bowls mapped enemy tunneling vectors through vibrational echolocation.",
@@ -89,9 +88,10 @@
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "Why Roman field commanders laced standard-issue tent leather with caustic lime to instantly blind enemy nocturnal infiltrators slicing through canvas.",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
-    "How the late Western Roman army's tactical shift from heavy mail shirts to unarmored wool tunics inadvertently accelerated border defense collapses."
+    "How the late Western Roman army's tactical shift from heavy mail shirts to unarmored wool tunics inadvertently accelerated border defense collapses.",
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 15,
-  "call_count": 307
+  "subcluster_idx": 0,
+  "fallback_idx": 14,
+  "call_count": 308
 }

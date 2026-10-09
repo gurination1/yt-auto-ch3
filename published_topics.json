@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The declassified aerial imaging discovery of the lost Parthian fortress network that utilized mirrored parabolic mudbrick walls to blind approaching infantry.",
     "How Roman artillerymen used human hair from captured enemies and temple priestesses as the ultimate high-tensile spring material for torsion catapults.",
     "How Roman legionaries weaponized human bladder stones and vinegar to create a caustic acidic wash that cleaned oxidized armor faster than modern abrasives.",
     "Why Roman military architects designed double-walled fortification trenches with intentional dead-zones to trap and asphyxiate infiltrating enemy sappers.",
@@ -89,9 +88,10 @@
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
-    "How the Anglo-Saxon defenders at the Battle of Maldon committed a fatal tactical blunder by allowing Viking raiding parties to cross a tidal causeway unmolested."
+    "How the Anglo-Saxon defenders at the Battle of Maldon committed a fatal tactical blunder by allowing Viking raiding parties to cross a tidal causeway unmolested.",
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 15,
-  "call_count": 312
+  "subcluster_idx": 0,
+  "fallback_idx": 14,
+  "call_count": 313
 }

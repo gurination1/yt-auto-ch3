@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How ancient Spartan border outposts utilized parabolic echo-valleys to project whispered passwords across mountain ranges without modern radio.",
     "The bizarre physics of the Carthaginian 'string-less' torsion torsion-spring engine that relied entirely on tightly bound horse mane hair.",
     "How Roman centurions used codified hand-signal frequencies hidden inside rhythmic shield-banging to direct silent flanking maneuvers during chaotic melee combat.",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
@@ -89,9 +88,10 @@
     "The forgotten Hellenistic 'lithobolos' torsion engine that utilized wet leather pneumatic buffers to prevent the main wooden throwing arm from shattering.",
     "How ancient Roman legionary blacksmiths intentionally forged gladius sword tips with microscopic stress-fractures to snap inside enemy breastplates.",
     "How Hellenistic naval engineers weaponized bronze siphon cylinders filled with compressed air and sulfur to launch sub-surface underwater flame torpedoes.",
-    "How the Assyrian Empire's catastrophic administrative centralization left their frontier outposts completely defenseless against sudden nomadic chariot ambushes."
+    "How the Assyrian Empire's catastrophic administrative centralization left their frontier outposts completely defenseless against sudden nomadic chariot ambushes.",
+    "Why medieval crusader castle architects built deceptive spiral staircases winding clockwise specifically to trap and slaughter right-handed invading swordsmen."
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 18,
-  "call_count": 317
+  "subcluster_idx": 0,
+  "fallback_idx": 19,
+  "call_count": 318
 }

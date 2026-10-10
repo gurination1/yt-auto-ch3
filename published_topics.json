@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Why Roman military architects designed double-walled fortification trenches with intentional dead-zones to trap and asphyxiate infiltrating enemy sappers.",
     "How the Akkad Empire's forgotten hyper-salinization agricultural blunder accidentally transformed their breadbasket into a permanent salt desert overnight.",
     "How ancient Spartan border outposts utilized parabolic echo-valleys to project whispered passwords across mountain ranges without modern radio.",
     "The bizarre physics of the Carthaginian 'string-less' torsion torsion-spring engine that relied entirely on tightly bound horse mane hair.",
@@ -89,9 +88,10 @@
     "How the Anglo-Saxon defenders at the Battle of Maldon committed a fatal tactical blunder by allowing Viking raiding parties to cross a tidal causeway unmolested.",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The forgotten Hellenistic 'lithobolos' torsion engine that utilized wet leather pneumatic buffers to prevent the main wooden throwing arm from shattering.",
-    "How ancient Roman legionary blacksmiths intentionally forged gladius sword tips with microscopic stress-fractures to snap inside enemy breastplates."
+    "How ancient Roman legionary blacksmiths intentionally forged gladius sword tips with microscopic stress-fractures to snap inside enemy breastplates.",
+    "How Hellenistic naval engineers weaponized bronze siphon cylinders filled with compressed air and sulfur to launch sub-surface underwater flame torpedoes."
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 16,
-  "call_count": 315
+  "subcluster_idx": 3,
+  "fallback_idx": 17,
+  "call_count": 316
 }

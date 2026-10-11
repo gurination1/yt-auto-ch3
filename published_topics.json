@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How Roman centurions used codified hand-signal frequencies hidden inside rhythmic shield-banging to direct silent flanking maneuvers during chaotic melee combat.",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "How the Byzantine Empire's secret 'fire-well' cistern traps accidentally incinerated their own elite Varangian Guard during a night ambush.",
     "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges",
@@ -89,9 +88,10 @@
     "How Hellenistic naval engineers weaponized bronze siphon cylinders filled with compressed air and sulfur to launch sub-surface underwater flame torpedoes.",
     "How the Assyrian Empire's catastrophic administrative centralization left their frontier outposts completely defenseless against sudden nomadic chariot ambushes.",
     "Why medieval crusader castle architects built deceptive spiral staircases winding clockwise specifically to trap and slaughter right-handed invading swordsmen.",
-    "The lethal mechanical defect in heavy Roman scorpion bolt-throwers that sheared off firing levers and decapitated operators during rapid-fire sieges."
+    "The lethal mechanical defect in heavy Roman scorpion bolt-throwers that sheared off firing levers and decapitated operators during rapid-fire sieges.",
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 20,
-  "call_count": 319
+  "subcluster_idx": 2,
+  "fallback_idx": 14,
+  "call_count": 320
 }

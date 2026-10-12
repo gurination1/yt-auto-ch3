@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How the Byzantine Empire's secret 'fire-well' cistern traps accidentally incinerated their own elite Varangian Guard during a night ambush.",
     "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges",
     "The fatal design flaw in early Roman onager catapults that caused the massive throwing arm to violently whip backward.",
     "The forgotten Roman practice of 'castigatio' using heavy grapevine switches to enforce instantaneous formation discipline",
@@ -89,9 +88,10 @@
     "Why medieval crusader castle architects built deceptive spiral staircases winding clockwise specifically to trap and slaughter right-handed invading swordsmen.",
     "The lethal mechanical defect in heavy Roman scorpion bolt-throwers that sheared off firing levers and decapitated operators during rapid-fire sieges.",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
-    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
+    "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges"
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 14,
-  "call_count": 321
+  "subcluster_idx": 4,
+  "fallback_idx": 16,
+  "call_count": 322
 }

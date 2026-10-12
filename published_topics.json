@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The fatal design flaw in early Roman onager catapults that caused the massive throwing arm to violently whip backward.",
     "The forgotten Roman practice of 'castigatio' using heavy grapevine switches to enforce instantaneous formation discipline",
     "The forgotten Roman trench engineering secret of 'caeca fossae'\u2014hidden, vertical spear-lined spike pits disguised by fragile reed roofs that silently swallowed charging enemy cavalry.",
     "How the Battle of Teutoburg Forest disaster was sealed because Varus ignored the acoustic warning of bronze trumpets bouncing off wet canopy leaves.",
@@ -89,9 +88,10 @@
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges",
-    "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges"
+    "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges",
+    "How Roman artillerymen used wet vinegar to rapidly cool and shrink glowing bronze catapult springs for instant tension adjustments."
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 16,
-  "call_count": 323
+  "subcluster_idx": 1,
+  "fallback_idx": 17,
+  "call_count": 324
 }

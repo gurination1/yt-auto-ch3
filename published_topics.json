@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges",
     "The fatal design flaw in early Roman onager catapults that caused the massive throwing arm to violently whip backward.",
     "The forgotten Roman practice of 'castigatio' using heavy grapevine switches to enforce instantaneous formation discipline",
     "The forgotten Roman trench engineering secret of 'caeca fossae'\u2014hidden, vertical spear-lined spike pits disguised by fragile reed roofs that silently swallowed charging enemy cavalry.",
@@ -89,9 +88,10 @@
     "The lethal mechanical defect in heavy Roman scorpion bolt-throwers that sheared off firing levers and decapitated operators during rapid-fire sieges.",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
+    "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges",
     "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges"
   ],
-  "subcluster_idx": 4,
+  "subcluster_idx": 0,
   "fallback_idx": 16,
-  "call_count": 322
+  "call_count": 323
 }

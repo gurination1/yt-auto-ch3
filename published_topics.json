@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The forgotten Roman practice of 'castigatio' using heavy grapevine switches to enforce instantaneous formation discipline",
     "The forgotten Roman trench engineering secret of 'caeca fossae'\u2014hidden, vertical spear-lined spike pits disguised by fragile reed roofs that silently swallowed charging enemy cavalry.",
     "How the Battle of Teutoburg Forest disaster was sealed because Varus ignored the acoustic warning of bronze trumpets bouncing off wet canopy leaves.",
     "How ancient Persian intelligence agents weaponized carrier pigeons equipped with tiny, concealed poison darts for high-altitude targeted assassinations.",
@@ -89,9 +88,10 @@
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges",
     "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges",
-    "How Roman artillerymen used wet vinegar to rapidly cool and shrink glowing bronze catapult springs for instant tension adjustments."
+    "How Roman artillerymen used wet vinegar to rapidly cool and shrink glowing bronze catapult springs for instant tension adjustments.",
+    "How Roman legions used synchronized hobnail boot strikes on hard-packed dirt roads to create a terrifying acoustic deception that sounded like an approaching earthquake."
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 17,
-  "call_count": 324
+  "subcluster_idx": 2,
+  "fallback_idx": 18,
+  "call_count": 325
 }

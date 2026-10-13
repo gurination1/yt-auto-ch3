@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Roman Pilum Javelin: The soft iron neck designed to bend upon impact so enemies could not throw it back",
     "Why Roman troops marching in standard step accidentally synchronized their pace to a frequency that could shatter stone bridges beneath their feet.",
     "How Roman engineers utilized inverted siphon pipelines spanning deep valleys to transport high-pressure water for hydraulic mining and siege operations.",
     "How the Western Roman Empire's internal tax-coinage debasement created an instant military logistics collapse before a single arrow was ever fired.",
@@ -89,9 +88,10 @@
     "How Roman legions used synchronized hobnail boot strikes on hard-packed dirt roads to create a terrifying acoustic deception that sounded like an approaching earthquake.",
     "The hidden Hellenistic trench counter-mining trap of 'krotaliston', where suspended bronze vessels detected subterranean sapper pickaxes through acoustic resonance.",
     "The Roman Pilum Javelin: The soft iron neck designed to bend upon impact so enemies could not throw it back",
-    "How Roman counter-intelligence agents weaponized invisible sympathizer ink made from ferrous sulfate and oak galls to detect double agents inside frontier command tents."
+    "How Roman counter-intelligence agents weaponized invisible sympathizer ink made from ferrous sulfate and oak galls to detect double agents inside frontier command tents.",
+    "The Hellenistic horsehair torsion spring paradox: how ancient engineers braided human hair and animal tendon to store kinetic energy that could pulverize stone walls."
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 23,
-  "call_count": 328
+  "subcluster_idx": 1,
+  "fallback_idx": 24,
+  "call_count": 329
 }

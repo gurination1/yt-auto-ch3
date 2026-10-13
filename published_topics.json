@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How the Battle of Teutoburg Forest disaster was sealed because Varus ignored the acoustic warning of bronze trumpets bouncing off wet canopy leaves.",
     "How ancient Persian intelligence agents weaponized carrier pigeons equipped with tiny, concealed poison darts for high-altitude targeted assassinations.",
     "The Roman Pilum Javelin: The soft iron neck designed to bend upon impact so enemies could not throw it back",
     "Why Roman troops marching in standard step accidentally synchronized their pace to a frequency that could shatter stone bridges beneath their feet.",
@@ -89,9 +88,10 @@
     "The Hussite War Wagons: The mobile medieval fortified rolling fortresses that neutralized heavy knight charges",
     "How Roman artillerymen used wet vinegar to rapidly cool and shrink glowing bronze catapult springs for instant tension adjustments.",
     "How Roman legions used synchronized hobnail boot strikes on hard-packed dirt roads to create a terrifying acoustic deception that sounded like an approaching earthquake.",
-    "The hidden Hellenistic trench counter-mining trap of 'krotaliston', where suspended bronze vessels detected subterranean sapper pickaxes through acoustic resonance."
+    "The hidden Hellenistic trench counter-mining trap of 'krotaliston', where suspended bronze vessels detected subterranean sapper pickaxes through acoustic resonance.",
+    "The Roman Pilum Javelin: The soft iron neck designed to bend upon impact so enemies could not throw it back"
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 19,
-  "call_count": 326
+  "subcluster_idx": 4,
+  "fallback_idx": 22,
+  "call_count": 327
 }

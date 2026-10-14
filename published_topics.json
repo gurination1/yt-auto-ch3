@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How the Western Roman Empire's internal tax-coinage debasement created an instant military logistics collapse before a single arrow was ever fired.",
     "How Roman espionage agents embedded microscopic dyed threads into tunic hems to securely pass encrypted troop movement intelligence across borders.",
     "How ancient Greek siege engineers weaponized concentrated parabolic sun-mirrors to flash-heat and ignite pitch-coated wooden palisades from half a mile away.",
     "How Roman legionaries executed the 'testudo' tortoise formation under a barrage of burning missiles without suffocating from the trapped heat and smoke.",
@@ -89,9 +88,10 @@
     "How Roman counter-intelligence agents weaponized invisible sympathizer ink made from ferrous sulfate and oak galls to detect double agents inside frontier command tents.",
     "The Hellenistic horsehair torsion spring paradox: how ancient engineers braided human hair and animal tendon to store kinetic energy that could pulverize stone walls.",
     "The 'Signum' pole paradox: how the standard-bearer's heavy metallic finial acted as a localized grounding rod for lightning strikes during thunderstorm skirmishes.",
-    "How Roman sappers built hidden, oxygen-starved counter-tunnels packed with burning sulfur to silently asphyxiate enemy subterranean forces beneath besieged city walls."
+    "How Roman sappers built hidden, oxygen-starved counter-tunnels packed with burning sulfur to silently asphyxiate enemy subterranean forces beneath besieged city walls.",
+    "How the mysterious nighttime ambush at the Battle of Gaugamela relied on ancient acoustic signaling via bronze gongs to coordinate cavalry pincer movements."
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 1,
-  "call_count": 331
+  "subcluster_idx": 4,
+  "fallback_idx": 2,
+  "call_count": 332
 }

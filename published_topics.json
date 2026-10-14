@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How Roman engineers utilized inverted siphon pipelines spanning deep valleys to transport high-pressure water for hydraulic mining and siege operations.",
     "How the Western Roman Empire's internal tax-coinage debasement created an instant military logistics collapse before a single arrow was ever fired.",
     "How Roman espionage agents embedded microscopic dyed threads into tunic hems to securely pass encrypted troop movement intelligence across borders.",
     "How ancient Greek siege engineers weaponized concentrated parabolic sun-mirrors to flash-heat and ignite pitch-coated wooden palisades from half a mile away.",
@@ -89,9 +88,10 @@
     "The Roman Pilum Javelin: The soft iron neck designed to bend upon impact so enemies could not throw it back",
     "How Roman counter-intelligence agents weaponized invisible sympathizer ink made from ferrous sulfate and oak galls to detect double agents inside frontier command tents.",
     "The Hellenistic horsehair torsion spring paradox: how ancient engineers braided human hair and animal tendon to store kinetic energy that could pulverize stone walls.",
-    "The 'Signum' pole paradox: how the standard-bearer's heavy metallic finial acted as a localized grounding rod for lightning strikes during thunderstorm skirmishes."
+    "The 'Signum' pole paradox: how the standard-bearer's heavy metallic finial acted as a localized grounding rod for lightning strikes during thunderstorm skirmishes.",
+    "How Roman sappers built hidden, oxygen-starved counter-tunnels packed with burning sulfur to silently asphyxiate enemy subterranean forces beneath besieged city walls."
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 0,
-  "call_count": 330
+  "subcluster_idx": 3,
+  "fallback_idx": 1,
+  "call_count": 331
 }

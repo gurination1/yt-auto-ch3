@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Roman Ballista: The torsion-powered bolt thrower that pinned armored cavalry through solid wood shields",
     "How a fatal logistical miscalculation involving wet leather tent hides caused the total collapse of the elite Sasanian vanguard at Nineveh.",
     "Great Wall Sticky Rice Mortar: The ancient chemical recipe of amylopectin that made military fortresses earthquake-proof",
     "How Roman artillerymen painted their massive ballista iron bolts with pitch and sulfur to act as prehistoric incendiary tracer rounds.",
@@ -89,9 +88,10 @@
     "How the mysterious nighttime ambush at the Battle of Gaugamela relied on ancient acoustic signaling via bronze gongs to coordinate cavalry pincer movements.",
     "The hidden counter-weight trapdoors in ancient fortress drawbridges designed to drop invading vanguard squads straight into freezing moats.",
     "The forgotten Hellenistic 'euthytonon' catapult design that leveraged multi-strand sinew bundles to launch iron-tipped bolts through two rows of shield walls simultaneously.",
-    "Why Roman legionaries carried iron-weighted leather leaded thongs called 'plumbatae' clipped to their armor backs for lethal mid-charge headshots."
+    "Why Roman legionaries carried iron-weighted leather leaded thongs called 'plumbatae' clipped to their armor backs for lethal mid-charge headshots.",
+    "The bizarre physics of ancient Byzantine naval siphon pumps that utilized leather-sealed piston valves to continuously pressurize crude oil without blowing up their own warships."
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 5,
-  "call_count": 335
+  "subcluster_idx": 3,
+  "fallback_idx": 6,
+  "call_count": 336
 }

@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How Roman artillerymen painted their massive ballista iron bolts with pitch and sulfur to act as prehistoric incendiary tracer rounds.",
     "Why Roman legionaries trained with double-weight wooden practice swords against massive willow posts to build the lightning-fast upward thrust that bypassed ribs.",
     "The Fall of Constantinople (1453): How the Orban super-bombard shattered the 1,000-year-old Theodosian stone walls",
     "How the Roman general Crassus accidentally weaponized Parthian acoustic gold-pouring execution myths into a full-scale psychological panic at Carrhae.",
@@ -89,9 +88,10 @@
     "Why Roman legionaries carried iron-weighted leather leaded thongs called 'plumbatae' clipped to their armor backs for lethal mid-charge headshots.",
     "The bizarre physics of ancient Byzantine naval siphon pumps that utilized leather-sealed piston valves to continuously pressurize crude oil without blowing up their own warships.",
     "The Roman Ballista: The torsion-powered bolt thrower that pinned armored cavalry through solid wood shields",
-    "Great Wall Sticky Rice Mortar: The ancient chemical recipe of amylopectin that made military fortresses earthquake-proof"
+    "Great Wall Sticky Rice Mortar: The ancient chemical recipe of amylopectin that made military fortresses earthquake-proof",
+    "The Fall of Constantinople (1453): How the Orban super-bombard shattered the 1,000-year-old Theodosian stone walls"
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 11,
-  "call_count": 338
+  "subcluster_idx": 1,
+  "fallback_idx": 15,
+  "call_count": 339
 }

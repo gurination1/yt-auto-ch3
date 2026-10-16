@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Fall of Constantinople (1453): How the Orban super-bombard shattered the 1,000-year-old Theodosian stone walls",
     "How the Roman general Crassus accidentally weaponized Parthian acoustic gold-pouring execution myths into a full-scale psychological panic at Carrhae.",
     "Roman Military Decimation: The brutal disciplinary punishment where disgraced cohorts bludgeoned every tenth man",
     "How Carthaginian defenders weaponized multi-ton counterweight trebuchet arms fitted with double-hinged slings to hurl burning ceramic pots of unquenchable quicklime.",
@@ -89,9 +88,10 @@
     "The Roman Ballista: The torsion-powered bolt thrower that pinned armored cavalry through solid wood shields",
     "Great Wall Sticky Rice Mortar: The ancient chemical recipe of amylopectin that made military fortresses earthquake-proof",
     "The Fall of Constantinople (1453): How the Orban super-bombard shattered the 1,000-year-old Theodosian stone walls",
-    "Why Roman centurions forced legionaries to carry interlocking iron caltrops inside their greaves to scatter behind retreating formations during cavalry charges."
+    "Why Roman centurions forced legionaries to carry interlocking iron caltrops inside their greaves to scatter behind retreating formations during cavalry charges.",
+    "Why Roman legionary trench networks featured zig-zagging anti-cavalry 'wolf-pit' bottlenecks lined with fire-hardened wooden stakes coated in toxic animal bile."
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 16,
-  "call_count": 340
+  "subcluster_idx": 3,
+  "fallback_idx": 17,
+  "call_count": 341
 }

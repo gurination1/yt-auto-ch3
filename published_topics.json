@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How Roman engineers buried hollow bronze pots beneath amphitheaters and military parade grounds to amplify the psychological roar of charging legions.",
     "The Siege of Masada: How Roman soldiers constructed a colossal 375-foot earthen assault ramp up a sheer mesa",
     "The fatal navigational ambush at the battle of Lake Trasimene where Roman legions marched straight into a morning fog trap.",
     "The declassified archaeological excavation of a secret Carthaginian underwater escape tunnel sealed by a submerged counterweight stone gate.",
@@ -89,9 +88,10 @@
     "Why Roman legionary trench networks featured zig-zagging anti-cavalry 'wolf-pit' bottlenecks lined with fire-hardened wooden stakes coated in toxic animal bile.",
     "How a fatal logistical blunder left the Roman garrison at the Siege of Amida with poisoned well water during a Persian surprise night raid.",
     "The Roman 'Dead-Drop' stone-carved signaling system where specific mortar joints contained hidden wax-sealed scrolls detailing legionary movement codes for frontier spies",
-    "Roman Military Decimation: The brutal disciplinary punishment where disgraced cohorts bludgeoned every tenth man"
+    "Roman Military Decimation: The brutal disciplinary punishment where disgraced cohorts bludgeoned every tenth man",
+    "How Roman drill instructors bound heavy wooden blocks to recruits' ankles with leather straps to permanently eliminate running strides."
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 17,
-  "call_count": 344
+  "subcluster_idx": 2,
+  "fallback_idx": 18,
+  "call_count": 345
 }

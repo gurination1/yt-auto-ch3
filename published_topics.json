@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Why Roman legions punished cowardly units by forcing them to camp outside fortified walls in open tents, where sleeping guards were systematically executed for dropping watch discipline.",
     "The Claw of Archimedes: The ancient mechanical crane that hooked and capsized Roman warships at Syracuse",
     "The Siege of Tyre: How Alexander the Great built a kilometer-long ocean causeway to shatter an island fortress",
     "How declassified archival records uncovered a secret Spartan mountain pass relay system that transmitted complex military mobilization codes using polished bronze shield flashes.",
@@ -89,9 +88,10 @@
     "The forgotten Roman trench fortification trap called 'cervoli', where angled crisscrossing iron-tipped beams caught charging cavalry horses mid-air and snapped their own momentum.",
     "How the surprise night ambush at the Battle of Chaeronea was executed when Philip II of Macedon used a feigned retreat to fracture the Greek allied line.",
     "Why ancient Spartan border fortresses relied on secret hydraulic water-clocks linked to floating wooden markers to synchronize midnight counter-ambushes without lighting fires.",
-    "How ancient Greek siege engineers coated wooden torsion-spring casings in wet vinegar-soaked felt to stop enemy incendiary fire from cooking the internal sinew bundles."
+    "How ancient Greek siege engineers coated wooden torsion-spring casings in wet vinegar-soaked felt to stop enemy incendiary fire from cooking the internal sinew bundles.",
+    "The Siege of Masada: How Roman soldiers constructed a colossal 375-foot earthen assault ramp up a sheer mesa"
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 22,
-  "call_count": 349
+  "subcluster_idx": 2,
+  "fallback_idx": 20,
+  "call_count": 350
 }

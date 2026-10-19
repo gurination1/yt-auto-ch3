@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How declassified archival records uncovered a secret Spartan mountain pass relay system that transmitted complex military mobilization codes using polished bronze shield flashes.",
     "The 'Acoustic Aiming' secret where siege engineers tuned the tension of torsion ropes by listening to the pitch of the vibration to achieve pinpoint accuracy.",
     "Why Roman centurions intentionally shattered the lead weights off their plumbata throwing darts before launching them at charging barbarian lines.",
     "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
@@ -89,9 +88,10 @@
     "How ancient Greek siege engineers coated wooden torsion-spring casings in wet vinegar-soaked felt to stop enemy incendiary fire from cooking the internal sinew bundles.",
     "The Siege of Masada: How Roman soldiers constructed a colossal 375-foot earthen assault ramp up a sheer mesa",
     "How Roman border fortress builders constructed hollow defensive ramparts filled with loose sand that instantly swallowed and neutralized incoming artillery cannonballs.",
-    "The Claw of Archimedes: The ancient mechanical crane that hooked and capsized Roman warships at Syracuse"
+    "The Claw of Archimedes: The ancient mechanical crane that hooked and capsized Roman warships at Syracuse",
+    "The Siege of Tyre: How Alexander the Great built a kilometer-long ocean causeway to shatter an island fortress"
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 1,
-  "call_count": 352
+  "subcluster_idx": 0,
+  "fallback_idx": 3,
+  "call_count": 353
 }

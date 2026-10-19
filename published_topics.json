@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Why Roman centurions intentionally shattered the lead weights off their plumbata throwing darts before launching them at charging barbarian lines.",
     "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
     "How Roman engineers accidentally baked their own frontline camps alive by choosing sulfur-rich volcanic tuff blocks for underground defensive barracks.",
     "The secret underground labyrinth beneath the Derinkuyu fortress that used rolling multi-ton stone door wheels operable exclusively from the inside.",
@@ -89,9 +88,10 @@
     "How Roman border fortress builders constructed hollow defensive ramparts filled with loose sand that instantly swallowed and neutralized incoming artillery cannonballs.",
     "The Claw of Archimedes: The ancient mechanical crane that hooked and capsized Roman warships at Syracuse",
     "The Siege of Tyre: How Alexander the Great built a kilometer-long ocean causeway to shatter an island fortress",
+    "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
     "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards"
   ],
-  "subcluster_idx": 1,
+  "subcluster_idx": 2,
   "fallback_idx": 7,
-  "call_count": 354
+  "call_count": 355
 }

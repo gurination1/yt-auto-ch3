@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
     "How Roman engineers accidentally baked their own frontline camps alive by choosing sulfur-rich volcanic tuff blocks for underground defensive barracks.",
     "The secret underground labyrinth beneath the Derinkuyu fortress that used rolling multi-ton stone door wheels operable exclusively from the inside.",
     "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps",
@@ -89,9 +88,10 @@
     "The Claw of Archimedes: The ancient mechanical crane that hooked and capsized Roman warships at Syracuse",
     "The Siege of Tyre: How Alexander the Great built a kilometer-long ocean causeway to shatter an island fortress",
     "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
-    "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards"
+    "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
+    "How Byzantine dromon warship commanders modified bronze deck siphons to project burning liquid pitch mixed with powdered quicklime that ignited on contact with sweat."
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 7,
-  "call_count": 355
+  "subcluster_idx": 3,
+  "fallback_idx": 8,
+  "call_count": 356
 }

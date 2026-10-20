@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How Roman engineers accidentally baked their own frontline camps alive by choosing sulfur-rich volcanic tuff blocks for underground defensive barracks.",
     "The secret underground labyrinth beneath the Derinkuyu fortress that used rolling multi-ton stone door wheels operable exclusively from the inside.",
     "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps",
     "Why Roman commanders forced punished cohorts to stand completely motionless for hours holding lead-weighted lead ingots over their heads.",
@@ -89,9 +88,10 @@
     "The Siege of Tyre: How Alexander the Great built a kilometer-long ocean causeway to shatter an island fortress",
     "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
     "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
-    "How Byzantine dromon warship commanders modified bronze deck siphons to project burning liquid pitch mixed with powdered quicklime that ignited on contact with sweat."
+    "How Byzantine dromon warship commanders modified bronze deck siphons to project burning liquid pitch mixed with powdered quicklime that ignited on contact with sweat.",
+    "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps"
   ],
-  "subcluster_idx": 3,
-  "fallback_idx": 8,
-  "call_count": 356
+  "subcluster_idx": 4,
+  "fallback_idx": 10,
+  "call_count": 357
 }

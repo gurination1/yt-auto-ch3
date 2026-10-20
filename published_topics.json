@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps",
     "Why Roman commanders forced punished cohorts to stand completely motionless for hours holding lead-weighted lead ingots over their heads.",
     "The Spartan Hoplite Phalanx: How bronze aspis shields and 9-foot dory spears built an impenetrable human wall",
     "How the mysterious collapse of the Mycenaean palace economies was triggered by an overlooked supply chain choke point involving imported Tyrian purple snail dye.",
@@ -89,9 +88,10 @@
     "The Counterweight Trebuchet: The medieval mechanical siege engine hurling 300-pound boulders over 300 yards",
     "How Byzantine dromon warship commanders modified bronze deck siphons to project burning liquid pitch mixed with powdered quicklime that ignited on contact with sweat.",
     "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps",
-    "The forgotten Byzantine border fortress secret escape hatch engineered with a one-way pivoted counter-weighted slab that locked permanently once cleared."
+    "The forgotten Byzantine border fortress secret escape hatch engineered with a one-way pivoted counter-weighted slab that locked permanently once cleared.",
+    "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps"
   ],
-  "subcluster_idx": 0,
-  "fallback_idx": 11,
-  "call_count": 358
+  "subcluster_idx": 1,
+  "fallback_idx": 10,
+  "call_count": 359
 }

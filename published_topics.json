@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How the mysterious collapse of the Mycenaean palace economies was triggered by an overlooked supply chain choke point involving imported Tyrian purple snail dye.",
     "The bizarre physics of the Carthaginian underwater harbor boom chains that used floating buoyant amphorae to silently snap enemy galley steering oars.",
     "Cataphract Shock Cavalry: The fully armored horse-and-rider juggernauts that trampled Mediterranean battle lines",
     "How Roman military tribunes utilized chemical-stained linen strips tied around legionary right arms to instantly identify tactical cohort positions during dust-blinded desert skirmishes.",
@@ -89,9 +88,10 @@
     "The forgotten Byzantine border fortress secret escape hatch engineered with a one-way pivoted counter-weighted slab that locked permanently once cleared.",
     "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps",
     "Why Roman field surgeons packed legionary belt pouches with magnetic loadstones to quickly locate iron arrowheads buried in muscle tissue.",
-    "The 'Siphon-Valve' Paradox: Why Byzantine naval engineers deliberately designed fire-siphons with leather-gasket seals that required periodic soaking in vinegar to prevent spontaneous explosion."
+    "The 'Siphon-Valve' Paradox: Why Byzantine naval engineers deliberately designed fire-siphons with leather-gasket seals that required periodic soaking in vinegar to prevent spontaneous explosion.",
+    "The Spartan Hoplite Phalanx: How bronze aspis shields and 9-foot dory spears built an impenetrable human wall"
   ],
-  "subcluster_idx": 3,
+  "subcluster_idx": 4,
   "fallback_idx": 12,
-  "call_count": 361
+  "call_count": 362
 }

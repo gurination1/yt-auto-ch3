@@ -1,6 +1,5 @@
 {
   "topics": [
-    "Why Roman commanders forced punished cohorts to stand completely motionless for hours holding lead-weighted lead ingots over their heads.",
     "The Spartan Hoplite Phalanx: How bronze aspis shields and 9-foot dory spears built an impenetrable human wall",
     "How the mysterious collapse of the Mycenaean palace economies was triggered by an overlooked supply chain choke point involving imported Tyrian purple snail dye.",
     "The bizarre physics of the Carthaginian underwater harbor boom chains that used floating buoyant amphorae to silently snap enemy galley steering oars.",
@@ -89,9 +88,10 @@
     "How Byzantine dromon warship commanders modified bronze deck siphons to project burning liquid pitch mixed with powdered quicklime that ignited on contact with sweat.",
     "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps",
     "The forgotten Byzantine border fortress secret escape hatch engineered with a one-way pivoted counter-weighted slab that locked permanently once cleared.",
-    "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps"
+    "The Mongol Feigned Retreat: The psychological cavalry doctrine that lured disciplined armies into annihilating traps",
+    "Why Roman field surgeons packed legionary belt pouches with magnetic loadstones to quickly locate iron arrowheads buried in muscle tissue."
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 10,
-  "call_count": 359
+  "subcluster_idx": 2,
+  "fallback_idx": 11,
+  "call_count": 360
 }

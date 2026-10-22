@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How Roman military tribunes utilized chemical-stained linen strips tied around legionary right arms to instantly identify tactical cohort positions during dust-blinded desert skirmishes.",
     "How ancient Greek fortification designers built deceptive labyrinthine entryway trenches lined with dead-end pivot gates that crushed charging infantry squads.",
     "Persian Scythed Chariots: The spinning iron wheel-blade combat chariots engineered to sever enemy infantry ranks",
     "The Battle of Agincourt: How English longbow stakes planted in muddy terrain halted French armored knights",
@@ -89,9 +88,10 @@
     "The 'Siphon-Valve' Paradox: Why Byzantine naval engineers deliberately designed fire-siphons with leather-gasket seals that required periodic soaking in vinegar to prevent spontaneous explosion.",
     "The Spartan Hoplite Phalanx: How bronze aspis shields and 9-foot dory spears built an impenetrable human wall",
     "Cataphract Shock Cavalry: The fully armored horse-and-rider juggernauts that trampled Mediterranean battle lines",
-    "Cataphract Shock Cavalry: The fully armored horse-and-rider juggernauts that trampled Mediterranean battle lines"
+    "Cataphract Shock Cavalry: The fully armored horse-and-rider juggernauts that trampled Mediterranean battle lines",
+    "Persian Scythed Chariots: The spinning iron wheel-blade combat chariots engineered to sever enemy infantry ranks"
   ],
-  "subcluster_idx": 1,
-  "fallback_idx": 18,
-  "call_count": 364
+  "subcluster_idx": 2,
+  "fallback_idx": 21,
+  "call_count": 365
 }

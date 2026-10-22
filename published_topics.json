@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How ancient Greek fortification designers built deceptive labyrinthine entryway trenches lined with dead-end pivot gates that crushed charging infantry squads.",
     "Persian Scythed Chariots: The spinning iron wheel-blade combat chariots engineered to sever enemy infantry ranks",
     "The Battle of Agincourt: How English longbow stakes planted in muddy terrain halted French armored knights",
     "The Siege of Alesia: How Julius Caesar constructed two concentric 15-mile fortified walls while besieged himself",
@@ -89,9 +88,10 @@
     "The Spartan Hoplite Phalanx: How bronze aspis shields and 9-foot dory spears built an impenetrable human wall",
     "Cataphract Shock Cavalry: The fully armored horse-and-rider juggernauts that trampled Mediterranean battle lines",
     "Cataphract Shock Cavalry: The fully armored horse-and-rider juggernauts that trampled Mediterranean battle lines",
+    "Persian Scythed Chariots: The spinning iron wheel-blade combat chariots engineered to sever enemy infantry ranks",
     "Persian Scythed Chariots: The spinning iron wheel-blade combat chariots engineered to sever enemy infantry ranks"
   ],
-  "subcluster_idx": 2,
+  "subcluster_idx": 3,
   "fallback_idx": 21,
-  "call_count": 365
+  "call_count": 366
 }

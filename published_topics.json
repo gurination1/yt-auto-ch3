@@ -1,6 +1,5 @@
 {
   "topics": [
-    "How declassified LIDAR mapping revealed secret Hellenistic fortress water cisterns laced with toxic arsenic minerals to poison invading armies.",
     "The bizarre physics of the ancient multi-spring polybolos, a rapid-fire chain-loaded torsion machine gun that predated modern automatic firearms by nearly two thousand years.",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Battle of Cannae: How Hannibal's double envelopment crescent tactic surrounded 70,000 Roman legionaries",
@@ -89,9 +88,10 @@
     "The Siege of Alesia: How Julius Caesar constructed two concentric 15-mile fortified walls while besieged himself",
     "Byzantine Greek Fire: The pressurized chemical naval flamethrower that continued burning on ocean water",
     "The Roman Testudo Formation: How interlocking scutum shields deflected arrows, heavy stones, and javelins",
+    "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat"
   ],
-  "subcluster_idx": 4,
+  "subcluster_idx": 0,
   "fallback_idx": 2,
-  "call_count": 372
+  "call_count": 373
 }

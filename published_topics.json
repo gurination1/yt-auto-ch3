@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Battle of Cannae: How Hannibal's double envelopment crescent tactic surrounded 70,000 Roman legionaries",
     "The Battle of Carrhae: How Parthian horse archers used camel supply trains to continuously bombard Crassus",
     "The Battle of Teutoburg Forest: How Arminius trapped three Roman legions in marshy bottlenecks to wipe out 20,000 men",
     "The Anglo-Saxon Shield Wall: How interlocking Linden wood shields withstood cavalry impact at the Battle of Hastings",
@@ -89,9 +88,10 @@
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
-    "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat"
+    "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
+    "The Battle of Cannae: How Hannibal's double envelopment crescent tactic surrounded 70,000 Roman legionaries"
   ],
-  "subcluster_idx": 2,
-  "fallback_idx": 2,
-  "call_count": 375
+  "subcluster_idx": 3,
+  "fallback_idx": 6,
+  "call_count": 376
 }

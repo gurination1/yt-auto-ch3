@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Battle of Teutoburg Forest: How Arminius trapped three Roman legions in marshy bottlenecks to wipe out 20,000 men",
     "The Anglo-Saxon Shield Wall: How interlocking Linden wood shields withstood cavalry impact at the Battle of Hastings",
     "Why Roman legionaries deliberately scored the interior bronze lining of their helmet cheek-pieces with razor-thin anti-slip micro-grooves.",
     "The Bronze Age Collapse: How the mysterious Sea Peoples demolished Mediterranean empires in less than 50 years",
@@ -89,9 +88,10 @@
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Battle of Cannae: How Hannibal's double envelopment crescent tactic surrounded 70,000 Roman legionaries",
-    "The Battle of Carrhae: How Parthian horse archers used camel supply trains to continuously bombard Crassus"
+    "The Battle of Carrhae: How Parthian horse archers used camel supply trains to continuously bombard Crassus",
+    "The Battle of Teutoburg Forest: How Arminius trapped three Roman legions in marshy bottlenecks to wipe out 20,000 men"
   ],
-  "subcluster_idx": 4,
-  "fallback_idx": 13,
-  "call_count": 377
+  "subcluster_idx": 0,
+  "fallback_idx": 19,
+  "call_count": 378
 }

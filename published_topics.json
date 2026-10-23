@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The bizarre physics of the ancient multi-spring polybolos, a rapid-fire chain-loaded torsion machine gun that predated modern automatic firearms by nearly two thousand years.",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Battle of Cannae: How Hannibal's double envelopment crescent tactic surrounded 70,000 Roman legionaries",
     "The Battle of Carrhae: How Parthian horse archers used camel supply trains to continuously bombard Crassus",
@@ -89,9 +88,10 @@
     "Byzantine Greek Fire: The pressurized chemical naval flamethrower that continued burning on ocean water",
     "The Roman Testudo Formation: How interlocking scutum shields deflected arrows, heavy stones, and javelins",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
+    "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat",
     "The Roman Corvus: The spiked assault boarding bridge that converted Mediterranean sea battles into land combat"
   ],
-  "subcluster_idx": 0,
+  "subcluster_idx": 1,
   "fallback_idx": 2,
-  "call_count": 373
+  "call_count": 374
 }

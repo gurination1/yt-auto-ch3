@@ -1,6 +1,5 @@
 {
   "topics": [
-    "The Bronze Age Collapse: How the mysterious Sea Peoples demolished Mediterranean empires in less than 50 years",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
@@ -89,9 +88,10 @@
     "The Battle of Carrhae: How Parthian horse archers used camel supply trains to continuously bombard Crassus",
     "The Battle of Teutoburg Forest: How Arminius trapped three Roman legions in marshy bottlenecks to wipe out 20,000 men",
     "The Anglo-Saxon Shield Wall: How interlocking Linden wood shields withstood cavalry impact at the Battle of Hastings",
+    "The Bronze Age Collapse: How the mysterious Sea Peoples demolished Mediterranean empires in less than 50 years",
     "The Bronze Age Collapse: How the mysterious Sea Peoples demolished Mediterranean empires in less than 50 years"
   ],
-  "subcluster_idx": 2,
+  "subcluster_idx": 3,
   "fallback_idx": 0,
-  "call_count": 380
+  "call_count": 381
 }

@@ -2,7 +2,6 @@
   "topics": [
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
-    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "Why the Byzantine garrison at the Battle of Yarmuk accidentally caused a massive rout by tying their cavalry together with ropes to prevent desertion.",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
@@ -89,9 +88,10 @@
     "The Bronze Age Collapse: How the mysterious Sea Peoples demolished Mediterranean empires in less than 50 years",
     "The Bronze Age Collapse: How the mysterious Sea Peoples demolished Mediterranean empires in less than 50 years",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
+    "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil",
     "The Roman Onager: The single-arm torsion siege engine named after the wild donkey for its violent recoil"
   ],
-  "subcluster_idx": 0,
+  "subcluster_idx": 1,
   "fallback_idx": 14,
-  "call_count": 383
+  "call_count": 384
 }
